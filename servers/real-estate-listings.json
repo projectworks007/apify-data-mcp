@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.projectworks007/real-estate-listings",
+  "title": "Real Estate Listings Data",
+  "description": "Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/projectworks007/apify-data-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/projectworks007/apify-data-mcp#real-estate-listings",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/fotocasa-properties,highbrow_fame/immowelt-properties,highbrow_fame/redfin-properties,highbrow_fame/immoweb-properties,highbrow_fame/otodom-properties,highbrow_fame/realtor-properties"
+    }
+  ]
+}

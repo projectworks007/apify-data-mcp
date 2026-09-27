@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.projectworks007/marketplace-listings",
+  "title": "Marketplace Listings Data",
+  "description": "Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/projectworks007/apify-data-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/projectworks007/apify-data-mcp#marketplace-listings",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings"
+    }
+  ]
+}
