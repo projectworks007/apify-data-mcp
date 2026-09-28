@@ -14,6 +14,9 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 1 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 1 |
+| [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 3 |
+| [Finance & Filings Data](#finance-data) | Stock quotes, price history and fundamentals, plus SEC EDGAR company filings. | 1 |
+| [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 1 |
 
 ## Connect
 
@@ -120,6 +123,47 @@ Transcripts from YouTube videos, playlists and channels: timestamps, plain text,
 Server URL: `https://mcp.apify.com/?tools=highbrow_fame/youtube-transcript-fast`
 
 Registry name: `io.github.projectworks007/youtube-transcripts`
+
+<a id="ecommerce-products"></a>
+## E-commerce Product Data
+
+Product data from online stores and supermarkets: names, prices, promotions, stock, categories and product details.
+
+| Tool | What it returns |
+|---|---|
+| [Coles Australia](https://apify.com/highbrow_fame/coles-au-products) | Coles Australia supermarket products and grocery prices: price, was-price, unit price, specials and multi-buy offers; barcode, ingredients, allergens and nutrition on request. Many searches per run. |
+| [Woolworths Australia](https://apify.com/highbrow_fame/woolworths-au-products) | Woolworths Australia supermarket products and grocery prices: price, was-price, unit price, specials, barcode, ingredients, allergens and nutrition. Many searches and categories per run. |
+| [ALDI Australia](https://apify.com/highbrow_fame/aldi-au-products) | ALDI Australia supermarket products and grocery prices: price, unit price, pack size, brand, category, Special Buys dates and Super Savers flags. Many searches and Special Buys pages per run. |
+
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/coles-au-products,highbrow_fame/woolworths-au-products,highbrow_fame/aldi-au-products`
+
+Registry name: `io.github.projectworks007/ecommerce-products`
+
+<a id="finance-data"></a>
+## Finance & Filings Data
+
+Market and company data: quotes, price history and fundamentals from Yahoo Finance, and company filings from SEC EDGAR.
+
+| Tool | What it returns |
+|---|---|
+| [Yahoo Finance](https://apify.com/highbrow_fame/yahoo-finance-quotes) | Yahoo Finance quotes for stocks, ETFs, crypto, currencies and indexes: price, change, volume, P/E, market cap, dividends. Price history and company fundamentals on request. |
+
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/yahoo-finance-quotes`
+
+Registry name: `io.github.projectworks007/finance-data`
+
+<a id="web-and-dev-tools"></a>
+## Web & Developer Data Tools
+
+Utility tools for agents: detect a website's tech stack, check domains (WHOIS, DNS, SSL), list sitemap URLs, extract text from PDFs, read RSS feeds, and find trending GitHub repos, Hugging Face models and OpenStreetMap places.
+
+| Tool | What it returns |
+|---|---|
+| [PDF Text Extractor](https://apify.com/highbrow_fame/pdf-text-extractor) | The text of any PDF at a public link — whole or page by page — with page count, word count and metadata. Scanned PDFs without text are flagged and not charged. |
+
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor`
+
+Registry name: `io.github.projectworks007/web-and-dev-tools`
 
 ## Notes
 
