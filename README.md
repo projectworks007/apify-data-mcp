@@ -8,15 +8,16 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 
 | Server | What it gives your agent | Tools |
 |---|---|---|
-| [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 10 |
+| [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 12 |
 | [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 7 |
-| [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 2 |
+| [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 3 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 1 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 1 |
+| [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 1 |
 | [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 3 |
 | [Finance & Filings Data](#finance-data) | Stock quotes, price history and fundamentals, plus SEC EDGAR company filings. | 1 |
-| [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 2 |
+| [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 3 |
 
 ## Connect
 
@@ -27,7 +28,7 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 ```json
 {
   "mcpServers": {
-    "job-boards": { "url": "https://mcp.apify.com/?tools=highbrow_fame/welcome-to-the-jungle-jobs,highbrow_fame/stepstone-jobs,highbrow_fame/naukri-jobs,highbrow_fame/naukrigulf-jobs,highbrow_fame/jobstreet-jobsdb-jobs,highbrow_fame/xing-jobs,highbrow_fame/foundit-jobs,highbrow_fame/arbeitsagentur-jobs,highbrow_fame/infojobs-jobs,highbrow_fame/reed-jobs" }
+    "job-boards": { "url": "https://mcp.apify.com/?tools=highbrow_fame/welcome-to-the-jungle-jobs,highbrow_fame/stepstone-jobs,highbrow_fame/naukri-jobs,highbrow_fame/naukrigulf-jobs,highbrow_fame/jobstreet-jobsdb-jobs,highbrow_fame/xing-jobs,highbrow_fame/foundit-jobs,highbrow_fame/arbeitsagentur-jobs,highbrow_fame/infojobs-jobs,highbrow_fame/reed-jobs,highbrow_fame/remote-jobs-aggregator,highbrow_fame/hellowork-jobs" }
   }
 }
 ```
@@ -51,8 +52,10 @@ Search live job ads by keyword and place on national job boards. Title, company,
 | [Arbeitsagentur](https://apify.com/highbrow_fame/arbeitsagentur-jobs) | Job ads from the German Federal Employment Agency's Jobsuche: title, employer, place, working time, contract, salary, start and publication dates, and the full ad text. No phones, no contact persons. |
 | [InfoJobs](https://apify.com/highbrow_fame/infojobs-jobs) | Spanish job offers from InfoJobs: title, company, town and province, salary min/max, contract, working day, remote, full ad text, applications, experience and studies asked. No phones or names. |
 | [Reed.co.uk](https://apify.com/highbrow_fame/reed-jobs) | UK job ads from reed.co.uk: title, company, employer or agency, location, salary text with min/max/period, contract type, hours, remote/hybrid, dates, and the full ad if you want. No phones. |
+| [Remote Jobs](https://apify.com/highbrow_fame/remote-jobs-aggregator) | Remote jobs from Himalayas, Remote OK, We Work Remotely and Arbeitnow in one list: title, company, salary, location rules, tags, date and apply link. Duplicates removed. |
+| [HelloWork](https://apify.com/highbrow_fame/hellowork-jobs) | French job ads from HelloWork: title, company, city, département, contract (CDI, CDD, intérim, alternance, stage), salary min/max, remote work, date, full ad. No phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/welcome-to-the-jungle-jobs,highbrow_fame/stepstone-jobs,highbrow_fame/naukri-jobs,highbrow_fame/naukrigulf-jobs,highbrow_fame/jobstreet-jobsdb-jobs,highbrow_fame/xing-jobs,highbrow_fame/foundit-jobs,highbrow_fame/arbeitsagentur-jobs,highbrow_fame/infojobs-jobs,highbrow_fame/reed-jobs`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/welcome-to-the-jungle-jobs,highbrow_fame/stepstone-jobs,highbrow_fame/naukri-jobs,highbrow_fame/naukrigulf-jobs,highbrow_fame/jobstreet-jobsdb-jobs,highbrow_fame/xing-jobs,highbrow_fame/foundit-jobs,highbrow_fame/arbeitsagentur-jobs,highbrow_fame/infojobs-jobs,highbrow_fame/reed-jobs,highbrow_fame/remote-jobs-aggregator,highbrow_fame/hellowork-jobs`
 
 Registry name: `io.github.projectworks007/job-boards`
 
@@ -84,8 +87,9 @@ Search classified ads and second-hand listings on national marketplaces: title, 
 |---|---|
 | [Kleinanzeigen](https://apify.com/highbrow_fame/kleinanzeigen-listings) | German classifieds from kleinanzeigen.de: marketplace, cars, flats, houses, jobs. Price, postcode and town, date, category, seller type, car and flat facts. Private sellers stay anonymous. |
 | [Vinted](https://apify.com/highbrow_fame/vinted-listings) | Vinted listings from 27 country sites by search link or keyword: title, brand, size, condition, price, buyer fee, favourites, photo. Reads past Vinted's 960 cap. No seller usernames. |
+| [Gumtree](https://apify.com/highbrow_fame/gumtree-uk-listings) | UK listings from gumtree.com: stuff for sale, cars and vans, property to rent and for sale, pets. Price, area, category, car and property details. No phones; private sellers stay anonymous. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings,highbrow_fame/gumtree-uk-listings`
 
 Registry name: `io.github.projectworks007/marketplace-listings`
 
@@ -128,6 +132,19 @@ Server URL: `https://mcp.apify.com/?tools=highbrow_fame/youtube-transcript-fast`
 
 Registry name: `io.github.projectworks007/youtube-transcripts`
 
+<a id="app-store-data"></a>
+## App & Game Store Data
+
+Look up apps, games and browser extensions and their user reviews on the App Store, Google Play, Steam and the Chrome Web Store: ratings, versions, prices, review text and dates.
+
+| Tool | What it returns |
+|---|---|
+| [Google Play](https://apify.com/highbrow_fame/google-play-apps-reviews) | Google Play apps from links, searches or developers — installs, rating, rating histogram, price, ads, versions — plus reviews with developer replies, without reviewer names. |
+
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-play-apps-reviews`
+
+Registry name: `io.github.projectworks007/app-store-data`
+
 <a id="ecommerce-products"></a>
 ## E-commerce Product Data
 
@@ -135,9 +152,9 @@ Product data from online stores and supermarkets: names, prices, promotions, sto
 
 | Tool | What it returns |
 |---|---|
-| [Coles Australia](https://apify.com/highbrow_fame/coles-au-products) | Coles Australia supermarket products and grocery prices: price, was-price, unit price, specials and multi-buy offers; barcode, ingredients, allergens and nutrition on request. Many searches per run. |
-| [Woolworths Australia](https://apify.com/highbrow_fame/woolworths-au-products) | Woolworths Australia supermarket products and grocery prices: price, was-price, unit price, specials, barcode, ingredients, allergens and nutrition. Many searches and categories per run. |
-| [ALDI Australia](https://apify.com/highbrow_fame/aldi-au-products) | ALDI Australia supermarket products and grocery prices: price, unit price, pack size, brand, category, Special Buys dates and Super Savers flags. Many searches and Special Buys pages per run. |
+| [Coles Australia](https://apify.com/highbrow_fame/coles-au-products) | Coles grocery prices and specials by store: product search, category and specials links. Price, was-price, unit price, multi-buy, availability; barcode and nutrition on request. Unofficial Coles API. |
+| [Woolworths Australia](https://apify.com/highbrow_fame/woolworths-au-products) | Woolworths grocery prices and specials: product search, category and specials links. Price, was-price, unit price, stock, barcode, ingredients, allergens, nutrition. Unofficial Woolworths API. |
+| [ALDI Australia](https://apify.com/highbrow_fame/aldi-au-products) | ALDI Australia grocery prices and Special Buys: product search and category links. Price, unit price, pack size, brand, category, on-sale dates, Super Savers flags. Unofficial ALDI Australia API. |
 
 Server URL: `https://mcp.apify.com/?tools=highbrow_fame/coles-au-products,highbrow_fame/woolworths-au-products,highbrow_fame/aldi-au-products`
 
@@ -165,8 +182,9 @@ Utility tools for agents: detect a website's tech stack, check domains (WHOIS, D
 |---|---|
 | [PDF Text Extractor](https://apify.com/highbrow_fame/pdf-text-extractor) | The text of any PDF at a public link — whole or page by page — with page count, word count and metadata. Scanned PDFs without text are flagged and not charged. |
 | [Domain Checker](https://apify.com/highbrow_fame/domain-whois-dns-ssl) | Check many domains at once: registrar, creation and expiry dates, status, name servers, DNS records with SPF and DMARC, SSL certificate expiry, and where the website redirects. |
+| [Website Tech Stack Detector](https://apify.com/highbrow_fame/website-tech-stack) | The technologies behind any website: CMS, e-commerce platform, frameworks, analytics and ad tags, CDN, hosting, payment and more, with versions where visible. Many sites per run. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl,highbrow_fame/website-tech-stack`
 
 Registry name: `io.github.projectworks007/web-and-dev-tools`
 
