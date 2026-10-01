@@ -3,7 +3,7 @@
   "name": "io.github.projectworks007/web-and-dev-tools",
   "title": "Web & Developer Data Tools",
   "description": "Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "url": "https://github.com/projectworks007/apify-data-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl,highbrow_fame/website-tech-stack"
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl,highbrow_fame/website-tech-stack,highbrow_fame/sitemap-url-extractor"
     }
   ]
 }
