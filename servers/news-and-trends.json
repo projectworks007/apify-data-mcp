@@ -3,7 +3,7 @@
   "name": "io.github.projectworks007/news-and-trends",
   "title": "News & Trends Data",
   "description": "Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/projectworks007/apify-data-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable"
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable,highbrow_fame/substack-posts"
     }
   ]
 }
