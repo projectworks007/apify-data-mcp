@@ -9,17 +9,18 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | Server | What it gives your agent | Tools |
 |---|---|---|
 | [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 13 |
-| [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 11 |
+| [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 12 |
 | [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 4 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 1 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 1 |
 | [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 1 |
-| [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 2 |
+| [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 3 |
 | [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 3 |
-| [Events Data](#events-data) | Events with dates, venues, prices and organisers from Eventbrite and Meetup. | 1 |
+| [Events Data](#events-data) | Events with dates, venues, prices and organisers from Eventbrite and Meetup. | 2 |
 | [Finance & Filings Data](#finance-data) | Stock quotes, price history and fundamentals, plus SEC EDGAR company filings. | 1 |
-| [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 4 |
+| [Hotel Prices Data](#hotel-prices) | Every booking site's price for chosen hotels and dates on Google Hotels. | 1 |
+| [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 5 |
 
 ## Connect
 
@@ -80,8 +81,9 @@ Search property listings to buy or rent on national property portals: price, are
 | [Funda](https://apify.com/highbrow_fame/funda-properties) | Dutch property listings from funda.nl, for sale, to rent or sold: price, m², rooms, energy label, address, agency, and optionally coordinates and all characteristics. No phones. |
 | [Magicbricks](https://apify.com/highbrow_fame/magicbricks-properties) | Indian property listings from Magicbricks, to buy or rent: price in INR, BHK, area, floor, furnishing, locality, society, amenities and who posted it. Any city. Owners stay anonymous. No phones. |
 | [Property Finder](https://apify.com/highbrow_fame/propertyfinder-properties) | Listings from Property Finder in the UAE, Saudi Arabia, Qatar, Bahrain and Egypt: price, size, bedrooms, location, coordinates, amenities, completion, agency. For sale and to rent. No phones. |
+| [NoBroker](https://apify.com/highbrow_fame/nobroker-properties) | Owner-posted homes from NoBroker (India) to rent, for sale and PG: rent or price, deposit, BHK, area, furnishing, tenant preference, floor, amenities, locality. No phones, no owner names. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/fotocasa-properties,highbrow_fame/immowelt-properties,highbrow_fame/redfin-properties,highbrow_fame/immoweb-properties,highbrow_fame/otodom-properties,highbrow_fame/realtor-properties,highbrow_fame/rightmove-properties,highbrow_fame/immoscout24-at-properties,highbrow_fame/funda-properties,highbrow_fame/magicbricks-properties,highbrow_fame/propertyfinder-properties`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/fotocasa-properties,highbrow_fame/immowelt-properties,highbrow_fame/redfin-properties,highbrow_fame/immoweb-properties,highbrow_fame/otodom-properties,highbrow_fame/realtor-properties,highbrow_fame/rightmove-properties,highbrow_fame/immoscout24-at-properties,highbrow_fame/funda-properties,highbrow_fame/magicbricks-properties,highbrow_fame/propertyfinder-properties,highbrow_fame/nobroker-properties`
 
 Registry name: `io.github.projectworks007/real-estate-listings`
 
@@ -162,8 +164,9 @@ Research and monitoring data: Google Trends interest and trending searches, Goog
 |---|---|
 | [Google Trends](https://apify.com/highbrow_fame/google-trends-reliable) | Google Trends data you can rely on: interest over time, interest by region, and top and rising related searches for any keyword, country and period. Pay only for keywords with data. |
 | [Substack](https://apify.com/highbrow_fame/substack-posts) | Substack posts from any publication: title, date, authors, likes, comments, restacks, word count, paid or free, tags and optionally the full text. Many publications per run. |
+| [Hacker News](https://apify.com/highbrow_fame/hacker-news-stories) | Hacker News stories from the front page, new, best, Ask HN, Show HN and jobs, or from a search over all of HN: title, link, points, comments, date, and the comment threads. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable,highbrow_fame/substack-posts`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable,highbrow_fame/substack-posts,highbrow_fame/hacker-news-stories`
 
 Registry name: `io.github.projectworks007/news-and-trends`
 
@@ -190,8 +193,9 @@ Find events by place, date and topic: title, dates, venue, price, organiser and 
 | Tool | What it returns |
 |---|---|
 | [Eventbrite Events](https://apify.com/highbrow_fame/eventbrite-events) | Eventbrite events by city, keyword, category and date: start and end times, venue with address and coordinates, ticket prices, sales status and organizer. Many cities per run. |
+| [Meetup](https://apify.com/highbrow_fame/meetup-events) | Meetup events by keyword and city, from search links, or from groups (upcoming or past): date, time zone, venue city, group, fee, going count, topics, description. No hosts or attendees. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/eventbrite-events`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/eventbrite-events,highbrow_fame/meetup-events`
 
 Registry name: `io.github.projectworks007/events-data`
 
@@ -208,6 +212,19 @@ Server URL: `https://mcp.apify.com/?tools=highbrow_fame/yahoo-finance-quotes`
 
 Registry name: `io.github.projectworks007/finance-data`
 
+<a id="hotel-prices"></a>
+## Hotel Prices Data
+
+Get every booking site's price for the hotels and check-in dates you choose, from Google Hotels: per night and per stay, with and without taxes, the official site's rate and free-cancellation dates. It prices the hotels you list; it does not search a city.
+
+| Tool | What it returns |
+|---|---|
+| [Google Hotels Prices](https://apify.com/highbrow_fame/google-hotels-prices) | Every booking site's price for your hotels on Google Hotels, for any check-in dates: per night and total stay, with and without taxes, the official site's rate. Pay only for results with prices. |
+
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-hotels-prices`
+
+Registry name: `io.github.projectworks007/hotel-prices`
+
 <a id="web-and-dev-tools"></a>
 ## Web & Developer Data Tools
 
@@ -219,8 +236,9 @@ Utility tools for agents: detect a website's tech stack, check domains (WHOIS, D
 | [Domain Checker](https://apify.com/highbrow_fame/domain-whois-dns-ssl) | Check many domains at once: registrar, creation and expiry dates, status, name servers, DNS records with SPF and DMARC, SSL certificate expiry, and where the website redirects. |
 | [Website Tech Stack Detector](https://apify.com/highbrow_fame/website-tech-stack) | The technologies behind any website: CMS, e-commerce platform, frameworks, analytics and ad tags, CDN, hosting, payment and more, with versions where visible. Many sites per run. |
 | [Sitemap Extractor](https://apify.com/highbrow_fame/sitemap-url-extractor) | Every URL in a website's sitemaps — found through robots.txt, nested indexes and .gz files followed — with last-modified date, change frequency, priority, images, hreflang and news tags. |
+| [Domain Authority & Website Rank Checker](https://apify.com/highbrow_fame/domain-authority-rank) | Bulk domain authority checker on open data: a 0-100 link strength score, website rank, referring subnets and IPs for up to 10,000 domains per run, from the Common Crawl web graph and Majestic Million. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl,highbrow_fame/website-tech-stack,highbrow_fame/sitemap-url-extractor`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl,highbrow_fame/website-tech-stack,highbrow_fame/sitemap-url-extractor,highbrow_fame/domain-authority-rank`
 
 Registry name: `io.github.projectworks007/web-and-dev-tools`
 

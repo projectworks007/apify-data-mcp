@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.projectworks007/hotel-prices",
+  "title": "Hotel Prices Data",
+  "description": "Every booking site's price for chosen hotels and dates on Google Hotels.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/projectworks007/apify-data-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/projectworks007/apify-data-mcp#hotel-prices",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/google-hotels-prices"
+    }
+  ]
+}

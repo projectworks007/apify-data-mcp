@@ -3,7 +3,7 @@
   "name": "io.github.projectworks007/events-data",
   "title": "Events Data",
   "description": "Events with dates, venues, prices and organisers from Eventbrite and Meetup.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/projectworks007/apify-data-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=highbrow_fame/eventbrite-events"
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/eventbrite-events,highbrow_fame/meetup-events"
     }
   ]
 }
