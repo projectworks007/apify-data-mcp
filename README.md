@@ -8,9 +8,9 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 
 | Server | What it gives your agent | Tools |
 |---|---|---|
-| [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 13 |
+| [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 15 |
 | [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 12 |
-| [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 4 |
+| [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 5 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 1 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 1 |
@@ -20,7 +20,7 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | [Events Data](#events-data) | Events with dates, venues, prices and organisers from Eventbrite and Meetup. | 2 |
 | [Finance & Filings Data](#finance-data) | Stock quotes, price history and fundamentals, plus SEC EDGAR company filings. | 1 |
 | [Hotel Prices Data](#hotel-prices) | Every booking site's price for chosen hotels and dates on Google Hotels. | 1 |
-| [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 5 |
+| [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 7 |
 
 ## Connect
 
@@ -31,7 +31,7 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 ```json
 {
   "mcpServers": {
-    "job-boards": { "url": "https://mcp.apify.com/?tools=highbrow_fame/welcome-to-the-jungle-jobs,highbrow_fame/stepstone-jobs,highbrow_fame/naukri-jobs,highbrow_fame/naukrigulf-jobs,highbrow_fame/jobstreet-jobsdb-jobs,highbrow_fame/xing-jobs,highbrow_fame/foundit-jobs,highbrow_fame/arbeitsagentur-jobs,highbrow_fame/infojobs-jobs,highbrow_fame/reed-jobs,highbrow_fame/remote-jobs-aggregator,highbrow_fame/hellowork-jobs,highbrow_fame/totaljobs-jobs" }
+    "job-boards": { "url": "https://mcp.apify.com/?tools=highbrow_fame/welcome-to-the-jungle-jobs,highbrow_fame/stepstone-jobs,highbrow_fame/naukri-jobs,highbrow_fame/naukrigulf-jobs,highbrow_fame/jobstreet-jobsdb-jobs,highbrow_fame/xing-jobs,highbrow_fame/foundit-jobs,highbrow_fame/arbeitsagentur-jobs,highbrow_fame/infojobs-jobs,highbrow_fame/reed-jobs,highbrow_fame/remote-jobs-aggregator,highbrow_fame/hellowork-jobs,highbrow_fame/totaljobs-jobs,highbrow_fame/rozee-jobs,highbrow_fame/mycareersfuture-jobs" }
   }
 }
 ```
@@ -49,17 +49,19 @@ Search live job ads by keyword and place on national job boards. Title, company,
 | [StepStone](https://apify.com/highbrow_fame/stepstone-jobs) | StepStone jobs from stepstone.de, Germany: title, company, location, contract type, home office, posted date, full job ad and salary estimate. No recruiter names. Unofficial StepStone API. |
 | [Naukri.com](https://apify.com/highbrow_fame/naukri-jobs) | Naukri jobs from naukri.com, India: title, company, experience, salary in rupees and lakhs, locations, work mode, skills, posted date, full ad on request. No phones. Unofficial Naukri API. |
 | [Naukrigulf](https://apify.com/highbrow_fame/naukrigulf-jobs) | Gulf job ads from naukrigulf.com (UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain): title, company or consultant, experience, salary in local currency and US$, skills, posted date. No phones. |
-| [JobStreet & JobsDB](https://apify.com/highbrow_fame/jobstreet-jobsdb-jobs) | JobStreet and JobsDB jobs from Malaysia, Singapore, the Philippines, Indonesia, Hong Kong and Thailand: company, salary with numbers, work type, category, date and the full ad. No phones. |
-| [XING Jobs](https://apify.com/highbrow_fame/xing-jobs) | Job ads from XING in Germany, Austria and Switzerland: title, company, town, type, career level, remote, salary (published or XING's estimate), dates and the full ad. No contact persons, no phones. |
+| [JobStreet & JobsDB](https://apify.com/highbrow_fame/jobstreet-jobsdb-jobs) | JobStreet and JobsDB jobs from Malaysia, Singapore, Philippines, Indonesia, Hong Kong and Thailand: company, salary, work type, category, date and the full ad. Unofficial JobStreet and JobsDB API. |
+| [XING Jobs](https://apify.com/highbrow_fame/xing-jobs) | XING jobs in Germany, Austria and Switzerland: title, company, town, type, career level, remote, salary (published or estimated), dates and the full ad. No contact persons. Unofficial XING API. |
 | [Foundit](https://apify.com/highbrow_fame/foundit-jobs) | Job ads from foundit (ex Monster) in India, the Gulf, Singapore, Malaysia, Hong Kong, the Philippines and Indonesia: title, company, experience, salary, places, skills, date, full ad. No phones. |
 | [Arbeitsagentur](https://apify.com/highbrow_fame/arbeitsagentur-jobs) | Job ads from the German Federal Employment Agency's Jobsuche: title, employer, place, working time, contract, salary, start and publication dates, and the full ad text. No phones, no contact persons. |
-| [InfoJobs](https://apify.com/highbrow_fame/infojobs-jobs) | Spanish job offers from InfoJobs: title, company, town and province, salary min/max, contract, working day, remote, full ad text, applications, experience and studies asked. No phones or names. |
+| [InfoJobs](https://apify.com/highbrow_fame/infojobs-jobs) | InfoJobs job offers in Spain: title, company, town and province, salary min/max, contract, working day, remote, full ad, applications, experience and studies asked. No names. Unofficial InfoJobs API. |
 | [Reed.co.uk](https://apify.com/highbrow_fame/reed-jobs) | Reed jobs from reed.co.uk, UK: title, company, employer or agency, location, salary with min/max/period, contract type, hours, remote/hybrid, dates, full ad on request. No phones. Unofficial Reed API. |
 | [Remote Jobs](https://apify.com/highbrow_fame/remote-jobs-aggregator) | Remote jobs from Himalayas, Remote OK, We Work Remotely and Arbeitnow in one list: title, company, salary, location rules, tags, date and apply link. Duplicates removed. |
 | [HelloWork](https://apify.com/highbrow_fame/hellowork-jobs) | French job ads from HelloWork: title, company, city, département, contract (CDI, CDD, intérim, alternance, stage), salary min/max, remote work, date, full ad. No phones. |
 | [Totaljobs & CWJobs](https://apify.com/highbrow_fame/totaljobs-jobs) | UK jobs from Totaljobs and CWJobs: title, company, location, salary as text and as min/max/period, contract type, posted date and the full job ad. No recruiter names or phones. |
+| [Rozee.pk](https://apify.com/highbrow_fame/rozee-jobs) | Scrape job ads from rozee.pk, Pakistan's job board: title, company, city, salary in PKR, experience, job type, shift, posted and apply-before dates, skills and the full ad. No phones. |
+| [MyCareersFuture](https://apify.com/highbrow_fame/mycareersfuture-jobs) | Singapore jobs from MyCareersFuture: title, company, salary range in SGD, employment type, level, experience, skills, category, district, dates and the full ad. No phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/welcome-to-the-jungle-jobs,highbrow_fame/stepstone-jobs,highbrow_fame/naukri-jobs,highbrow_fame/naukrigulf-jobs,highbrow_fame/jobstreet-jobsdb-jobs,highbrow_fame/xing-jobs,highbrow_fame/foundit-jobs,highbrow_fame/arbeitsagentur-jobs,highbrow_fame/infojobs-jobs,highbrow_fame/reed-jobs,highbrow_fame/remote-jobs-aggregator,highbrow_fame/hellowork-jobs,highbrow_fame/totaljobs-jobs`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/welcome-to-the-jungle-jobs,highbrow_fame/stepstone-jobs,highbrow_fame/naukri-jobs,highbrow_fame/naukrigulf-jobs,highbrow_fame/jobstreet-jobsdb-jobs,highbrow_fame/xing-jobs,highbrow_fame/foundit-jobs,highbrow_fame/arbeitsagentur-jobs,highbrow_fame/infojobs-jobs,highbrow_fame/reed-jobs,highbrow_fame/remote-jobs-aggregator,highbrow_fame/hellowork-jobs,highbrow_fame/totaljobs-jobs,highbrow_fame/rozee-jobs,highbrow_fame/mycareersfuture-jobs`
 
 Registry name: `io.github.projectworks007/job-boards`
 
@@ -72,10 +74,10 @@ Search property listings to buy or rent on national property portals: price, are
 |---|---|
 | [Fotocasa](https://apify.com/highbrow_fame/fotocasa-properties) | Spanish property listings from fotocasa.es, to buy or rent: price, price drops, m², bedrooms, floor, district, amenities, photos, agency, and optionally the energy certificate. No phones. |
 | [Immowelt](https://apify.com/highbrow_fame/immowelt-properties) | German property listings from immowelt, to rent or for sale: price, cold and warm rent, living area, rooms, floor, city, district, postcode, energy class and seller type. No phones. |
-| [Redfin](https://apify.com/highbrow_fame/redfin-properties) | US homes from Redfin: for sale, sold or for rent — price, beds, baths, sq ft, lot, year built, HOA, days on market, address, map point, MLS id, broker. No agent names or phones. |
-| [Immoweb](https://apify.com/highbrow_fame/immoweb-properties) | Belgian property listings from Immoweb, for sale or to rent: price, bedrooms, living area, EPC, town and postcode, agency, and optionally the description and building details. No phones. |
-| [Otodom](https://apify.com/highbrow_fame/otodom-properties) | Polish property listings from Otodom, for sale or to rent: price, price per m², area, rooms, floor, district, seller type, and optionally coordinates and building details. No phones. |
-| [Realtor.com](https://apify.com/highbrow_fame/realtor-properties) | US homes from Realtor.com: for sale, sold or for rent — price, beds, baths, sq ft, lot, year built, HOA, list and sold dates, address, map point, MLS id, brokerage. No agent names or phones. |
+| [Redfin](https://apify.com/highbrow_fame/redfin-properties) | Redfin homes in the US: for sale, sold or for rent — price, beds, baths, sq ft, lot, year built, HOA, days on market, address, map point, MLS id, broker. No agent names. Unofficial Redfin API. |
+| [Immoweb](https://apify.com/highbrow_fame/immoweb-properties) | Immoweb property listings in Belgium, for sale or to rent: price, bedrooms, living area, EPC, town and postcode, agency, and optionally description and building details. Unofficial Immoweb API. |
+| [Otodom](https://apify.com/highbrow_fame/otodom-properties) | Otodom property listings in Poland, for sale or to rent: price, price per m², area, rooms, floor, district, seller type, and optionally coordinates and building details. Unofficial Otodom API. |
+| [Realtor.com](https://apify.com/highbrow_fame/realtor-properties) | Realtor.com homes in the US: for sale, sold or for rent — price, beds, baths, sq ft, lot, year built, HOA, list and sold dates, address, MLS id, brokerage. No agent names. Unofficial Realtor.com API. |
 | [Rightmove](https://apify.com/highbrow_fame/rightmove-properties) | Rightmove property listings, UK, for sale or to rent: price, bedrooms, type, tenure, size, address with coordinates, key features, price changes and the agent. No phones. Unofficial Rightmove API. |
 | [ImmoScout24 Austria](https://apify.com/highbrow_fame/immoscout24-at-properties) | Austrian property listings from immobilienscout24.at, to buy or rent: price, size, rooms, postcode and town, agency, features, optional details and energy data. Private owners stay anonymous. |
 | [Funda](https://apify.com/highbrow_fame/funda-properties) | Dutch property listings from funda.nl, for sale, to rent or sold: price, m², rooms, energy label, address, agency, and optionally coordinates and all characteristics. No phones. |
@@ -98,8 +100,9 @@ Search classified ads and second-hand listings on national marketplaces: title, 
 | [Vinted](https://apify.com/highbrow_fame/vinted-listings) | Vinted listings from 27 country sites by search link or keyword: title, brand, size, condition, price, buyer fee, favourites, photo. Reads past the 960 cap. No usernames. Unofficial Vinted API. |
 | [Gumtree](https://apify.com/highbrow_fame/gumtree-uk-listings) | UK listings from gumtree.com: stuff for sale, cars and vans, property to rent and for sale, pets. Price, area, category, car and property details. No phones; private sellers stay anonymous. |
 | [Craigslist](https://apify.com/highbrow_fame/craigslist-listings) | craigslist listings from any city and section — for sale, housing, cars, jobs, gigs, services: title, price, place, date, category, images, and optionally description and attributes. No phones. |
+| [Blocket](https://apify.com/highbrow_fame/blocket-listings) | Swedish classifieds from Blocket — the marketplace, cars, motorbikes, boats, caravans and machines: price, place, seller type, vehicle data, descriptions on request. No phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings,highbrow_fame/gumtree-uk-listings,highbrow_fame/craigslist-listings`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings,highbrow_fame/gumtree-uk-listings,highbrow_fame/craigslist-listings,highbrow_fame/blocket-listings`
 
 Registry name: `io.github.projectworks007/marketplace-listings`
 
@@ -206,7 +209,7 @@ Market and company data: quotes, price history and fundamentals from Yahoo Finan
 
 | Tool | What it returns |
 |---|---|
-| [Yahoo Finance](https://apify.com/highbrow_fame/yahoo-finance-quotes) | Yahoo Finance quotes for stocks, ETFs, crypto, currencies and indexes: price, change, volume, P/E, market cap, dividends. Price history and company fundamentals on request. |
+| [Yahoo Finance](https://apify.com/highbrow_fame/yahoo-finance-quotes) | Yahoo Finance quotes for stocks, ETFs, crypto, currencies and indexes: price, change, volume, P/E, market cap, dividends. Price history and fundamentals on request. Unofficial Yahoo Finance API. |
 
 Server URL: `https://mcp.apify.com/?tools=highbrow_fame/yahoo-finance-quotes`
 
@@ -237,8 +240,10 @@ Utility tools for agents: detect a website's tech stack, check domains (WHOIS, D
 | [Website Tech Stack Detector](https://apify.com/highbrow_fame/website-tech-stack) | The technologies behind any website: CMS, e-commerce platform, frameworks, analytics and ad tags, CDN, hosting, payment and more, with versions where visible. Many sites per run. |
 | [Sitemap Extractor](https://apify.com/highbrow_fame/sitemap-url-extractor) | Every URL in a website's sitemaps — found through robots.txt, nested indexes and .gz files followed — with last-modified date, change frequency, priority, images, hreflang and news tags. |
 | [Domain Authority & Website Rank Checker](https://apify.com/highbrow_fame/domain-authority-rank) | Bulk domain authority checker on open data: a 0-100 link strength score, website rank, referring subnets and IPs for up to 10,000 domains per run, from the Common Crawl web graph and Majestic Million. |
+| [RSS & Atom Feed Reader](https://apify.com/highbrow_fame/rss-feed-reader) | Read any RSS, Atom, RDF or JSON feed — or just give a website and its feed is found — into one list: title, link, date, author, categories, summary, content and image. |
+| [OpenStreetMap Places](https://apify.com/highbrow_fame/openstreetmap-places) | Points of interest from OpenStreetMap by place or map box: restaurants, shops, hotels, pharmacies, 62 categories or any OSM tag, with address, coordinates, opening hours and website. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl,highbrow_fame/website-tech-stack,highbrow_fame/sitemap-url-extractor,highbrow_fame/domain-authority-rank`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl,highbrow_fame/website-tech-stack,highbrow_fame/sitemap-url-extractor,highbrow_fame/domain-authority-rank,highbrow_fame/rss-feed-reader,highbrow_fame/openstreetmap-places`
 
 Registry name: `io.github.projectworks007/web-and-dev-tools`
 
