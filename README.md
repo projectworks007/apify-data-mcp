@@ -9,14 +9,15 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | Server | What it gives your agent | Tools |
 |---|---|---|
 | [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 15 |
-| [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 13 |
+| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 2 |
+| [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 14 |
 | [Car & Vehicle Listings Data](#vehicle-listings) | Used and new car listings with prices and specs from national car marketplaces. | 2 |
 | [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 7 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 1 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 1 |
-| [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 1 |
-| [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 3 |
+| [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 2 |
+| [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 4 |
 | [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 3 |
 | [Events Data](#events-data) | Events with dates, venues, prices and organisers from Eventbrite and Meetup. | 2 |
 | [Finance & Filings Data](#finance-data) | Stock quotes, price history and fundamentals, plus SEC EDGAR company filings. | 1 |
@@ -66,6 +67,20 @@ Server URL: `https://mcp.apify.com/?tools=highbrow_fame/welcome-to-the-jungle-jo
 
 Registry name: `io.github.projectworks007/job-boards`
 
+<a id="job-boards-2"></a>
+## Job Boards Data (part 2)
+
+Search live job ads by keyword and place on national job boards. Title, company, location, salary where published, dates, full ad text. No recruiter names or phone numbers.
+
+| Tool | What it returns |
+|---|---|
+| [No Fluff Jobs](https://apify.com/highbrow_fame/nofluffjobs-jobs) | IT jobs from nofluffjobs.com (Poland, Czechia, Slovakia, Hungary, Ukraine): title, company, cities, remote, seniority, salary per contract type (B2B net / UoP gross), skills, dates, full ad. |
+| [jobs.ch & jobup.ch](https://apify.com/highbrow_fame/jobs-ch-jobs) | Swiss job ads from jobs.ch and jobup.ch: title, company, place, workload %, contract type, salary when published, date, snippet and optionally the full ad. Contact persons and phones taken out. |
+
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/nofluffjobs-jobs,highbrow_fame/jobs-ch-jobs`
+
+Registry name: `io.github.projectworks007/job-boards-2`
+
 <a id="real-estate-listings"></a>
 ## Real Estate Listings Data
 
@@ -86,8 +101,9 @@ Search property listings to buy or rent on national property portals: price, are
 | [Property Finder](https://apify.com/highbrow_fame/propertyfinder-properties) | Listings from Property Finder in the UAE, Saudi Arabia, Qatar, Bahrain and Egypt: price, size, bedrooms, location, coordinates, amenities, completion, agency. For sale and to rent. No phones. |
 | [NoBroker](https://apify.com/highbrow_fame/nobroker-properties) | Owner-posted homes from NoBroker (India) to rent, for sale and PG: rent or price, deposit, BHK, area, furnishing, tenant preference, floor, amenities, locality. No phones, no owner names. |
 | [Pisos.com](https://apify.com/highbrow_fame/pisos-properties) | Spanish property listings from pisos.com, for sale or to rent: price, price drops, bedrooms, bathrooms, m², floor, zone, postcode, seller type and agency, and optionally the full details. No phones. |
+| [Gratka & Morizon](https://apify.com/highbrow_fame/gratka-morizon-properties) | Polish property listings from Gratka.pl and Morizon.pl, for sale or to rent: price, price per m², area, rooms, floor, market, city and district, seller type, full description. No phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/fotocasa-properties,highbrow_fame/immowelt-properties,highbrow_fame/redfin-properties,highbrow_fame/immoweb-properties,highbrow_fame/otodom-properties,highbrow_fame/realtor-properties,highbrow_fame/rightmove-properties,highbrow_fame/immoscout24-at-properties,highbrow_fame/funda-properties,highbrow_fame/magicbricks-properties,highbrow_fame/propertyfinder-properties,highbrow_fame/nobroker-properties,highbrow_fame/pisos-properties`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/fotocasa-properties,highbrow_fame/immowelt-properties,highbrow_fame/redfin-properties,highbrow_fame/immoweb-properties,highbrow_fame/otodom-properties,highbrow_fame/realtor-properties,highbrow_fame/rightmove-properties,highbrow_fame/immoscout24-at-properties,highbrow_fame/funda-properties,highbrow_fame/magicbricks-properties,highbrow_fame/propertyfinder-properties,highbrow_fame/nobroker-properties,highbrow_fame/pisos-properties,highbrow_fame/gratka-morizon-properties`
 
 Registry name: `io.github.projectworks007/real-estate-listings`
 
@@ -171,8 +187,9 @@ Look up apps, games and browser extensions and their user reviews on the App Sto
 | Tool | What it returns |
 |---|---|
 | [Google Play](https://apify.com/highbrow_fame/google-play-apps-reviews) | Google Play apps and reviews from links, searches or developers: installs, rating, histogram, price, ads, versions, and reviews with developer replies, no reviewer names. Unofficial Google Play API. |
+| [Chrome Web Store](https://apify.com/highbrow_fame/chrome-web-store-extensions) | Chrome Web Store extensions and themes from searches, categories or ids: users, rating, rating count, version, last update, size, languages, permissions, publisher and privacy disclosures. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-play-apps-reviews`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-play-apps-reviews,highbrow_fame/chrome-web-store-extensions`
 
 Registry name: `io.github.projectworks007/app-store-data`
 
@@ -186,8 +203,9 @@ Research and monitoring data: Google Trends interest and trending searches, Goog
 | [Google Trends](https://apify.com/highbrow_fame/google-trends-reliable) | Google Trends data you can rely on: interest over time, interest by region, and top and rising related searches for any keyword, country and period. Pay only for keywords with data. |
 | [Substack](https://apify.com/highbrow_fame/substack-posts) | Substack posts from any publication: title, date, authors, likes, comments, restacks, word count, paid or free, tags and optionally the full text. Many publications per run. |
 | [Hacker News](https://apify.com/highbrow_fame/hacker-news-stories) | Hacker News stories from the front page, new, best, Ask HN, Show HN and jobs, or from a search over all of HN: title, link, points, comments, date, and the comment threads. |
+| [Apple Podcasts](https://apify.com/highbrow_fame/apple-podcasts-shows-episodes) | Apple Podcasts shows by link, search or top chart (any country and genre) with rating, publisher, genres and feed, plus their episodes with audio links. No login. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable,highbrow_fame/substack-posts,highbrow_fame/hacker-news-stories`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable,highbrow_fame/substack-posts,highbrow_fame/hacker-news-stories,highbrow_fame/apple-podcasts-shows-episodes`
 
 Registry name: `io.github.projectworks007/news-and-trends`
 
@@ -240,7 +258,7 @@ Get every booking site's price for the hotels and check-in dates you choose, fro
 
 | Tool | What it returns |
 |---|---|
-| [Google Hotels Prices](https://apify.com/highbrow_fame/google-hotels-prices) | Every booking site's price for your hotels on Google Hotels, for any check-in dates: per night and total stay, with and without taxes, the official site's rate. Pay only for results with prices. |
+| [Google Hotels Prices](https://apify.com/highbrow_fame/google-hotels-prices) | Unofficial Google Hotels scraper & Google Travel hotel prices API: type a city or paste hotel links and get every booking site's price for any check-in dates. Per night and total stay, with and without taxes, plus the official site's rate. Pay only for results with prices. |
 
 Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-hotels-prices`
 
