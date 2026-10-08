@@ -9,8 +9,8 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | Server | What it gives your agent | Tools |
 |---|---|---|
 | [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 15 |
-| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 4 |
-| [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 14 |
+| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 8 |
+| [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 15 |
 | [Car & Vehicle Listings Data](#vehicle-listings) | Used and new car listings with prices and specs from national car marketplaces. | 2 |
 | [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 8 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
@@ -78,8 +78,12 @@ Search live job ads by keyword and place on national job boards. Title, company,
 | [jobs.ch & jobup.ch](https://apify.com/highbrow_fame/jobs-ch-jobs) | Swiss job ads from jobs.ch and jobup.ch: title, company, place, workload %, contract type, salary when published, date, snippet and optionally the full ad. Contact persons and phones taken out. |
 | [Jobs.cz & Prace.cz](https://apify.com/highbrow_fame/jobs-cz-jobs) | Czech job ads from Jobs.cz and Prace.cz: title, company, place, salary in numbers, on-site/hybrid/remote, posting date, and optionally the full ad text. No contact persons, no phones. |
 | [karriere.at](https://apify.com/highbrow_fame/karriere-at-jobs) | Job ads from karriere.at, Austria's largest job board: title, company, places, employment type, salary with minimum and period, posting date and the full ad text. No contact persons, no phones. |
+| [stellenanzeigen.de](https://apify.com/highbrow_fame/stellenanzeigen-jobs) | Job ads from stellenanzeigen.de, a big German job board: title, company, places, hours, contract type, home office, salary, benefits, dates and the full ad text. No contact persons, no phones. |
+| [BestJobs](https://apify.com/highbrow_fame/bestjobs-ro-jobs) | Romanian job ads from BestJobs (bestjobs.eu): title, company, towns, salary in EUR, employment type, level, remote/hybrid, languages, benefits and the full ad. Links or keywords + towns. |
+| [Profession.hu](https://apify.com/highbrow_fame/profession-hu-jobs) | Hungarian job ads from Profession.hu: title, company, place, home office, salary parsed into numbers, category, contract type, posting date and the full ad text. By link, keyword or place. No phones. |
+| [PNet](https://apify.com/highbrow_fame/pnet-jobs) | South African jobs from PNet: title, company, location, salary as text and as min/max/period, contract type, EE/AA, posted date and the full job ad. No recruiter names or phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/nofluffjobs-jobs,highbrow_fame/jobs-ch-jobs,highbrow_fame/jobs-cz-jobs,highbrow_fame/karriere-at-jobs`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/nofluffjobs-jobs,highbrow_fame/jobs-ch-jobs,highbrow_fame/jobs-cz-jobs,highbrow_fame/karriere-at-jobs,highbrow_fame/stellenanzeigen-jobs,highbrow_fame/bestjobs-ro-jobs,highbrow_fame/profession-hu-jobs,highbrow_fame/pnet-jobs`
 
 Registry name: `io.github.projectworks007/job-boards-2`
 
@@ -104,8 +108,9 @@ Search property listings to buy or rent on national property portals: price, are
 | [NoBroker](https://apify.com/highbrow_fame/nobroker-properties) | Owner-posted homes from NoBroker (India) to rent, for sale and PG: rent or price, deposit, BHK, area, furnishing, tenant preference, floor, amenities, locality. No phones, no owner names. |
 | [Pisos.com](https://apify.com/highbrow_fame/pisos-properties) | Spanish property listings from pisos.com, for sale or to rent: price, price drops, bedrooms, bathrooms, m², floor, zone, postcode, seller type and agency, and optionally the full details. No phones. |
 | [Gratka & Morizon](https://apify.com/highbrow_fame/gratka-morizon-properties) | Polish property listings from Gratka.pl and Morizon.pl, for sale or to rent: price, price per m², area, rooms, floor, market, city and district, seller type, full description. No phones. |
+| [Sreality](https://apify.com/highbrow_fame/sreality-properties) | Czech property listings from Sreality.cz — sale, rent, auctions: price, area, layout (2+kk), town, district, region, agency, photos, and optionally description, dates and building details. No phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/fotocasa-properties,highbrow_fame/immowelt-properties,highbrow_fame/redfin-properties,highbrow_fame/immoweb-properties,highbrow_fame/otodom-properties,highbrow_fame/realtor-properties,highbrow_fame/rightmove-properties,highbrow_fame/immoscout24-at-properties,highbrow_fame/funda-properties,highbrow_fame/magicbricks-properties,highbrow_fame/propertyfinder-properties,highbrow_fame/nobroker-properties,highbrow_fame/pisos-properties,highbrow_fame/gratka-morizon-properties`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/fotocasa-properties,highbrow_fame/immowelt-properties,highbrow_fame/redfin-properties,highbrow_fame/immoweb-properties,highbrow_fame/otodom-properties,highbrow_fame/realtor-properties,highbrow_fame/rightmove-properties,highbrow_fame/immoscout24-at-properties,highbrow_fame/funda-properties,highbrow_fame/magicbricks-properties,highbrow_fame/propertyfinder-properties,highbrow_fame/nobroker-properties,highbrow_fame/pisos-properties,highbrow_fame/gratka-morizon-properties,highbrow_fame/sreality-properties`
 
 Registry name: `io.github.projectworks007/real-estate-listings`
 
