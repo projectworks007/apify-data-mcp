@@ -3,7 +3,7 @@
   "name": "io.github.projectworks007/finance-data",
   "title": "Finance & Filings Data",
   "description": "Stock quotes, price history and fundamentals, plus SEC EDGAR company filings.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/projectworks007/apify-data-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=highbrow_fame/yahoo-finance-quotes"
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/yahoo-finance-quotes,highbrow_fame/sec-edgar-filings"
     }
   ]
 }
