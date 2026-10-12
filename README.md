@@ -9,11 +9,11 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | Server | What it gives your agent | Tools |
 |---|---|---|
 | [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 15 |
-| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 10 |
+| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 11 |
 | [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 15 |
-| [Real Estate Listings Data (part 2)](#real-estate-listings-2) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 1 |
-| [Car & Vehicle Listings Data](#vehicle-listings) | Used and new car listings with prices and specs from national car marketplaces. | 2 |
-| [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 9 |
+| [Real Estate Listings Data (part 2)](#real-estate-listings-2) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 3 |
+| [Car & Vehicle Listings Data](#vehicle-listings) | Used and new car listings with prices and specs from national car marketplaces. | 3 |
+| [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 10 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 1 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 1 |
@@ -85,8 +85,9 @@ Search live job ads by keyword and place on national job boards. Title, company,
 | [PNet](https://apify.com/highbrow_fame/pnet-jobs) | South African jobs from PNet: title, company, location, salary as text and as min/max/period, contract type, EE/AA, posted date and the full job ad. No recruiter names or phones. |
 | [Elempleo](https://apify.com/highbrow_fame/elempleo-jobs) | Job offers from elempleo.com (Colombia): title, company, city, salary band in COP, contract, work modality, experience, education, full description. Search links or keywords. No phones. |
 | [Job Bank Canada](https://apify.com/highbrow_fame/job-bank-canada-jobs) | Jobs from Job Bank, the Government of Canada job board, in English or French: title, employer, city, salary parsed, posted date, source and, if you want, the full ad. No phones or e-mails. |
+| [MojPosao](https://apify.com/highbrow_fame/mojposao-jobs) | Croatian job ads from MojPosao (mojposao.hr): title, company, places, salary in EUR when shown, employment type, remote/hybrid, education, languages and the full ad. Links or keywords + places. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/nofluffjobs-jobs,highbrow_fame/jobs-ch-jobs,highbrow_fame/jobs-cz-jobs,highbrow_fame/karriere-at-jobs,highbrow_fame/stellenanzeigen-jobs,highbrow_fame/bestjobs-ro-jobs,highbrow_fame/profession-hu-jobs,highbrow_fame/pnet-jobs,highbrow_fame/elempleo-jobs,highbrow_fame/job-bank-canada-jobs`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/nofluffjobs-jobs,highbrow_fame/jobs-ch-jobs,highbrow_fame/jobs-cz-jobs,highbrow_fame/karriere-at-jobs,highbrow_fame/stellenanzeigen-jobs,highbrow_fame/bestjobs-ro-jobs,highbrow_fame/profession-hu-jobs,highbrow_fame/pnet-jobs,highbrow_fame/elempleo-jobs,highbrow_fame/job-bank-canada-jobs,highbrow_fame/mojposao-jobs`
 
 Registry name: `io.github.projectworks007/job-boards-2`
 
@@ -125,8 +126,10 @@ Search property listings to buy or rent on national property portals: price, are
 | Tool | What it returns |
 |---|---|
 | [Imovirtual](https://apify.com/highbrow_fame/imovirtual-properties) | Portuguese property listings from Imovirtual, for sale or to rent: price, price per m², area, typology, floor, council and parish, seller type, and optionally coordinates and energy rating. No phones. |
+| [Emlakjet](https://apify.com/highbrow_fame/emlakjet-properties) | Turkish property listings from Emlakjet, for sale or to rent: price in TRY, gross/net m², rooms (3+1), building age, floor, heating, district, agency and description. No phones. |
+| [Imot.bg](https://apify.com/highbrow_fame/imot-bg-properties) | Bulgarian property listings from imot.bg, for sale or to rent: price, area, rooms, floor, building type and year, town and district, agency or private, full description. No phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/imovirtual-properties`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/imovirtual-properties,highbrow_fame/emlakjet-properties,highbrow_fame/imot-bg-properties`
 
 Registry name: `io.github.projectworks007/real-estate-listings-2`
 
@@ -139,8 +142,9 @@ Search car and vehicle listings on national car marketplaces: make, model, price
 |---|---|
 | [Coches.net](https://apify.com/highbrow_fame/cochesnet-listings) | Used and km 0 cars from coches.net, Spain's big car marketplace: price and coches.net's price rating, year, km, fuel, gearbox, power, body, province and dealer. No phone numbers. |
 | [AutoTrader.ca](https://apify.com/highbrow_fame/autotrader-ca-listings) | AutoTrader.ca car listings from any search link or a make, model and place: price, mileage, model year, trim, fuel, gearbox, place and dealer; body, colour and drivetrain on request. No phone numbers. |
+| [Otomoto](https://apify.com/highbrow_fame/otomoto-listings) | Polish vehicle listings from otomoto — cars, motorbikes, vans, trucks: price, make, model, year, mileage, fuel, gearbox, power, body type, town, seller type and dealer. No phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/cochesnet-listings,highbrow_fame/autotrader-ca-listings`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/cochesnet-listings,highbrow_fame/autotrader-ca-listings,highbrow_fame/otomoto-listings`
 
 Registry name: `io.github.projectworks007/vehicle-listings`
 
@@ -160,8 +164,9 @@ Search classified ads and second-hand listings on national marketplaces: title, 
 | [Kijiji](https://apify.com/highbrow_fame/kijiji-listings) | Kijiji.ca listings from any category — buy & sell, cars, rentals, homes, jobs, pets: price, place, seller type, car and property details, optional full description. No phones. |
 | [Subito](https://apify.com/highbrow_fame/subito-listings) | Italian listings from Subito.it: flats and houses, cars and motorbikes, marketplace items. Price, town, full ad text, rooms, m², make, km, seller type. Private sellers stay anonymous. No phones. |
 | [FINN.no](https://apify.com/highbrow_fame/finn-listings) | Norwegian listings from FINN.no — Torget, cars, boats, homes for sale and rent, commercial property and jobs: price, place, seller type and company, details on request. No phones. |
+| [Jófogás](https://apify.com/highbrow_fame/jofogas-listings) | Hungarian listings from jofogas.hu: marketplace ads, cars and motorbikes, flats and houses. Price, place, category, make, mileage, size, rooms, seller type. Private sellers stay anonymous. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings,highbrow_fame/gumtree-uk-listings,highbrow_fame/craigslist-listings,highbrow_fame/blocket-listings,highbrow_fame/offerup-listings,highbrow_fame/kijiji-listings,highbrow_fame/subito-listings,highbrow_fame/finn-listings`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings,highbrow_fame/gumtree-uk-listings,highbrow_fame/craigslist-listings,highbrow_fame/blocket-listings,highbrow_fame/offerup-listings,highbrow_fame/kijiji-listings,highbrow_fame/subito-listings,highbrow_fame/finn-listings,highbrow_fame/jofogas-listings`
 
 Registry name: `io.github.projectworks007/marketplace-listings`
 

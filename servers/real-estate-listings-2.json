@@ -3,7 +3,7 @@
   "name": "io.github.projectworks007/real-estate-listings-2",
   "title": "Real Estate Listings Data (part 2)",
   "description": "Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/projectworks007/apify-data-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=highbrow_fame/imovirtual-properties"
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/imovirtual-properties,highbrow_fame/emlakjet-properties,highbrow_fame/imot-bg-properties"
     }
   ]
 }
