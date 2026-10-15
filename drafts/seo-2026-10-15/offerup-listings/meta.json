@@ -1,0 +1,7 @@
+{
+  "title": "OfferUp Scraper — Local Listings, Prices & Details, No Phones",
+  "titleChanged": false,
+  "seoTitle": "OfferUp Scraper — Listings, Prices, No Phones",
+  "seoDescription": "Scrape OfferUp listings around any US city or ZIP: price, condition, category, photos, car make and mileage. No phones or seller names. $1.50 per 1,000.",
+  "notes": "Title kept: changed 2026-10-13..15, under measurement. Flat price $0.0015 per listing = $1.50 per 1,000 (no tiers). Feed mode exists and is documented (60-day memory, 50,000 items per search, webhook alerts). All run numbers (939 listings in 25 s, 2,000 bikes in 60 s, 8,739 bikes under 4 min, 106/9/22 redactions, 15 promoted, 139 Phoenix iPhones) are from the current README."
+}

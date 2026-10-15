@@ -1,0 +1,7 @@
+{
+  "title": "Google Maps Email Extractor & Lead Scraper",
+  "titleChanged": false,
+  "seoTitle": "Google Maps Email Extractor — Validated B2B Leads",
+  "seoDescription": "Google Maps email extractor: B2B leads with emails found on each company's site, MX/SPF/DMARC grades and a 0-100 lead score. $7 per 1,000 leads.",
+  "notes": "Title kept: changed 2026-10-13..15, under measurement. Price quoted is the Free-plan tier ($0.007/lead = $7.00 per 1,000) plus the $0.015/GB start fee; paid plans go down to $4.50 per 1,000, which is what the Store page shows as 'from'. Competitor names from the current README (comparison table, alias note) were removed. Delta mode (sinceDatasetId) kept in the tutorial; this Actor has no feed mode. All stats (71% hit rate, 12 runs/181 businesses, per-market hit rates, 47 contact-page names in ten languages, ~120-result cap) come from the current README."
+}
