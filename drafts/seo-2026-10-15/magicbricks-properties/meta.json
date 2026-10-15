@@ -1,0 +1,7 @@
+{
+  "title": "Magicbricks Scraper — India Property for Sale & Rent, No Phones",
+  "titleChanged": false,
+  "seoTitle": "Magicbricks Scraper — India Property, No Phones",
+  "seoDescription": "Scrape Magicbricks listings for sale and rent in India: price in INR, BHK, area, locality, amenities, who posted it. No phones. $1.20 per 1,000 listings.",
+  "notes": "Title kept: it already starts with the exact buyer query 'Magicbricks Scraper' and no change adds a ranking word; it is 63 chars, and a 60-char variant that keeps every word is 'Magicbricks Scraper: India Property for Sale/Rent, No Phones' (60 chars: colon for the em dash, slash for the ampersand), noted but not applied. Flat price $0.0012 per property = $1.20 per 1,000, no Actor-start fee. No feed mode on this Actor. All run numbers (7,550 properties from five searches in about 10 min, 2,998 of Hyderabad's 46,474 in 8 min, 3,000 / 100-page site limit, one in six foreign residential IPs blocked) are from the current README."
+}

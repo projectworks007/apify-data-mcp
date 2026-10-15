@@ -1,0 +1,7 @@
+{
+  "title": "NoBroker Scraper + New Listings Feed & Alerts, No Phones",
+  "titleChanged": false,
+  "seoTitle": "NoBroker Scraper — India Rent, Sale & PG Listings",
+  "seoDescription": "Scrape NoBroker rentals, sales and PGs in Bangalore, Mumbai, Pune and more: rent, deposit, BHK, area, furnishing. No phones. $1.50 per 1,000 listings.",
+  "notes": "Title kept: changed 2026-10-13..15, under measurement. Flat price $0.0015 per property = $1.50 per 1,000, no Actor-start fee. Feed mode exists and is documented (60-day memory, 50,000 items per search, webhook POST, Slack/Discord). All run numbers (4,008 listings in 100 s, 5,000 of 23,097 Pune rentals in 238 s, 856 Whitefield, 152 Hinjewadi, 1,180 of 1,200 Gurgaon with 17 in Delhi, 1 in 3 descriptions, 1 in 100 empty localities) are from the current README."
+}

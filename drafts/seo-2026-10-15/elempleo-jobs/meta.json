@@ -1,0 +1,7 @@
+{
+  "title": "Elempleo Scraper — Colombia Job Offers & Salaries, No Phones",
+  "titleChanged": false,
+  "seoTitle": "Elempleo Scraper — Colombia Jobs & Salaries",
+  "seoDescription": "Scrape elempleo.com job offers in Colombia: company, city, salary band in COP, contract, experience, education, full ad. No phones. $0.90 per 1,000 jobs.",
+  "notes": "Title kept: it already starts with the exact buyer query 'Elempleo Scraper', is 60 chars and keeps every word; no change adds a ranking word. Flat price $0.0009 per job = $0.90 per 1,000, no Actor-start fee. No feed mode on this Actor. All run numbers (2,552 jobs in 6 min 57 s, 10,173 jobs in 8 min 55 s, 9,976 of 13,991 Bogotá, 1,490 of 1,494 Medellín, 616 remote, 1,883 salaries, 2,504/2,354/511 details, 48 closed pages, 98/65/6 redactions, 10,000 site limit) are from the current README."
+}

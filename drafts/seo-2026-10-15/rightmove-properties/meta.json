@@ -1,0 +1,7 @@
+{
+  "title": "Rightmove Scraper + New Listings Feed & Alerts, No Phones",
+  "titleChanged": false,
+  "seoTitle": "Rightmove Scraper — UK Property Listings & Prices",
+  "seoDescription": "Scrape Rightmove properties for sale and to rent: price, bedrooms, tenure, address, coordinates, price cuts, agent. No phones. $0.80 per 1,000 listings.",
+  "notes": "Title kept: changed 2026-10-13..15, under measurement. Flat price $0.0008 per property = $0.80 per 1,000, no Actor-start fee. Feed mode exists and is documented (60-day memory, 50,000 items per search, webhook POST, Slack/Discord). All run numbers (1,963 properties in 62 s, about 1,000 listings / 42 pages per search, over 60,000 London listings for sale) are from the current README; the current FAQ has only three substantive questions, so a fourth was taken from its price-changes bullet."
+}
