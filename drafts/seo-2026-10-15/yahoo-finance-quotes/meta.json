@@ -1,0 +1,7 @@
+{
+  "title": "Yahoo Finance Scraper — Stock Quotes, History & Fundamentals",
+  "titleChanged": false,
+  "seoTitle": "Yahoo Finance Scraper — Stock Quotes & History",
+  "seoDescription": "Scrape Yahoo Finance quotes for stocks, ETFs, crypto and indexes: price, volume, P/E, market cap, dividends, history, fundamentals. $1 per 1,000 symbols.",
+  "notes": "Title kept: it already starts with the exact buyer query 'Yahoo Finance Scraper' and is 60 chars. Tiered price: Free $0.001 per symbol = $1.00 per 1,000; Gold+ $0.0007 = $0.70 per 1,000. No feed mode on this Actor. Run numbers (12 symbols in 3.3 s, 50 symbols per request, tested markets) are from the current README; the 500-symbol watchlist example is arithmetic on the price."
+}

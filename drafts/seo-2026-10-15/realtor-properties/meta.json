@@ -1,0 +1,7 @@
+{
+  "title": "Realtor.com Scraper + New Listings Feed & Alerts, No Phones",
+  "titleChanged": false,
+  "seoTitle": "Realtor.com Scraper — Homes for Sale, Sold, Rent",
+  "seoDescription": "Scrape Realtor.com homes for sale, sold and for rent: price, beds, baths, address, MLS id, brokerage. No phones or agent names. $1.20 per 1,000 homes.",
+  "notes": "Title kept: changed 2026-10-13..15, under measurement. Tiered price: Free $0.0012 per home = $1.20 per 1,000; Gold+ $0.00084 = $0.84 per 1,000; no start fee. Feed mode exists (60-day memory, 50,000 per search, webhook alerts). All run numbers (8,000 homes in 164 s, 10,000 of 12,226 LA homes in 302 s, 293 King County condos, 600 Austin rentals, 600 Texas sales, 364 of 2,000 public-record sales, 796 of 2,000 landlord rentals) are from the current README."
+}

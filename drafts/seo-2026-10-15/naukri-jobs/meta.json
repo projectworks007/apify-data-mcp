@@ -1,0 +1,7 @@
+{
+  "title": "Naukri Jobs Scraper — India Jobs, Salary in Lakhs, Skills",
+  "titleChanged": false,
+  "seoTitle": "Naukri Jobs Scraper — Salary in Lakhs, No Phones",
+  "seoDescription": "Scrape naukri.com jobs: company or consultant, experience, salary in lakhs, locations, work mode, skills, full ad. No phones. $0.80 per 1,000 jobs.",
+  "notes": "Title kept: changed 2026-10-13..15, under measurement. Flat price $0.0008 per job = $0.80 per 1,000. No feed mode on this Actor. All run numbers (5,219 jobs in ~2 min, 11,480 of 11,709 Bangalore jobs in 7.5 min, 900 full ads in 236 s, 3,141 'Not disclosed', filter checks, 3 of 1,920 recruiter-name misses) are from the current README."
+}
