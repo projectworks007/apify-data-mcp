@@ -185,13 +185,13 @@ if (process.env.SHEET_ID) {
 }
 ```
 
-Add `"type": "module"` to `package.json` so the `import` syntax works, then:
+Add `"type": "module"` to `package.json` for the `import` syntax, then:
 
 ```bash
 GOOGLE_KEY_FILE=./service-account.json SHEET_ID=1AbC... node index.js
 ```
 
-Two queries at 25 leads each is 50 leads, which on the free plan costs 50 × $0.007 + $0.06 = $0.41.
+Two queries at 25 leads each is 50 leads: 50 × $0.007 + $0.06 = $0.41 on the free plan.
 
 ## 7. Re-running without paying twice
 

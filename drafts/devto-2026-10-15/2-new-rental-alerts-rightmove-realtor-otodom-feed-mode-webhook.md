@@ -126,7 +126,7 @@ Feed mode keeps a list of seen listings in a key-value store in your own Apify a
 - **Changing a filter starts a fresh memory.** If you raise `maxPrice` from 1500 to 1600, the hash changes, and the next run returns everything again, charged as a first run. Decide on the search before you schedule it.
 - **A listing is remembered for 60 days after it was last seen**, up to 50,000 per search. While it keeps appearing in the daily results the clock resets. If it disappears and comes back after more than 60 days, it is reported as new again, which is usually what you want.
 
-Items already in the memory are filtered before anything is written to the dataset, so they cost nothing and do not clutter your results.
+Items already in the memory are filtered out before anything is written, so they cost nothing.
 
 ## 4. The webhook payload
 
