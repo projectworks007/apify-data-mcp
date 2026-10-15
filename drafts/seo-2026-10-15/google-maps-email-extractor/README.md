@@ -8,7 +8,7 @@ One record per business:
 
 - `name`, `address`, `latitude`, `longitude`, `plusCode`, `googleMapsUrl` – the listing and where it is
 - `phone`, `whatsapp`, `website`
-- `primaryEmail`, `emails` – the best address (domain-matched when possible) and every address found on the company's site, ranked
+- `primaryEmail`, `emails` – the primary address (domain-matched when possible) and every address found on the company's site, ranked
 - `emailValidation` – `mxRecords`, `hasSpf`, `hasDmarc`, `smtpValid`, `isCatchAll` and a `deliverability` grade (high / medium / low)
 - `hasContactForm` – the site has a form when no address is published
 - `rating`, `reviewCount`, `reviewKeywords`, `category`, `industry`, `cuisine`, `priceLevel`, `openingHours`, `serviceOptions`
