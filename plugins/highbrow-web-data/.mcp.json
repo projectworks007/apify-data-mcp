@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "highbrow-web-data": {
+      "type": "http",
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/google-maps-email-extractor,highbrow_fame/ai-search-visibility-tracker,highbrow_fame/youtube-transcript-fast,highbrow_fame/naukri-jobs,highbrow_fame/stepstone-jobs,highbrow_fame/realtor-properties,highbrow_fame/rightmove-properties,highbrow_fame/offerup-listings,highbrow_fame/craigslist-listings,highbrow_fame/immoscout24-at-properties"
+    }
+  }
+}
