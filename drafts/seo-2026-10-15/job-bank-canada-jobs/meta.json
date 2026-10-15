@@ -1,0 +1,7 @@
+{
+  "title": "Job Bank Canada Scraper + New Jobs Feed & Alerts, No Phones",
+  "titleChanged": false,
+  "seoTitle": "Job Bank Canada Scraper — Jobs, Salaries, EN/FR",
+  "seoDescription": "Scrape Job Bank Canada (jobbank.gc.ca) jobs in English or French: employer, city, parsed salary, full ad text. No phones or e-mails. $0.80 per 1,000 jobs.",
+  "notes": "Title kept: changed 2026-10-13..15, under measurement. Flat price $0.0008 per job = $0.80 per 1,000 (no Actor-start fee). Feed mode exists and is documented (60-day memory, 50,000 items per search, webhook alerts for Slack/Discord). All run numbers (1,104 jobs in 26 s, 2,000 of 3,305 Ontario jobs in 63 s, 877 postings in 88 s, 13/71/9 redactions in 641 partner ads, 173 of 2,000 private households, 187 python jobs) are from the current README; partner-board brand names were left out of the draft."
+}

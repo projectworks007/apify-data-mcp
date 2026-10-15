@@ -1,0 +1,7 @@
+{
+  "title": "Totaljobs & CWJobs Scraper & API — UK Jobs & Salaries",
+  "titleChanged": false,
+  "seoTitle": "Totaljobs & CWJobs Scraper — UK Jobs & Salaries",
+  "seoDescription": "Scrape Totaljobs and CWJobs UK job ads: company, location, salary parsed to min/max/period, full ad. No recruiter names or phones. $1.20 per 1,000 jobs.",
+  "notes": "Title kept: changed 2026-10-13..15, under measurement. Flat price $0.0012 per job = $1.20 per 1,000 (no Actor-start fee). No feed mode on this Actor. All run numbers (1,301 jobs in 70 s, 88 ads in 22 s, 1,253 of 1,301 with a salary and 746 parsed, 40 jobs with 32 older, 1,000 of 3,114, 5 phones and 5 names in 46 ads) are from the current README."
+}

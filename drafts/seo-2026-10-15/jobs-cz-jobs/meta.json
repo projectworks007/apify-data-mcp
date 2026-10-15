@@ -1,0 +1,7 @@
+{
+  "title": "Jobs.cz & Prace.cz Scraper — Czech Jobs & Salaries, No Phones",
+  "titleChanged": false,
+  "seoTitle": "Jobs.cz & Prace.cz Scraper — Czech Jobs & Salaries",
+  "seoDescription": "Scrape Czech job ads from Jobs.cz and Prace.cz: company, place, salary in numbers, on-site/hybrid/remote, full ad text. No phones. $0.90 per 1,000 jobs.",
+  "notes": "Title kept: it already starts with the exact buyer query 'Jobs.cz & Prace.cz Scraper'; at 61 chars it is one over the 60 limit, and a 60-char variant that keeps every word would be 'Jobs.cz & Prace.cz Scraper — Czech Jobs, Salaries, No Phones', but no change adds a ranking word, so it is not proposed. Flat price $0.0009 per job = $0.90 per 1,000 (no Actor-start fee). No feed mode on this Actor. All run numbers (3,515 jobs in 85 s, 400 ads in 155 s, 10,000 Prace.cz jobs in 336 s, 1,350 of 8,340 Praha, 84/119/38/165 Ostrava, 1,666 of 3,515 salaries) are from the current README."
+}

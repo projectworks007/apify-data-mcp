@@ -1,0 +1,7 @@
+{
+  "title": "Reed.co.uk Scraper — UK Jobs & Salaries, No Phones",
+  "titleChanged": false,
+  "seoTitle": "Reed.co.uk Scraper — UK Jobs & Salaries, No Phones",
+  "seoDescription": "Scrape UK job ads from reed.co.uk: company, employer or agency, salary min/max/period, contract, remote/hybrid, full ad. No phones. $0.50 per 1,000 jobs.",
+  "notes": "Title kept: it already starts with the exact buyer query 'Reed.co.uk Scraper' and is 50 chars; no change would add a ranking word while keeping every current word under 60 chars. Flat price $0.0005 per job = $0.50 per 1,000 (no Actor-start fee). No feed mode on this Actor. All run numbers (854 jobs in 15 s, 565 full ads in 151 s, about 3.5 jobs/s, 9,998 of 21,058 London, 132 courses in 501, 4 of 565 offline, 299/299 and 88/88 filter checks, 9 duplicate ads, 6 of 3,415 ads with a name left) are from the current README."
+}

@@ -1,0 +1,7 @@
+{
+  "title": "InfoJobs Scraper + New Jobs Feed & Alerts, No Phones",
+  "titleChanged": false,
+  "seoTitle": "InfoJobs Scraper — Spain Jobs, Salaries & Alerts",
+  "seoDescription": "Scrape InfoJobs.net job offers in Spain: company, town, salary range, contract, working day, remote, applications, full ad. No names. $1.50 per 1,000 jobs.",
+  "notes": "Title kept: changed 2026-10-13..15, under measurement. Flat price $0.0015 per job = $1.50 per 1,000 (no Actor-start fee). Feed mode exists and is documented (60-day memory, 50,000 items per search, webhook alerts for Slack/Discord). All run numbers (2,011 jobs in 6 min 39 s, 447 in 21 s, 943 of 2,011 with a salary, 1,500 of 64,324, 23 names and 1 e-mail removed, 1,400/month vs 23,000-33,000/year) are from the current README."
+}
