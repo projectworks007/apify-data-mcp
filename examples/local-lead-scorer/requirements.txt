@@ -1,0 +1,4 @@
+# Runtime: none. lead_scorer.py uses only the Python 3.10+ standard library.
+# The model runs in Ollama (https://ollama.com), installed separately.
+# Development / tests:
+pytest>=8
