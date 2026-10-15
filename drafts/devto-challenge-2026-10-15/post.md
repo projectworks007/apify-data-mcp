@@ -32,7 +32,18 @@ cat out/summary.md
 
 Output on the eight fake businesses in `sample_leads.json` (names and domains are invented, `example.com` addresses):
 
-<!--TABLE-->
+| # | Score | Business | Category | Channel | Why (model, verbatim) |
+|---|---|---|---|---|---|
+| 1 | 85 | Example Bistro Alpha (fake) | Italian restaurant | email | Italian restaurant with modern website and high engagement – ideal booking software fit. |
+| 2 | 85 | Example Vegan Kitchen Theta (fake) | Vegan restaurant | email | Vegan restaurant with modern website and high email deliverability – ideal fit. |
+| 3 | 85 | Example Pizzeria Beta (fake) | Pizza restaurant | website | Pizza restaurant, operational, good rating – a strong fit for online booking software. |
+| 4 | 85 | Example Steakhouse Epsilon (fake) | Steak house | website | Steakhouse with online bookings is a good fit; website quality is a concern. |
+| 5 | 85 | Example Café Delta (fake) | Cafe | visit | Small cafe, food & beverage, operational - ideal online booking target. |
+| 6 | 35 | Example Hair Salon Eta (fake) | Hair salon | visit | Hair salons are not restaurants; no relevant contact channels available. |
+| 7 | 25 | Example Dental Clinic Gamma (fake) | Dentist | website | Dental clinics are not restaurants; low contact data and no online presence. |
+| 8 | 0 | Example Sushi Zeta (fake, closed) | Sushi restaurant | email | fallback: Business is closed |
+
+That is `gemma3:4b` on a 4-core CPU, 125 seconds for the eight rows. The closed sushi place never reaches the model; the code gives it a 0. The 85s are a tie the CSV breaks with the heuristic column, where the two e-mail-verified restaurants come out on top.
 
 The same run with `--no-model` gives the heuristic ranking, and `--query "restaurants in Budapest" --max-results 25` with an `APIFY_TOKEN` fetches real leads first.
 
@@ -52,7 +63,7 @@ The tool lives in [`examples/local-lead-scorer/`](https://github.com/projectwork
 
 **Lead source.** The Actor is mine; the tool calls it like any other user would: `POST /v2/acts/highbrow_fame~google-maps-email-extractor/runs` with `searchQueries` and `maxResults` (its real input fields, checked against the build's input schema), polls the run, reads the dataset, and follows the Actor's `autoExtend` pointer when a run restarts itself with a longer timeout. Raw leads are saved so you can re-score the same file against a different offer without a new run. Console exports load too; the flattened CSV keys the Apify export uses (`emailValidation/deliverability`, `techStack/0`) are rebuilt into nested fields.
 
-**Testing.** 27 pytest tests, no network: parsing edge cases, the heuristic, a mocked Ollama server, a mocked Apify run sequence, the fallback paths and the CLI outputs. I also ran the real thing: Ollama 0.40.4 on a 4-core CPU box, `gemma3:1b` and `gemma3:4b`, on the fake sample. <!--TIMINGS-->
+**Testing.** 27 pytest tests, no network: parsing edge cases, the heuristic, a mocked Ollama server, a mocked Apify run sequence, the fallback paths and the CLI outputs. I also ran the real thing: Ollama 0.40.4 on a 4-core CPU box, `gemma3:1b` and `gemma3:4b`, on the fake sample. `gemma3:1b` took 45-48 seconds for the eight rows and gave every open business 85, dentist and hair salon included, even after I added the rubric and the `is_target` field. `gemma3:4b` took 125-162 seconds and put the restaurants at 85, the hair salon at 35 and the dentist at 25. So 4B is the default and the README says why.
 
 What I did not do: no fine-tuning, no vector database, no agent framework. A ranked CSV did not need any of them.
 
@@ -64,7 +75,7 @@ Three concrete reasons for this build.
 
 **The marginal cost is zero.** Scoring 1,000 leads with a hosted model is a few cents to a few dollars every time you change the offer. With a local 4B model it is a coffee break. That changes how you use the tool: you re-score the same file for three different offers and compare, instead of picking one and hoping.
 
-**Small open models are enough for narrow jobs, and you can see why they fail.** A 1B model is visibly weaker than a 4B one on this task, and because the weights and the prompt are both open I could watch exactly where: the 1B model wanted to call a dentist a restaurant until the rubric told it not to. That feedback loop (change the prompt, re-run locally in a minute, diff the CSV) is what a closed API with a rate limit and a bill makes slow. It also means a user can swap the model for whatever their hardware runs (`--model qwen3:4b`) without touching the code.
+**Small open models are enough for narrow jobs, and you can see why they fail.** A 1B model is visibly weaker than a 4B one on this task, and because the weights and the prompt are both open I could watch exactly where: the 1B model kept calling a dentist a restaurant whatever the rubric said, and the 4B model stopped doing so once I asked it for an explicit `is_target` field before the score. That feedback loop (change the prompt, re-run locally in two minutes, diff the CSV) is what a closed API with a rate limit and a bill makes slow. It also means a user can swap the model for whatever their hardware runs (`--model qwen3:4b`) without touching the code.
 
 ## My First User
 
