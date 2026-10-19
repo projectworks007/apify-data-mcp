@@ -1,0 +1,3343 @@
+{
+ "cat_agents": {
+  "total": 4058,
+  "items": [
+   {
+    "actor": "silva95gustavo/google-ads-scraper",
+    "title": "Google Ads Scraper",
+    "users30d": 449,
+    "usersTotal": 4711,
+    "reviews": 19,
+    "rating": 4.897367597841098,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AGENTS",
+     "INTEGRATIONS"
+    ]
+   },
+   {
+    "actor": "apify/ai-web-scraper",
+    "title": "AI Web Scraper",
+    "users30d": 697,
+    "usersTotal": 9959,
+    "reviews": 15,
+    "rating": 4.8612878482457,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "AUTOMATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "starvibe/youtube-video-transcript",
+    "title": "YouTube Video Transcript",
+    "users30d": 3729,
+    "usersTotal": 14053,
+    "reviews": 23,
+    "rating": 5.000000000000001,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "VIDEOS",
+     "AGENTS",
+     "SOCIAL_MEDIA"
+    ]
+   },
+   {
+    "actor": "fatihtahta/reddit-scraper-search-fast",
+    "title": "Reddit Scraper | Enterprise Grade",
+    "users30d": 3076,
+    "usersTotal": 64079,
+    "reviews": 21,
+    "rating": 4.239160875345582,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AUTOMATION",
+     "SOCIAL_MEDIA",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "apify/ai-web-agent",
+    "title": "AI Web Agent",
+    "users30d": 5,
+    "usersTotal": 1883,
+    "reviews": 9,
+    "rating": 4.978091839095462,
+    "pricingModel": "FREE",
+    "categories": [
+     "AI",
+     "AGENTS",
+     "OPEN_SOURCE"
+    ]
+   },
+   {
+    "actor": "daniil.poletaev/backlink-building-agent",
+    "title": "Backlink Building Agent",
+    "users30d": 1,
+    "usersTotal": 496,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "OPEN_SOURCE",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "whoareyouanas/meta-ad-scraper",
+    "title": "Meta (Facebook) Ad Library Scraper - Fast & Reliable",
+    "users30d": 227,
+    "usersTotal": 3687,
+    "reviews": 14,
+    "rating": 4.973294990476728,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "SOCIAL_MEDIA",
+     "LEAD_GENERATION"
+    ]
+   },
+   {
+    "actor": "memo23/linkedin-company-people-scraper",
+    "title": "LinkedIn Company Employees Scraper [Optional Cookies, No Login]",
+    "users30d": 67,
+    "usersTotal": 1301,
+    "reviews": 11,
+    "rating": 4.103165616062142,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "agentx/all-jobs-scraper",
+    "title": "All Jobs Scraper (39 Sites)",
+    "users30d": 239,
+    "usersTotal": 3137,
+    "reviews": 11,
+    "rating": 3.689553247752002,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS",
+     "LEAD_GENERATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "apify/local-lead-generation-agent",
+    "title": "Local Lead Generation Agent",
+    "users30d": 15,
+    "usersTotal": 1593,
+    "reviews": 3,
+    "rating": 4.330814609396909,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "AGENTS",
+     "LEAD_GENERATION"
+    ]
+   },
+   {
+    "actor": "epctex/darkweb-scraper",
+    "title": "Dark Web Scraper",
+    "users30d": 22,
+    "usersTotal": 1910,
+    "reviews": 7,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AUTOMATION",
+     "NEWS",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "memo23/facebook-ads-library-scraper-cheerio",
+    "title": "Facebook Ads Library Scraper [Reach Included] (Richest output)",
+    "users30d": 144,
+    "usersTotal": 976,
+    "reviews": 9,
+    "rating": 4.79064949430586,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AGENTS",
+     "AI"
+    ]
+   },
+   {
+    "actor": "futurizerush/meta-threads-scraper",
+    "title": "Threads Scraper - Posts, Profiles & Search",
+    "users30d": 1694,
+    "usersTotal": 7166,
+    "reviews": 19,
+    "rating": 4.197217673795457,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "apify/openrouter",
+    "title": "OpenRouter",
+    "users30d": 395,
+    "usersTotal": 13770,
+    "reviews": 10,
+    "rating": 4.918589994466572,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "memo23/trustpilot-scraper-ppe",
+    "title": "Trustpilot All Reviews Scraper \ud83d\udcb0$0.65+ \u00b7 No Cap \u00b7 AI Insights",
+    "users30d": 675,
+    "usersTotal": 3149,
+    "reviews": 21,
+    "rating": 4.884763281535286,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AGENTS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "scrapeio/meta-facebook-ad-scrapper-using-ad-library-url-premium",
+    "title": "Facebook Ad Library Scraper \u2014 Facebook & Instagram Ads",
+    "users30d": 13,
+    "usersTotal": 1010,
+    "reviews": 7,
+    "rating": 4.838155293987952,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "eloquent_mountain/ai-web-scraper-extract-data-with-ease",
+    "title": "Ai Web Scraper - Extract Data With Ease",
+    "users30d": 6,
+    "usersTotal": 1515,
+    "reviews": 2,
+    "rating": 1.021656261812895,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "AUTOMATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "apify/competitive-intelligence-agent",
+    "title": "Competitive Intelligence Agent",
+    "users30d": 4,
+    "usersTotal": 237,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "AI"
+    ]
+   },
+   {
+    "actor": "supreme_coder/youtube-transcript-scraper",
+    "title": "Youtube Transcript Scraper - $0.7 per 1k",
+    "users30d": 1030,
+    "usersTotal": 3132,
+    "reviews": 2,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "AGENTS",
+     "VIDEOS"
+    ]
+   },
+   {
+    "actor": "ecommerce_leads/store-leads-14m-e-commerce-leads",
+    "title": "Store Leads (14M E-Commerce Leads)",
+    "users30d": 100,
+    "usersTotal": 1105,
+    "reviews": 2,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "LEAD_GENERATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "cspnair/rag-knowledge-graph-builder",
+    "title": "Rag Knowledge Graph Builder",
+    "users30d": 1,
+    "usersTotal": 132,
+    "reviews": 7,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "DEVELOPER_TOOLS",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "smart-digital/complete-seo-audit-tool",
+    "title": "Complete SEO Audit Tool - Website Crawler with 0-100 Scores",
+    "users30d": 91,
+    "usersTotal": 754,
+    "reviews": 3,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "SEO_TOOLS",
+     "DEVELOPER_TOOLS"
+    ]
+   },
+   {
+    "actor": "apify/influencer-discovery-agent",
+    "title": "Influencer Discovery Agent",
+    "users30d": 6,
+    "usersTotal": 508,
+    "reviews": 16,
+    "rating": 3.67933580304988,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "AI",
+     "SOCIAL_MEDIA"
+    ]
+   },
+   {
+    "actor": "futurizerush/threads-replies-scraper",
+    "title": "Threads Replies Scraper",
+    "users30d": 342,
+    "usersTotal": 1868,
+    "reviews": 2,
+    "rating": 1.788259889882642,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "agentify/claude-code",
+    "title": "Claude code",
+    "users30d": 62,
+    "usersTotal": 7191,
+    "reviews": 7,
+    "rating": 4.5781069790229,
+    "pricingModel": "FREE",
+    "categories": [
+     "AI",
+     "AGENTS",
+     "AUTOMATION"
+    ]
+   },
+   {
+    "actor": "xmiso_scrapers/flat-fee-monthly-rental-millions-us-businesses-leads-with-email",
+    "title": "Millions Of Businesses Leads With Email - Monthly Rental",
+    "users30d": 5,
+    "usersTotal": 255,
+    "reviews": 7,
+    "rating": 4.840138694572596,
+    "pricingModel": "FREE",
+    "categories": [
+     "LEAD_GENERATION",
+     "AUTOMATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "memo23/apify-clutch-cheerio",
+    "title": "Clutch.co Scraper \u2014 Agencies, Reviews, Emails + AI Insights",
+    "users30d": 168,
+    "usersTotal": 1095,
+    "reviews": 11,
+    "rating": 4.595845210531519,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AGENTS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/apify-indeed-cheerio",
+    "title": "\ud83d\udd25 Indeed Jobs Scraper Salary/60 Countries/No Login (/w EMAILS)",
+    "users30d": 16,
+    "usersTotal": 565,
+    "reviews": 9,
+    "rating": 4.989509670749198,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS",
+     "AGENTS",
+     "AI"
+    ]
+   },
+   {
+    "actor": "sian.agency/smart-idealista-scraper",
+    "title": "Smart Idealista Scraper - Spain, Italy, Portugal Properties",
+    "users30d": 39,
+    "usersTotal": 697,
+    "reviews": 9,
+    "rating": 4.382659301380612,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "LEAD_GENERATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "fatihtahta/product-hunt-scraper-fast-reliable-4-1k",
+    "title": "Product Hunt Scraper with Founders & Emails",
+    "users30d": 37,
+    "usersTotal": 501,
+    "reviews": 8,
+    "rating": 4.235082730488282,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AGENTS",
+     "AUTOMATION"
+    ]
+   },
+   {
+    "actor": "aitorsm/eventbrite",
+    "title": "Eventbrite Scraper \u2014 Event & Organizer Data",
+    "users30d": 81,
+    "usersTotal": 720,
+    "reviews": 3,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AUTOMATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "easyapi/linkedin-posts-generator",
+    "title": "\ud83d\ude80 LinkedIn Posts Generator",
+    "users30d": 2,
+    "usersTotal": 129,
+    "reviews": 1,
+    "rating": 1,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "AI",
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "memo23/facebook-marketplace-cheerio",
+    "title": "Facebook Marketplace | Search | Detail Pages | Scraper",
+    "users30d": 33,
+    "usersTotal": 408,
+    "reviews": 5,
+    "rating": 4.999999999999999,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "memo23/apify-linkedin-search-results-scraper",
+    "title": "Linkedin Search Jobs Scraper [Bypass 1K limit][Without Cookies]",
+    "users30d": 52,
+    "usersTotal": 569,
+    "reviews": 3,
+    "rating": 4.999999999999999,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "futurizerush/meta-threads-scraper-zh-tw",
+    "title": "Threads \u6d77\u5de1 - \u8cbc\u6587\u3001\u500b\u4eba\u6a94\u6848\u8207\u95dc\u9375\u5b57\u641c\u5c0b",
+    "users30d": 29,
+    "usersTotal": 440,
+    "reviews": 2,
+    "rating": 4.578073401002397,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "agentx/telegram-member-scraper",
+    "title": "Telegram Member Scraper",
+    "users30d": 61,
+    "usersTotal": 1465,
+    "reviews": 9,
+    "rating": 4.79947270233173,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "LEAD_GENERATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "agentx/instagram-trending-scraper",
+    "title": "Instagram Trending Scraper",
+    "users30d": 82,
+    "usersTotal": 552,
+    "reviews": 4,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "memo23/facebook-marketplace-scraper-ppe",
+    "title": "Facebook Marketplace [$1.5\ud83d\udcb0] Get newest items ASAP",
+    "users30d": 313,
+    "usersTotal": 1319,
+    "reviews": 16,
+    "rating": 4.813159358195969,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "agentx/tiktok-transcript",
+    "title": "TikTok Transcript",
+    "users30d": 15,
+    "usersTotal": 535,
+    "reviews": 3,
+    "rating": 4.999999999999999,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "VIDEOS",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "datarava/google-maps-emails-scraper",
+    "title": "Google Maps Emails Scraper",
+    "users30d": 11,
+    "usersTotal": 758,
+    "reviews": 11,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AUTOMATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "apify/comments-analyzer-agent",
+    "title": "Comments Analyzer Agent",
+    "users30d": 7,
+    "usersTotal": 347,
+    "reviews": 2,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "futurizerush/tiktok-comment-scraper",
+    "title": "Tiktok Comment Scraper",
+    "users30d": 26,
+    "usersTotal": 534,
+    "reviews": 3,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "memo23/linkedin-posts-scraper",
+    "title": "LinkedIn Posts Scraper [$0.99\ud83d\udcb0 No Cookies] Profile + Companies",
+    "users30d": 72,
+    "usersTotal": 213,
+    "reviews": 2,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AGENTS",
+     "AI"
+    ]
+   },
+   {
+    "actor": "adityalingwal/AI-brand-Visibility",
+    "title": "AI Brand Visibility",
+    "users30d": 1,
+    "usersTotal": 111,
+    "reviews": 7,
+    "rating": 4.166351115071395,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "AGENTS",
+     "SEO_TOOLS"
+    ]
+   },
+   {
+    "actor": "lukass/idealista-scraper",
+    "title": "Idealista.com",
+    "users30d": 14,
+    "usersTotal": 778,
+    "reviews": 2,
+    "rating": 1.360621918120712,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "workhard3000/news-intelligence-rag-extractor",
+    "title": "Universal News Article Intelligence Agent",
+    "users30d": 13,
+    "usersTotal": 83,
+    "reviews": 21,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "NEWS",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "memo23/facebook-public-group-posts-scraper",
+    "title": "Facebook Public Group Posts & Comments [Only $1.5\ud83d\udcb0] NO COOKIES",
+    "users30d": 571,
+    "usersTotal": 1972,
+    "reviews": 3,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AGENTS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "agentx/all-video-scraper",
+    "title": "All Video Scraper",
+    "users30d": 19,
+    "usersTotal": 299,
+    "reviews": 6,
+    "rating": 4.592697596883307,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "VIDEOS",
+     "AUTOMATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "memo23/youtube-video-details-scraper",
+    "title": "YouTube Shorts/Videos - SRT/VTT/Whisper AI Fallback/Translate",
+    "users30d": 12,
+    "usersTotal": 224,
+    "reviews": 5,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AGENTS",
+     "AI"
+    ]
+   },
+   {
+    "actor": "agenscrape/facebook-ad-library-scraper",
+    "title": "Facebook Ad Library Scraper",
+    "users30d": 10,
+    "usersTotal": 308,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AUTOMATION",
+     "DEVELOPER_TOOLS",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "agentx/indeed-jobs-scraper",
+    "title": "Indeed Jobs Scraper",
+    "users30d": 46,
+    "usersTotal": 349,
+    "reviews": 3,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS",
+     "LEAD_GENERATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "powerai/long-tail-keyword-discovery",
+    "title": "\ud83d\udd0d Long-Tail Keyword Discovery",
+    "users30d": 0,
+    "usersTotal": 102,
+    "reviews": 1,
+    "rating": 1,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "AI",
+     "SEO_TOOLS"
+    ]
+   },
+   {
+    "actor": "johnvc/google-events-api---access-google-events-data",
+    "title": "Google Events | Scrape Google Events for AI Agents",
+    "users30d": 43,
+    "usersTotal": 308,
+    "reviews": 4,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AUTOMATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "agentx/linkedin-jobs-scraper",
+    "title": "LinkedIn Jobs Scraper",
+    "users30d": 54,
+    "usersTotal": 489,
+    "reviews": 3,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS",
+     "LEAD_GENERATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "agentx/telegram-info-scraper",
+    "title": "Telegram Info Scraper",
+    "users30d": 76,
+    "usersTotal": 1078,
+    "reviews": 5,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AGENTS",
+     "INTEGRATIONS"
+    ]
+   },
+   {
+    "actor": "braveleads/company-organization-finder-apollo-linkedin",
+    "title": "Company | Organization Leads Finder similar to Apollo Linkedin",
+    "users30d": 39,
+    "usersTotal": 132,
+    "reviews": 14,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "scrapesage/linkedin-ad-library-scraper",
+    "title": "LinkedIn Ad Library Scraper - Competitor B2B Ads & Creatives",
+    "users30d": 41,
+    "usersTotal": 123,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "SOCIAL_MEDIA",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "powerai/linkedin-profiles-and-content-creator",
+    "title": "\ud83c\udfaf LinkedIn Profile & Content Creator",
+    "users30d": 0,
+    "usersTotal": 49,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "AI",
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "johnvc/google-scholar-api",
+    "title": "Google Scholar | Research Papers, Citations & Author Profiles",
+    "users30d": 64,
+    "usersTotal": 184,
+    "reviews": 3,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "INTEGRATIONS",
+     "DEVELOPER_TOOLS",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "agentx/glassdoor-jobs-scraper",
+    "title": "Glassdoor Jobs Scraper",
+    "users30d": 15,
+    "usersTotal": 462,
+    "reviews": 2,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS",
+     "LEAD_GENERATION",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "memo23/apify-redfin-cheerio",
+    "title": "Redfin.com | Search | Details with Email | Agent(s) | Scraper",
+    "users30d": 8,
+    "usersTotal": 109,
+    "reviews": 6,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "hi_world/Leadscraper",
+    "title": "Verified B2B Email & Phone Scraper| Lead Generation Tool",
+    "users30d": 4,
+    "usersTotal": 368,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "FREE",
+    "categories": [
+     "LEAD_GENERATION",
+     "AGENTS",
+     "AI"
+    ]
+   },
+   {
+    "actor": "agentx/telegram-chat-scraper",
+    "title": "Telegram Chat Scraper",
+    "users30d": 24,
+    "usersTotal": 362,
+    "reviews": 4,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AGENTS",
+     "INTEGRATIONS"
+    ]
+   },
+   {
+    "actor": "scrapesage/linkedin-company-scraper",
+    "title": "LinkedIn Company Scraper - Firmographics & B2B Leads",
+    "users30d": 42,
+    "usersTotal": 89,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "SOCIAL_MEDIA",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "buseta/google-maps-scraper",
+    "title": "Google Maps Scraper + AI Lead Generation & Outreach",
+    "users30d": 12,
+    "usersTotal": 157,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "AGENTS",
+     "LEAD_GENERATION"
+    ]
+   },
+   {
+    "actor": "fatihtahta/app-store-global-reviews-scraper",
+    "title": "App Store Reviews Scraper | Translation & All Countries",
+    "users30d": 2,
+    "usersTotal": 60,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "AI",
+     "DEVELOPER_TOOLS"
+    ]
+   },
+   {
+    "actor": "pintostudio/economic-calendar-data-investing-com",
+    "title": "Economic Calendar Data (Investing.com)",
+    "users30d": 37,
+    "usersTotal": 476,
+    "reviews": 2,
+    "rating": 4.059536882491967,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "DEVELOPER_TOOLS",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "scrapeio/instagram-scraper-premium",
+    "title": "Instagram Ad Library Scraper \u2014 Ads by Keyword or Page",
+    "users30d": 2,
+    "usersTotal": 125,
+    "reviews": 4,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AI",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "axlymxp/etsy-scraper",
+    "title": "Etsy Scraper",
+    "users30d": 11,
+    "usersTotal": 141,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AUTOMATION",
+     "ECOMMERCE",
+     "AGENTS"
+    ]
+   },
+   {
+    "actor": "easyapi/email-campaign-creator",
+    "title": "\ud83d\udce7 Email Campaign Creator",
+    "users30d": 0,
+    "usersTotal": 16,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "AI"
+    ]
+   },
+   {
+    "actor": "apify/ai-code-sandbox",
+    "title": "AI Code Sandbox",
+    "users30d": 28,
+    "usersTotal": 1188,
+    "reviews": 4,
+    "rating": 5,
+    "pricingModel": "FREE",
+    "categories": [
+     "AGENTS",
+     "DEVELOPER_TOOLS",
+     "OPEN_SOURCE"
+    ]
+   },
+   {
+    "actor": "hello.datawizards/Expedia-Review-Scraper-Pro",
+    "title": "Expedia Review Scraper Pro",
+    "users30d": 5,
+    "usersTotal": 121,
+    "reviews": 2,
+    "rating": 1.663638628934828,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "AUTOMATION",
+     "LEAD_GENERATION"
+    ]
+   },
+   {
+    "actor": "techforce.global/all-events-scraper",
+    "title": "All Events Scraper",
+    "users30d": 3,
+    "usersTotal": 116,
+    "reviews": 9,
+    "rating": 4.856402188018905,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "AUTOMATION",
+     "LEAD_GENERATION"
+    ]
+   },
+   {
+    "actor": "lexis-solutions/acquire-scraper",
+    "title": "Acquire.com Scraper",
+    "users30d": 4,
+    "usersTotal": 66,
+    "reviews": 2,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "LEAD_GENERATION",
+     "NEWS"
+    ]
+   },
+   {
+    "actor": "powerai/veo3-video-generator",
+    "title": "Veo3 Video Generator",
+    "users30d": 16,
+    "usersTotal": 766,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "AGENTS",
+     "VIDEOS"
+    ]
+   }
+  ]
+ },
+ "cat_mcp": {
+  "total": 2779,
+  "items": [
+   {
+    "actor": "6sigmag/fast-website-content-crawler",
+    "title": "Fast Website Content Crawler",
+    "users30d": 134,
+    "usersTotal": 4664,
+    "reviews": 7,
+    "rating": 4.901418590329143,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AI",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "dz_omar/youtube-transcript-metadata-extractor",
+    "title": "Youtube Transcript",
+    "users30d": 80,
+    "usersTotal": 1035,
+    "reviews": 21,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "VIDEOS",
+     "MCP_SERVERS",
+     "SOCIAL_MEDIA"
+    ]
+   },
+   {
+    "actor": "autofacts/shopify",
+    "title": "Shopify Scraper",
+    "users30d": 86,
+    "usersTotal": 2364,
+    "reviews": 7,
+    "rating": 4.190550058916935,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "DEVELOPER_TOOLS",
+     "ECOMMERCE",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "michael.g/email-verifier-validator",
+    "title": "Email Verifier & Validator | Bulk Email Verification",
+    "users30d": 489,
+    "usersTotal": 2230,
+    "reviews": 37,
+    "rating": 4.73359655757667,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AUTOMATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/skool-posts-with-comments-scraper",
+    "title": "Skool Classroom Media/Video \u00b7 Posts \u00b7 Nested Comments",
+    "users30d": 47,
+    "usersTotal": 1116,
+    "reviews": 23,
+    "rating": 4.853206385586002,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "SOCIAL_MEDIA",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "davidsharadbhatt/crunchbase-company-scraper",
+    "title": "Crunchbase Scraper - Unlimited Data No API Pricing 100% Success",
+    "users30d": 65,
+    "usersTotal": 1115,
+    "reviews": 14,
+    "rating": 4.821499346683364,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AUTOMATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/trustpilot-scraper-ppe",
+    "title": "Trustpilot All Reviews Scraper \ud83d\udcb0$0.65+ \u00b7 No Cap \u00b7 AI Insights",
+    "users30d": 675,
+    "usersTotal": 3149,
+    "reviews": 21,
+    "rating": 4.884763281535286,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AGENTS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/idealista-scraper",
+    "title": "Idealista Scraper\ud83d\udcb0$0.65+/1K Spain Italy Portugal France Emails",
+    "users30d": 176,
+    "usersTotal": 929,
+    "reviews": 10,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/naukri-scraper",
+    "title": "Naukri Job Scraper \u2014 India + Gulf \u00b7 Emails & 41 Fields",
+    "users30d": 389,
+    "usersTotal": 5075,
+    "reviews": 17,
+    "rating": 4.73471108101766,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/realtor-search-cheerio",
+    "title": "Realtor.com [$1.5\ud83d\udcb0] [Download All Agents] [No 3K Limit]",
+    "users30d": 102,
+    "usersTotal": 684,
+    "reviews": 15,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/zillow-agents-leads-scraper-ppe",
+    "title": "Zillow Agents Leads [Download over 1M of Agents]",
+    "users30d": 184,
+    "usersTotal": 967,
+    "reviews": 10,
+    "rating": 4.999999999999999,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/apify-clutch-cheerio",
+    "title": "Clutch.co Scraper \u2014 Agencies, Reviews, Emails + AI Insights",
+    "users30d": 168,
+    "usersTotal": 1095,
+    "reviews": 11,
+    "rating": 4.595845210531519,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AGENTS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "dz_omar/youtube-playlist-extractor",
+    "title": "\ud83c\udfac Youtube Playlist Extractor",
+    "users30d": 49,
+    "usersTotal": 475,
+    "reviews": 14,
+    "rating": 4.92315807359831,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "VIDEOS",
+     "SOCIAL_MEDIA",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "dz_omar/ai-lead-extractor",
+    "title": "AI Scraper",
+    "users30d": 5,
+    "usersTotal": 186,
+    "reviews": 14,
+    "rating": 3.911698381804776,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "MCP_SERVERS",
+     "SEO_TOOLS"
+    ]
+   },
+   {
+    "actor": "memo23/immobilienscout24-scraper",
+    "title": "ImmoScout24 ImmobilienScout24 .de|.ch|.at + Price-Cut Archive",
+    "users30d": 190,
+    "usersTotal": 778,
+    "reviews": 10,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "smacient/google-keyword-planner-mcp",
+    "title": "Google Keyword Planner MCP",
+    "users30d": 49,
+    "usersTotal": 732,
+    "reviews": 8,
+    "rating": 4.165825794567466,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SEO_TOOLS",
+     "MCP_SERVERS",
+     "INTEGRATIONS"
+    ]
+   },
+   {
+    "actor": "dz_omar/youtube-comments-scraper",
+    "title": "\ud83d\udcac YouTube Comments Scraper",
+    "users30d": 6,
+    "usersTotal": 98,
+    "reviews": 12,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "VIDEOS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "agentx/video-transcript",
+    "title": "Video Transcript",
+    "users30d": 39,
+    "usersTotal": 881,
+    "reviews": 7,
+    "rating": 4.068263091405321,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "VIDEOS",
+     "AI",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "datascoutapi/website-content-crawler-pro",
+    "title": "Website Content Crawler Pro",
+    "users30d": 10,
+    "usersTotal": 575,
+    "reviews": 3,
+    "rating": 3.656051162985842,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AUTOMATION",
+     "MCP_SERVERS",
+     "DEVELOPER_TOOLS"
+    ]
+   },
+   {
+    "actor": "memo23/immobiliare-scraper",
+    "title": "Immobiliare.it [Only $0.70\ud83d\udcb0]| Search | Detail Pages | Agencies",
+    "users30d": 117,
+    "usersTotal": 502,
+    "reviews": 9,
+    "rating": 5.000000000000001,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "disarming_screw-owner/1-2-000-leads-apollo-scraper-replacement-b2b-b2c-leads",
+    "title": "Leads Scraper $1/2,000 Apollo/ZoomInfo Scraper B2B B2C",
+    "users30d": 597,
+    "usersTotal": 1302,
+    "reviews": 4,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "MCP_SERVERS",
+     "INTEGRATIONS"
+    ]
+   },
+   {
+    "actor": "memo23/facebook-marketplace-scraper-ppe",
+    "title": "Facebook Marketplace [$1.5\ud83d\udcb0] Get newest items ASAP",
+    "users30d": 313,
+    "usersTotal": 1319,
+    "reviews": 16,
+    "rating": 4.813159358195969,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AGENTS",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "autofacts/sephora",
+    "title": "Sephora Product Scraper \u2014 Prices, Stock, Shades & Ratings",
+    "users30d": 31,
+    "usersTotal": 469,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "DEVELOPER_TOOLS",
+     "ECOMMERCE",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "thirdwatch/linkedin-company-employees-scraper",
+    "title": "LinkedIn Company Employees Scraper & New Hire Monitor",
+    "users30d": 111,
+    "usersTotal": 1096,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "SOCIAL_MEDIA",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/facebook-public-group-posts-scraper",
+    "title": "Facebook Public Group Posts & Comments [Only $1.5\ud83d\udcb0] NO COOKIES",
+    "users30d": 571,
+    "usersTotal": 1972,
+    "reviews": 3,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "AGENTS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "6sigmag/instagram-profile-hunter-bulk-website-to-instagram-mapper",
+    "title": "Instagram Profile Hunter: Bulk Website to Instagram Mapper",
+    "users30d": 3,
+    "usersTotal": 252,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "INTEGRATIONS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/stepstone-search-cheerio-ppr",
+    "title": "StepStone Job Scraper [Only $1\ud83d\udcb0] Keyword/URL Search + Emails",
+    "users30d": 418,
+    "usersTotal": 1696,
+    "reviews": 9,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "autofacts/farfetch",
+    "title": "Farfetch Scraper",
+    "users30d": 18,
+    "usersTotal": 309,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "DEVELOPER_TOOLS",
+     "ECOMMERCE",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/mobile-de-scraper",
+    "title": "Mobile.de [$0.8\ud83d\udcb0] Unlimited Search & Detail [Richest Output]",
+    "users30d": 106,
+    "usersTotal": 429,
+    "reviews": 8,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AUTOMATION",
+     "DEVELOPER_TOOLS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "themineworks/linkedin-company-details",
+    "title": "LinkedIn Company Scraper | 12 Fields, No Login or Cookies",
+    "users30d": 39,
+    "usersTotal": 78,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "SOCIAL_MEDIA",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "khadinakbar/linkedin-posts-scraper",
+    "title": "LinkedIn Posts Scraper",
+    "users30d": 43,
+    "usersTotal": 118,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "hlymrk/html-web-media-scraper",
+    "title": "Website Media Extractor & Scraper",
+    "users30d": 7,
+    "usersTotal": 326,
+    "reviews": 4,
+    "rating": 4.878251003332617,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "MCP_SERVERS",
+     "SEO_TOOLS",
+     "OTHER"
+    ]
+   },
+   {
+    "actor": "johnvc/Google-AI-Overview-API",
+    "title": "Google AI Overview API",
+    "users30d": 89,
+    "usersTotal": 272,
+    "reviews": 6,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "SEO_TOOLS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "agentx/youtube-transcript",
+    "title": "YouTube Transcript",
+    "users30d": 12,
+    "usersTotal": 507,
+    "reviews": 4,
+    "rating": 4.716102555166397,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "VIDEOS",
+     "AI",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/apify-bayut-scraper",
+    "title": "BAYUT [$0.89\ud83d\udcb0] | Search & Detail(s) & Agent(s) & Company(s)",
+    "users30d": 72,
+    "usersTotal": 468,
+    "reviews": 6,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "blessiticus/email-verifier-pro",
+    "title": "Email Verifier & Validator|0.85$/1k - Bulk Email No API",
+    "users30d": 92,
+    "usersTotal": 249,
+    "reviews": 23,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AUTOMATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "johnvc/bing-copilot-api",
+    "title": "Bing Copilot AI Answers API | Microsoft AEO Monitoring",
+    "users30d": 36,
+    "usersTotal": 57,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "SEO_TOOLS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "automation-lab/g2-scraper",
+    "title": "G2 Reviews & Products Scraper",
+    "users30d": 238,
+    "usersTotal": 952,
+    "reviews": 2,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "BUSINESS",
+     "ECOMMERCE",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/expedia-scraper",
+    "title": "Expedia Reviews Scraper \u2014 Hotels.com & Activities \u00b7 $2.5/1K \ud83d\udcb0",
+    "users30d": 139,
+    "usersTotal": 459,
+    "reviews": 8,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "TRAVEL",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/loopnet-scraper-ppe",
+    "title": "LoopNet US + UK + Realla [$1.5\ud83d\udcb0] Commercial Property Scraper",
+    "users30d": 126,
+    "usersTotal": 525,
+    "reviews": 14,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "johnvc/naver-ai-overview-api",
+    "title": "Naver AI Overview API | Korean AEO Monitoring",
+    "users30d": 14,
+    "usersTotal": 26,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "SEO_TOOLS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "halilc4/research-tools-mcp",
+    "title": "Research Tools Mcp",
+    "users30d": 23,
+    "usersTotal": 117,
+    "reviews": 1,
+    "rating": 1,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SEO_TOOLS",
+     "MCP_SERVERS",
+     "AI"
+    ]
+   },
+   {
+    "actor": "automation-lab/spotify-scraper",
+    "title": "Spotify Scraper",
+    "users30d": 116,
+    "usersTotal": 671,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "6sigmag/fast-google-search-results-scraper",
+    "title": "Fast Google Search Results Scraper",
+    "users30d": 2,
+    "usersTotal": 338,
+    "reviews": 4,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "INTEGRATIONS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "khadinakbar/ai-search-brand-monitor",
+    "title": "AI Brand Monitor \u2014 Perplexity, ChatGPT, Claude & Gemini",
+    "users30d": 43,
+    "usersTotal": 267,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "MARKETING",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "michael.g/whatsapp-number-validator",
+    "title": "WhatsApp Number Validator & Checker",
+    "users30d": 53,
+    "usersTotal": 227,
+    "reviews": 2,
+    "rating": 5.000000000000001,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AUTOMATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "fayoussef/bulk-llm-runner",
+    "title": "Run ChatGPT, Claude, Gemini & DeepSeek in Bulk (No API Key)",
+    "users30d": 77,
+    "usersTotal": 459,
+    "reviews": 2,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "AGENTS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "johnvc/google-images-api",
+    "title": "Google Images API - $0.10 per 1,000 - Fast Image API",
+    "users30d": 245,
+    "usersTotal": 500,
+    "reviews": 4,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SEO_TOOLS",
+     "DEVELOPER_TOOLS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "bovi/company-lookup-scraper",
+    "title": "Company Lookup \u2013 B2B Firmographic Enrichment | $1.50/1K",
+    "users30d": 43,
+    "usersTotal": 83,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "OTHER",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "johnvc/google-local-services-api",
+    "title": "Google Local Services API | Local Services Ads & Lead Gen",
+    "users30d": 41,
+    "usersTotal": 89,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "SEO_TOOLS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "khadinakbar/tiktok-trending-videos-scraper",
+    "title": "TikTok Trending Videos Scraper",
+    "users30d": 71,
+    "usersTotal": 291,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "VIDEOS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "memo23/craigslist-scraper",
+    "title": "Craigslist with Optional Emails [Only $1.5\ud83d\udcb0] Search | Details",
+    "users30d": 88,
+    "usersTotal": 377,
+    "reviews": 5,
+    "rating": 4.999999999999999,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "johnvc/google-lens-api",
+    "title": "Google Lens API | Reverse Image and Visual Product Search",
+    "users30d": 107,
+    "usersTotal": 225,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "ECOMMERCE",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "johnvc/google-ads-transparency-api",
+    "title": "Google Ads Transparency API | Ad Library for Marketing Agents",
+    "users30d": 11,
+    "usersTotal": 20,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AI",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "johnvc/google-maps-reviewer-geo-profile-api",
+    "title": "Google Maps Reviewer Geo Profile API",
+    "users30d": 7,
+    "usersTotal": 19,
+    "reviews": 2,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "DEVELOPER_TOOLS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "lentic_clockss/linkedin-jobs-scraper",
+    "title": "LinkedIn Jobs Scraper - No Login, Salary & Company Data",
+    "users30d": 4,
+    "usersTotal": 44,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "datascoutapi/email-address-validator",
+    "title": "Email Address Validator (2026) Letest",
+    "users30d": 1,
+    "usersTotal": 73,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AUTOMATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "datascoutapi/DomainDaddy",
+    "title": "Domain Availability, Expiry, WHOIS, DNS, IP, ASN, 70+ TLD",
+    "users30d": 3,
+    "usersTotal": 134,
+    "reviews": 4,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "DEVELOPER_TOOLS",
+     "SEO_TOOLS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "bovi/meta-ads-library-scraper",
+    "title": "Meta Ad Library Spy \u2014 Winning & Scaled Facebook Ads | $4/1K",
+    "users30d": 32,
+    "usersTotal": 120,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "MARKETING",
+     "SOCIAL_MEDIA",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "johnvc/walmart-api",
+    "title": "Walmart API | Product, Seller, Price and Review Data",
+    "users30d": 10,
+    "usersTotal": 20,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "BUSINESS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "khadinakbar/instagram-hashtag-scraper",
+    "title": "Instagram Hashtag Posts Scraper",
+    "users30d": 91,
+    "usersTotal": 665,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "MCP_SERVERS",
+     "MARKETING"
+    ]
+   },
+   {
+    "actor": "dz_omar/propertyfinder-scraper",
+    "title": "Propertyfinder Scraper",
+    "users30d": 0,
+    "usersTotal": 51,
+    "reviews": 2,
+    "rating": 4.999999999999999,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "MCP_SERVERS",
+     "DEVELOPER_TOOLS"
+    ]
+   },
+   {
+    "actor": "johnvc/opentable-reviews-api",
+    "title": "OpenTable Reviews API | Restaurant Review Intelligence",
+    "users30d": 13,
+    "usersTotal": 30,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "TRAVEL",
+     "AI",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "themineworks/b2b-leads-finder",
+    "title": "B2B Leads Finder | Like Apollo",
+    "users30d": 71,
+    "usersTotal": 406,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "BUSINESS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "khadinakbar/skip-trace-property-owner",
+    "title": "Skip Trace Property Owner \u2014 Phone, Email & Address Finder",
+    "users30d": 53,
+    "usersTotal": 428,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AUTOMATION",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "blackfalcondata/greenhouse-scraper",
+    "title": "Greenhouse, Lever, Ashby, SmartRecruiters, Personio Job Scraper",
+    "users30d": 10,
+    "usersTotal": 47,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "sourabhbgp/trustpilot-scraper",
+    "title": "Trustpilot Scraper: Reviews, Companies, Categories, Contacts",
+    "users30d": 117,
+    "usersTotal": 359,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AGENTS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "kazkn/vinted-mcp-server",
+    "title": "Vinted MCP Server \u2014 AI-Powered Marketplace Data",
+    "users30d": 18,
+    "usersTotal": 115,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "MCP_SERVERS",
+     "ECOMMERCE",
+     "AI"
+    ]
+   },
+   {
+    "actor": "khadinakbar/google-trends-scraper",
+    "title": "Google Trends Scraper \u2014 Interest, Regions & Queries",
+    "users30d": 263,
+    "usersTotal": 593,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SEO_TOOLS",
+     "MARKETING",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "lentic_clockss/us-real-estate-scraper",
+    "title": "Zumper Scraper - Sales & Rental Listings",
+    "users30d": 1,
+    "usersTotal": 21,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "themineworks/threads-scraper",
+    "title": "Threads Scraper | 25 Fields, 4 Modes, No Login, Monitor",
+    "users30d": 116,
+    "usersTotal": 394,
+    "reviews": 3,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "johnvc/bing-search-api",
+    "title": "Bing Search API | SERP, Rank Tracking and Ads Data",
+    "users30d": 8,
+    "usersTotal": 10,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SEO_TOOLS",
+     "BUSINESS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "alizarin_refrigerator-owner/local-seo-mcp-server",
+    "title": "Local SEO MCP Server for Claude & AI Assistants",
+    "users30d": 0,
+    "usersTotal": 14,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "MCP_SERVERS",
+     "SEO_TOOLS",
+     "AUTOMATION"
+    ]
+   },
+   {
+    "actor": "autofacts/universal-web-printer",
+    "title": "Universal Web Printer",
+    "users30d": 10,
+    "usersTotal": 61,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "DEVELOPER_TOOLS",
+     "AUTOMATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "autofacts/lululemon-scraper",
+    "title": "Lululemon Scraper",
+    "users30d": 2,
+    "usersTotal": 52,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "DEVELOPER_TOOLS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "fastcrawler/twitter-x-list-tweets-scraper-0-25-1k-pay-per-result",
+    "title": "Twitter X List Tweets Scraper 0.25/1k Pay Per Result",
+    "users30d": 1,
+    "usersTotal": 34,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "MCP_SERVERS",
+     "AI"
+    ]
+   },
+   {
+    "actor": "johnvc/google-maps-contributor-reviews-api",
+    "title": "Google Maps Contributor Reviews | Reviewer History API",
+    "users30d": 26,
+    "usersTotal": 94,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "DEVELOPER_TOOLS",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "hgservices/speech-to-text",
+    "title": "Speech-to-Text Transcription",
+    "users30d": 56,
+    "usersTotal": 399,
+    "reviews": 4,
+    "rating": 5.000000000000001,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "VIDEOS",
+     "AI",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "khadinakbar/google-jobs-scraper",
+    "title": "Google Jobs Scraper \u2014 Salary, Apply Links & MCP-Ready",
+    "users30d": 25,
+    "usersTotal": 421,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS",
+     "LEAD_GENERATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "visita/wordpress-universal-content-bridge",
+    "title": "WordPress Universal Content Bridge",
+    "users30d": 0,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "INTEGRATIONS",
+     "AUTOMATION",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "mrbridge/espn-mcp-server",
+    "title": "ESPN MCP Server: live scores and sports API",
+    "users30d": 76,
+    "usersTotal": 251,
+    "reviews": 1,
+    "rating": 5,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "MCP_SERVERS",
+     "INTEGRATIONS"
+    ]
+   },
+   {
+    "actor": "agentx/loom-transcript",
+    "title": "Loom Transcript",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "VIDEOS",
+     "AI",
+     "MCP_SERVERS"
+    ]
+   },
+   {
+    "actor": "khadinakbar/etsy-all-in-one-scraper",
+    "title": "Etsy Scraper \u2014 Products, Prices, Reviews & Shop Data",
+    "users30d": 20,
+    "usersTotal": 304,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "MCP_SERVERS",
+     "SEO_TOOLS"
+    ]
+   },
+   {
+    "actor": "alizarin_refrigerator-owner/social-media-mcp-server",
+    "title": "Social Media MCP Server - Unified Multi-Platform Posting API",
+    "users30d": 0,
+    "usersTotal": 13,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SOCIAL_MEDIA",
+     "MCP_SERVERS",
+     "AUTOMATION"
+    ]
+   },
+   {
+    "actor": "alizarin_refrigerator-owner/lbis-pro",
+    "title": "The Local Business Intelligence Suite",
+    "users30d": 0,
+    "usersTotal": 10,
+    "reviews": 1,
+    "rating": 4,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "MCP_SERVERS",
+     "SEO_TOOLS"
+    ]
+   }
+  ]
+ },
+ "ours": {
+  "total": 87,
+  "items": [
+   {
+    "actor": "highbrow_fame/ai-search-visibility-tracker",
+    "title": "AI Brand Monitor \u2014 AI Search Visibility in ChatGPT & Perplexity",
+    "users30d": 3,
+    "usersTotal": 19,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "AI",
+     "SEO_TOOLS",
+     "MARKETING"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/google-maps-email-extractor",
+    "title": "Google Maps Email Extractor & Lead Scraper",
+    "users30d": 12,
+    "usersTotal": 111,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "AUTOMATION",
+     "SEO_TOOLS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/offerup-listings",
+    "title": "OfferUp Scraper \u2014 Local Listings, Prices & Details, No Phones",
+    "users30d": 1,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "AUTOMATION",
+     "LEAD_GENERATION"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/rozee-jobs",
+    "title": "Rozee.pk Scraper \u2014 Pakistan Jobs & Salaries, No Phones",
+    "users30d": 2,
+    "usersTotal": 4,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/immoscout24-at-properties",
+    "title": "ImmoScout24 Austria Scraper \u2014 Property Listings, Rent & Sale",
+    "users30d": 3,
+    "usersTotal": 3,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "BUSINESS",
+     "LEAD_GENERATION"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/marktplaats-2dehands-listings",
+    "title": "Marktplaats & 2dehands Scraper \u2014 Listings, Prices, No Phones",
+    "users30d": 2,
+    "usersTotal": 3,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "OTHER"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/bestjobs-ro-jobs",
+    "title": "BestJobs Scraper \u2014 Romania Jobs & Salaries, No Phones",
+    "users30d": 2,
+    "usersTotal": 3,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS",
+     "LEAD_GENERATION",
+     "AUTOMATION"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/aldi-au-products",
+    "title": "ALDI Australia Scraper \u2014 Products, Prices & Special Buys",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/domain-authority-rank",
+    "title": "Domain Authority & Website Rank Checker API \u2014 Bulk Open Data",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SEO_TOOLS",
+     "DEVELOPER_TOOLS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/google-hotels-prices",
+    "title": "Google Hotels Prices \u2014 Every Booking Site, Any Dates",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "TRAVEL",
+     "ECOMMERCE",
+     "MARKETING"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/naukri-jobs",
+    "title": "Naukri Jobs Scraper \u2014 India Jobs, Salary in Lakhs, Skills",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/bienici-properties",
+    "title": "Bien'ici Scraper \u2014 France Property Listings & Prices, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/emlakjet-properties",
+    "title": "Emlakjet Scraper \u2014 Turkey Property Listings & Prices, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/etuovi-properties",
+    "title": "Etuovi Scraper \u2014 Finland Property Listings & Prices, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/craigslist-listings",
+    "title": "Craigslist Marketplace Scraper \u2014 For Sale, Housing, Cars, Jobs",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "REAL_ESTATE",
+     "LEAD_GENERATION"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/arbeitsagentur-jobs",
+    "title": "Arbeitsagentur Scraper \u2014 German Job Ads (Jobsuche), No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/stellenanzeigen-jobs",
+    "title": "stellenanzeigen.de Scraper \u2014 German Jobs & Salaries, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/xing-jobs",
+    "title": "XING Jobs Scraper \u2014 DACH Jobs, Salaries & Full Ads, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/jobstreet-jobsdb-jobs",
+    "title": "JobStreet & JobsDB Scraper \u2014 Malaysia, Asia Jobs & Salaries",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/hellowork-jobs",
+    "title": "HelloWork Scraper \u2014 French Jobs, Salaries, CDI/CDD, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/eventbrite-events",
+    "title": "Eventbrite Events Scraper \u2014 Dates, Venues, Prices & Organizers",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "TRAVEL",
+     "MARKETING"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/remote-jobs-aggregator",
+    "title": "Remote Jobs Scraper \u2014 Himalayas, Remote OK, WWR & Arbeitnow",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/rss-feed-reader",
+    "title": "RSS & Atom Feed Reader \u2014 Any Feed or Website, One Clean List",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "NEWS",
+     "AUTOMATION"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/website-tech-stack",
+    "title": "Website Tech Stack Detector \u2014 CMS, Frameworks, Analytics & More",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "DEVELOPER_TOOLS",
+     "LEAD_GENERATION"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/pdf-text-extractor",
+    "title": "PDF Text Extractor & Scraper \u2014 Pages & Metadata, Any Link",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "DEVELOPER_TOOLS",
+     "AI"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/domain-whois-dns-ssl",
+    "title": "Domain Checker \u2014 WHOIS, DNS, SSL & Expiry Dates in Bulk",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "DEVELOPER_TOOLS",
+     "SEO_TOOLS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/substack-posts",
+    "title": "Substack Scraper \u2014 Posts, Likes, Comments & Full Text",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "NEWS",
+     "MARKETING"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/hacker-news-stories",
+    "title": "Hacker News Scraper \u2014 Stories, Comments & Search",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "NEWS",
+     "DEVELOPER_TOOLS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/sitemap-url-extractor",
+    "title": "Sitemap Extractor & Scraper \u2014 URLs, Dates, Images & hreflang",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "SEO_TOOLS",
+     "DEVELOPER_TOOLS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/steam-games-reviews",
+    "title": "Steam Scraper \u2014 Games, Prices & Reviews, No Login",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "GAMES"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/woolworths-au-products",
+    "title": "Woolworths Australia Scraper \u2014 Products, Prices & Specials",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/coles-au-products",
+    "title": "Coles Australia Scraper \u2014 Store Prices, Products & Specials",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/google-trends-reliable",
+    "title": "Google Trends Scraper \u2014 Interest Over Time, Regions & Queries",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "MARKETING",
+     "SEO_TOOLS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/redfin-properties",
+    "title": "Redfin Scraper + New Listings Feed & Alerts, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/karriere-at-jobs",
+    "title": "karriere.at Scraper \u2014 Austrian Jobs & Salaries, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/autotrader-ca-listings",
+    "title": "AutoTrader.ca Scraper \u2014 Canada Car Listings & Prices, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/blocket-listings",
+    "title": "Blocket Scraper \u2014 Sweden Marketplace, Cars & Boats, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "OTHER"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/immoweb-properties",
+    "title": "Immoweb Scraper \u2014 Belgium Real Estate, Property Listings",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/welcome-to-the-jungle-jobs",
+    "title": "Welcome to the Jungle Scraper \u2014 Jobs, Salaries & Remote Work",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/stepstone-jobs",
+    "title": "StepStone Scraper \u2014 German Job Listings, Full Ads, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/gumtree-uk-listings",
+    "title": "Gumtree Scraper \u2014 UK Classifieds, Cars & Property, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "REAL_ESTATE",
+     "OTHER"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/propertyfinder-properties",
+    "title": "Property Finder Scraper \u2014 UAE & Gulf Properties, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/cochesnet-listings",
+    "title": "Coches.net Scraper \u2014 Spain Used Cars & Prices, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/kijiji-listings",
+    "title": "Kijiji Scraper \u2014 Canada Classifieds, Cars & Rentals, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "OTHER",
+     "REAL_ESTATE",
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/immowelt-properties",
+    "title": "Immowelt Scraper \u2014 Real Estate, Property Listings & Prices",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/fotocasa-properties",
+    "title": "Fotocasa Scraper \u2014 Spain Real Estate & Property, Sale & Rent",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/pisos-properties",
+    "title": "Pisos.com Scraper \u2014 Spain Property for Sale & Rent, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/otodom-properties",
+    "title": "Otodom Scraper + New Listings Feed & Alerts, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/otomoto-listings",
+    "title": "Otomoto Scraper \u2014 Poland Car Listings, Prices, Specs, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/magicbricks-properties",
+    "title": "Magicbricks Scraper \u2014 India Property for Sale & Rent, No Phones",
+    "users30d": 2,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "BUSINESS",
+     "LEAD_GENERATION"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/imovirtual-properties",
+    "title": "Imovirtual Scraper \u2014 Portugal Property Listings, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/subito-listings",
+    "title": "Subito.it Scraper \u2014 Italy Ads, Property, Cars & Marketplace",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "ECOMMERCE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/arbeidsplassen-nav-jobs",
+    "title": "Arbeidsplassen Scraper \u2014 Norwegian Jobs & Full Ads, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/mojposao-jobs",
+    "title": "MojPosao Scraper \u2014 Croatian Job Ads, Full Text, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/gratka-morizon-properties",
+    "title": "Gratka & Morizon Scraper \u2014 Poland Property Listings, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/imot-bg-properties",
+    "title": "Imot.bg Scraper \u2014 Bulgaria Property Listings, Prices, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/apple-podcasts-shows-episodes",
+    "title": "Apple Podcasts Scraper \u2014 Shows, Episodes, Charts & Ratings",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "OTHER",
+     "MARKETING"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/github-trending-repos",
+    "title": "GitHub Trending Scraper \u2014 Repos by Language, Stars & Topics",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "DEVELOPER_TOOLS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/sec-edgar-filings",
+    "title": "SEC EDGAR Filings Scraper \u2014 10-K, 10-Q, 8-K, Full-Text Search",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "BUSINESS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/jofogas-listings",
+    "title": "J\u00f3fog\u00e1s Scraper \u2014 Hungary Marketplace, Cars & Property",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/naukrigulf-jobs",
+    "title": "Naukrigulf Scraper & API \u2014 Gulf Jobs & Salaries, No Phones",
+    "users30d": 2,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/meetup-events",
+    "title": "Meetup Scraper \u2014 Events by Keyword, City & Group, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "OTHER"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/sreality-properties",
+    "title": "Sreality Scraper \u2014 Czech Property Listings & Prices, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/nofluffjobs-jobs",
+    "title": "No Fluff Jobs Scraper \u2014 CEE IT Jobs & Salaries per Contract",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/oikotie-properties",
+    "title": "Oikotie Scraper \u2014 Finland Homes for Sale & Rent, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/finn-listings",
+    "title": "FINN.no Scraper \u2014 Marketplace, Cars, Homes & Jobs, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "REAL_ESTATE",
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/chrome-web-store-extensions",
+    "title": "Chrome Web Store Scraper \u2014 Extensions, Themes & Ratings",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "DEVELOPER_TOOLS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/openstreetmap-places",
+    "title": "OpenStreetMap Places Scraper \u2014 POIs, Addresses, Opening Hours",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "LEAD_GENERATION",
+     "OTHER"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/mycareersfuture-jobs",
+    "title": "MyCareersFuture Scraper \u2014 Singapore Jobs & Salaries, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/profession-hu-jobs",
+    "title": "Profession.hu Scraper \u2014 Hungarian Jobs & Salaries, No Phones",
+    "users30d": 1,
+    "usersTotal": 2,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/rightmove-properties",
+    "title": "Rightmove Scraper + New Listings Feed & Alerts, No Phones",
+    "users30d": 0,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "BUSINESS",
+     "LEAD_GENERATION"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/kleinanzeigen-listings",
+    "title": "Kleinanzeigen Scraper \u2014 Germany Ads, Cars & Flats, No Phones",
+    "users30d": 0,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "REAL_ESTATE",
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/reed-jobs",
+    "title": "Reed.co.uk Scraper \u2014 UK Jobs & Salaries, No Phones",
+    "users30d": 1,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/totaljobs-jobs",
+    "title": "Totaljobs & CWJobs Scraper & API \u2014 UK Jobs & Salaries",
+    "users30d": 0,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/jobs-ch-jobs",
+    "title": "jobs.ch & jobup.ch Scraper \u2014 Swiss Job Ads, Switzerland Jobs",
+    "users30d": 0,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/yahoo-finance-quotes",
+    "title": "Yahoo Finance Scraper \u2014 Stock Quotes, History & Fundamentals",
+    "users30d": 1,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "BUSINESS",
+     "DEVELOPER_TOOLS",
+     "AUTOMATION"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/google-play-apps-reviews",
+    "title": "Google Play Scraper \u2014 Apps, Search & Reviews, No Login",
+    "users30d": 1,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "MARKETING",
+     "DEVELOPER_TOOLS",
+     "BUSINESS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/pnet-jobs",
+    "title": "PNet Scraper \u2014 South Africa Jobs & Salaries, No Phones",
+    "users30d": 0,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/elempleo-jobs",
+    "title": "Elempleo Scraper \u2014 Colombia Job Offers & Salaries, No Phones",
+    "users30d": 1,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/jobs-cz-jobs",
+    "title": "Jobs.cz & Prace.cz Scraper \u2014 Czech Jobs & Salaries, No Phones",
+    "users30d": 0,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/nobroker-properties",
+    "title": "NoBroker Scraper + New Listings Feed & Alerts, No Phones",
+    "users30d": 1,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/realtor-properties",
+    "title": "Realtor.com Scraper + New Listings Feed & Alerts, No Phones",
+    "users30d": 1,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "REAL_ESTATE",
+     "LEAD_GENERATION",
+     "AUTOMATION"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/vinted-listings",
+    "title": "Vinted Scraper \u2014 Listings from 27 Countries, No Usernames",
+    "users30d": 0,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "ECOMMERCE",
+     "MARKETING",
+     "BUSINESS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/infojobs-jobs",
+    "title": "InfoJobs Scraper + New Jobs Feed & Alerts, No Phones",
+    "users30d": 1,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/job-bank-canada-jobs",
+    "title": "Job Bank Canada Scraper + New Jobs Feed & Alerts, No Phones",
+    "users30d": 0,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/foundit-jobs",
+    "title": "Foundit Scraper \u2014 Monster India Jobs, Gulf & Asia",
+    "users30d": 0,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "JOBS"
+    ]
+   },
+   {
+    "actor": "highbrow_fame/youtube-transcript-fast",
+    "title": "YouTube Transcript & Subtitles Scraper \u2014 Captions, SRT, VTT",
+    "users30d": 1,
+    "usersTotal": 1,
+    "reviews": 0,
+    "rating": 0,
+    "pricingModel": "PAY_PER_EVENT",
+    "categories": [
+     "VIDEOS",
+     "AI",
+     "DEVELOPER_TOOLS"
+    ]
+   }
+  ]
+ }
+}
