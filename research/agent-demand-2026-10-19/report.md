@@ -102,7 +102,7 @@ Order follows the score, with two manual rules: (a) each batch mixes 2–3 cheap
 
 Held back (buildability 2: heavy bot walls, proxy cost, legal exposure) — build only with explicit owner sign-off: `amazon-product-api` (21.1), `zillow-api` (17.0), `google-scholar-api` (15.6), `indeed-api` (15.0), `walmart-api` (13.4), `audio-transcription-api` (13.3), `keyword-search-volume-api` (12.9), `g2-reviews-api` (12.5), `google-jobs-api` (12.4), `podcast-transcript-api` (11.7), `aliexpress-api` (11.6), `glassdoor-api` (11.3), `linkedin-jobs-api` (11.0).
 
-Remaining ranked candidates (101–100 and below) are in `candidates.json`.
+The 31 scored candidates not in this first 100 (lower scores or buildability 2) are ranked in `candidates.json`.
 
 ## 6. Quick wins on existing actors (not counted in the 100)
 
