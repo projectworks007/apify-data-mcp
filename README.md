@@ -321,6 +321,10 @@ Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highb
 
 Registry name: `io.github.projectworks007/web-and-dev-tools`
 
+## Integration examples
+
+Copy-paste examples that call our Apify actors from **Python**, **n8n** and **LangChain**: Google Maps leads with emails, AI search visibility tracking, ImmoScout24 Austria and Magicbricks property listings, YouTube transcripts and Yahoo Finance quotes. See the [integration examples index](examples/README.md).
+
 ## Notes
 
 - The tools read public pages only. Listing tools leave out private persons' phone numbers and e-mail addresses.
