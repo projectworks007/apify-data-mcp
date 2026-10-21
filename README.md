@@ -17,13 +17,13 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 1 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 1 |
-| [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 3 |
+| [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 4 |
 | [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 7 |
 | [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 3 |
 | [Events Data](#events-data) | Events with dates, venues, prices and organisers from Eventbrite and Meetup. | 2 |
 | [Finance & Filings Data](#finance-data) | Stock quotes, price history and fundamentals, plus SEC EDGAR company filings. | 2 |
 | [Hotel Prices Data](#hotel-prices) | Every booking site's price for chosen hotels and dates on Google Hotels. | 1 |
-| [Web Tools for AI Agents](#ai-agent-web-tools) | Web tools for AI agents: URL to clean Markdown, site crawl, screenshots, PDF/Office to text, OCR. | 5 |
+| [Web Tools for AI Agents](#ai-agent-web-tools) | Web tools for AI agents: URL to clean Markdown, site crawl, screenshots, PDF/Office to text, OCR. | 8 |
 | [Company Data](#company-data) | Company data for AI agents: enrich a domain, UK Companies House records, Y Combinator companies. | 1 |
 | [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 8 |
 
@@ -225,8 +225,9 @@ Look up apps, games and browser extensions and their user reviews on the App Sto
 | [Google Play API &](https://apify.com/highbrow_fame/google-play-apps-reviews) | Google Play apps and reviews from links, searches or developers: installs, rating, histogram, price, ads, versions, and reviews with developer replies, no reviewer names. Unofficial Google Play API. Android app reviews scraper, Android apps data, mobile app reviews. |
 | [Chrome Web Store](https://apify.com/highbrow_fame/chrome-web-store-extensions) | Chrome Web Store extensions and themes from searches, categories or ids: users, rating, rating count, version, last update, size, languages, permissions, publisher and privacy disclosures. Unofficial Chrome Web Store API. |
 | [Steam](https://apify.com/highbrow_fame/steam-games-reviews) | Steam games by id, link or search: price and discount, release date, developers, genres, Metacritic, review totals — plus the written reviews with playtime, no reviewer names. Unofficial Steam API. |
+| [App Store API](https://apify.com/highbrow_fame/app-store-api) | App Store app details (price, rating, version, screenshots), keyword search, top charts by country and customer reviews, from Apple's public endpoints. No key. Unofficial App Store API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-play-apps-reviews,highbrow_fame/chrome-web-store-extensions,highbrow_fame/steam-games-reviews`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-play-apps-reviews,highbrow_fame/chrome-web-store-extensions,highbrow_fame/steam-games-reviews,highbrow_fame/app-store-api`
 
 Registry name: `io.github.projectworks007/app-store-data`
 
@@ -317,8 +318,11 @@ Give your AI agent the web: fetch any public URL as clean Markdown, crawl a whol
 | [PDF to Markdown API](https://apify.com/highbrow_fame/pdf-to-markdown-api) | Converts PDFs at public links to Markdown and plain text with page markers, headings, links and metadata; scanned pages are flagged, never charged. Unofficial PDF to Markdown API. |
 | [Markdown Crawler API](https://apify.com/highbrow_fame/markdown-site-crawler) | Crawls a site (links or sitemap, depth and page limits, robots.txt respected) into one Markdown document per page with title, URL, headings and links, for RAG. Unofficial Website to Markdown API. |
 | [URL to Markdown API](https://apify.com/highbrow_fame/url-to-markdown-api) | Fetches any URL and returns clean Markdown (readability-extracted main content), title, metadata and links; optional headless browser for JS pages. Unofficial URL to Markdown API. |
+| [URL Status Checker API](https://apify.com/highbrow_fame/url-status-checker-api) | Check thousands of URLs at once: HTTP status, redirect chain, final URL, response time, content type, SSL expiry and a dead-link flag. Unofficial URL Status Checker API. |
+| [OCR API](https://apify.com/highbrow_fame/ocr-api) | Tesseract OCR of images and scanned PDF pages by URL: text, confidence, paragraphs and words with bounding boxes, optional hOCR/TSV, many languages. Unofficial OCR API. |
+| [DOCX, PPTX, XLSX & EPUB to Text API](https://apify.com/highbrow_fame/office-document-to-text-api) | Convert Word, PowerPoint, Excel, OpenDocument and EPUB files at public links to Markdown and text, with metadata, sheets as JSON rows and slides with notes. Office Document to Text API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/web-fetch-api,highbrow_fame/website-screenshot-api,highbrow_fame/pdf-to-markdown-api,highbrow_fame/markdown-site-crawler,highbrow_fame/url-to-markdown-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/web-fetch-api,highbrow_fame/website-screenshot-api,highbrow_fame/pdf-to-markdown-api,highbrow_fame/markdown-site-crawler,highbrow_fame/url-to-markdown-api,highbrow_fame/url-status-checker-api,highbrow_fame/ocr-api,highbrow_fame/office-document-to-text-api`
 
 Registry name: `io.github.projectworks007/ai-agent-web-tools`
 
