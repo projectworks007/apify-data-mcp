@@ -16,7 +16,7 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 11 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 1 |
-| [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 1 |
+| [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 2 |
 | [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 4 |
 | [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 7 |
 | [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 3 |
@@ -210,8 +210,9 @@ Transcripts from YouTube videos, playlists and channels: timestamps, plain text,
 | Tool | What it returns |
 |---|---|
 | [youtube-transcript-fast](https://apify.com/highbrow_fame/youtube-transcript-fast) |  |
+| [YouTube Channel API](https://apify.com/highbrow_fame/youtube-channel-api) | YouTube channel info (subscribers, video count, description, avatar, links) plus its videos and shorts with views, dates and durations. No key, no login. Unofficial YouTube Channel API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/youtube-transcript-fast`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/youtube-transcript-fast,highbrow_fame/youtube-channel-api`
 
 Registry name: `io.github.projectworks007/youtube-transcripts`
 

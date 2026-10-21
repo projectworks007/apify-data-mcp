@@ -3,7 +3,7 @@
   "name": "io.github.projectworks007/youtube-transcripts",
   "title": "YouTube Transcripts",
   "description": "Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/projectworks007/apify-data-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=highbrow_fame/youtube-transcript-fast"
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/youtube-transcript-fast,highbrow_fame/youtube-channel-api"
     }
   ]
 }
