@@ -4,10 +4,6 @@ Ready-made remote MCP servers that give Claude, ChatGPT, Cursor, VS Code and oth
 
 Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP server (`mcp.apify.com`). Connect with your Apify account (the client opens a sign-in page, or send `Authorization: Bearer <APIFY_TOKEN>`). Runs are billed to your Apify account per result, at each Actor's pay-per-event price; Apify's free plan includes a monthly usage credit.
 
-## Data reports
-
-Repeatable data reports built from the same live data: [Vienna rent per m² by district](https://projectworks007.github.io/apify-data-mcp/reports/vienna-rent.html) (monthly), [Coles vs Woolworths vs Aldi grocery prices](https://projectworks007.github.io/apify-data-mcp/reports/au-grocery-index.html) (weekly) and [tech jobs in Germany](https://projectworks007.github.io/apify-data-mcp/reports/germany-tech-jobs.html) (weekly). See all of them on the [reports hub](https://projectworks007.github.io/apify-data-mcp/reports/).
-
 ## Servers
 
 | Server | What it gives your agent | Tools |
@@ -23,11 +19,11 @@ Repeatable data reports built from the same live data: [Vienna rent per m² by d
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 2 |
 | [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 4 |
 | [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 7 |
-| [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 3 |
+| [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 5 |
 | [Events Data](#events-data) | Events with dates, venues, prices and organisers from Eventbrite and Meetup. | 2 |
 | [Finance & Filings Data](#finance-data) | Stock quotes, price history and fundamentals, plus SEC EDGAR company filings. | 2 |
 | [Hotel Prices Data](#hotel-prices) | Every booking site's price for chosen hotels and dates on Google Hotels. | 1 |
-| [Web Tools for AI Agents](#ai-agent-web-tools) | Web tools for AI agents: URL to clean Markdown, site crawl, screenshots, PDF/Office to text, OCR. | 8 |
+| [Web Tools for AI Agents](#ai-agent-web-tools) | Web tools for AI agents: URL to clean Markdown, site crawl, screenshots, PDF/Office to text, OCR. | 9 |
 | [Company Data](#company-data) | Company data for AI agents: enrich a domain, UK Companies House records, Y Combinator companies. | 1 |
 | [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 8 |
 
@@ -68,7 +64,7 @@ Search live job ads by keyword and place on national job boards. Title, company,
 | [HelloWork](https://apify.com/highbrow_fame/hellowork-jobs) | French job ads from HelloWork: title, company, city, département, contract (CDI, CDD, intérim, alternance, stage), salary min/max, remote work, date, full ad. No phones. Unofficial HelloWork API. |
 | [Totaljobs & CWJobs](https://apify.com/highbrow_fame/totaljobs-jobs) | UK jobs from Totaljobs and CWJobs: title, company, location, salary as text and as min/max/period, contract type, posted date and the full job ad. No recruiter names or phones. |
 | [MyCareersFuture](https://apify.com/highbrow_fame/mycareersfuture-jobs) | Singapore jobs from MyCareersFuture: title, company, salary range in SGD, employment type, level, experience, skills, category, district, dates and the full ad. No phones. Unofficial MyCareersFuture API. |
-| [No Fluff Jobs](https://apify.com/highbrow_fame/nofluffjobs-jobs) | IT jobs from nofluffjobs.com (Poland, Czechia, Slovakia, Hungary, Ukraine): title, company, cities, remote, seniority, salary per contract type (B2B net / UoP gross), skills, dates, full ad. Unofficial No Fluff Jobs API. |
+| [No Fluff Jobs](https://apify.com/highbrow_fame/nofluffjobs-jobs) | No Fluff Jobs IT jobs API: title, company, remote, seniority, salary per contract type and skills for $1.50 per 1,000 jobs. nofluffjobs.com in Poland, Czechia, Slovakia, Hungary, Ukraine; cities, B2B net / UoP gross, dates, full ad. Unofficial No Fluff Jobs API. |
 
 Server URL: `https://mcp.apify.com/?tools=highbrow_fame/welcome-to-the-jungle-jobs,highbrow_fame/stepstone-jobs,highbrow_fame/naukri-jobs,highbrow_fame/naukrigulf-jobs,highbrow_fame/jobstreet-jobsdb-jobs,highbrow_fame/xing-jobs,highbrow_fame/foundit-jobs,highbrow_fame/arbeitsagentur-jobs,highbrow_fame/infojobs-jobs,highbrow_fame/reed-jobs,highbrow_fame/remote-jobs-aggregator,highbrow_fame/hellowork-jobs,highbrow_fame/totaljobs-jobs,highbrow_fame/mycareersfuture-jobs,highbrow_fame/nofluffjobs-jobs`
 
@@ -84,13 +80,13 @@ Search live job ads by keyword and place on national job boards. Title, company,
 | [jobs.ch & jobup.ch](https://apify.com/highbrow_fame/jobs-ch-jobs) | Swiss job ads from jobs.ch and jobup.ch: title, company, place, workload %, contract type, salary when published, date, snippet and optionally the full ad. Contact persons and phones taken out. Unofficial jobs.ch API. |
 | [Jobs.cz & Prace.cz](https://apify.com/highbrow_fame/jobs-cz-jobs) | Czech job ads from Jobs.cz and Prace.cz: title, company, place, salary in numbers, on-site/hybrid/remote, posting date, and optionally the full ad text. No contact persons, no phones. Unofficial Jobs.cz API. |
 | [karriere.at](https://apify.com/highbrow_fame/karriere-at-jobs) | Job ads from karriere.at, Austria's largest job board: title, company, places, employment type, salary with minimum and period, posting date and the full ad text. No contact persons, no phones. Unofficial karriere.at API. |
-| [stellenanzeigen.de](https://apify.com/highbrow_fame/stellenanzeigen-jobs) | Job ads from stellenanzeigen.de, a big German job board: title, company, places, hours, contract type, home office, salary, benefits, dates and the full ad text. No contact persons, no phones. Unofficial Stellenanzeigen.de API. |
+| [stellenanzeigen.de](https://apify.com/highbrow_fame/stellenanzeigen-jobs) | stellenanzeigen.de jobs API: title, company, places, salary, contract type and full ad text for $1.20 per 1,000 jobs. Job ads from a big German job board: hours, home office, benefits, dates. No contact persons, no phones. Unofficial Stellenanzeigen.de API. |
 | [BestJobs](https://apify.com/highbrow_fame/bestjobs-ro-jobs) | Romanian job ads from BestJobs (bestjobs.eu): title, company, towns, salary in EUR, employment type, level, remote/hybrid, languages, benefits and the full ad. Links or keywords + towns. Unofficial BestJobs API. Europe job scraper, job ads scraper, Romania job board. |
-| [Profession.hu](https://apify.com/highbrow_fame/profession-hu-jobs) | Hungarian job ads from Profession.hu: title, company, place, home office, salary parsed into numbers, category, contract type, posting date and the full ad text. By link, keyword or place. No phones. Unofficial Profession.hu API. |
-| [PNet](https://apify.com/highbrow_fame/pnet-jobs) | South African jobs from PNet: title, company, location, salary as text and as min/max/period, contract type, EE/AA, posted date and the full job ad. No recruiter names or phones. Unofficial PNet API. |
+| [Profession.hu](https://apify.com/highbrow_fame/profession-hu-jobs) | Profession.hu jobs API: title, company, place, home office, salary as numbers, category and full ad text for $1.50 per 1,000 jobs. Hungarian job ads by link, keyword or place, contract type, posting date. No phones. Unofficial Profession.hu API. |
+| [PNet](https://apify.com/highbrow_fame/pnet-jobs) | PNet jobs API: South African job title, company, location, parsed salary, contract type and full ad for $0.90 per 1,000 jobs. pnet.co.za, EE/AA, posted date. No recruiter names or phones. Unofficial PNet API. |
 | [Elempleo](https://apify.com/highbrow_fame/elempleo-jobs) | Job offers from elempleo.com (Colombia): title, company, city, salary band in COP, contract, work modality, experience, education, full description. Search links or keywords. No phones. Unofficial elempleo API. |
 | [Job Bank Canada](https://apify.com/highbrow_fame/job-bank-canada-jobs) | Jobs from Job Bank, the Government of Canada job board, in English or French: title, employer, city, salary parsed, posted date, source and, if you want, the full ad. No phones or e-mails. Unofficial Job Bank Canada API. |
-| [MojPosao](https://apify.com/highbrow_fame/mojposao-jobs) | Croatian job ads from MojPosao (mojposao.hr): title, company, places, salary in EUR when shown, employment type, remote/hybrid, education, languages and the full ad. Links or keywords + places. Unofficial MojPosao API. |
+| [MojPosao](https://apify.com/highbrow_fame/mojposao-jobs) | MojPosao jobs API: Croatian job title, company, places, salary in EUR, employment type, remote and full ad for $1.20 per 1,000 jobs. mojposao.hr, education, languages. Links or keywords + places. Unofficial MojPosao API. |
 | [Arbeidsplassen](https://apify.com/highbrow_fame/arbeidsplassen-nav-jobs) | Job ads from Arbeidsplassen (NAV), Norway's public job board: title, employer, place, occupation, employment type, full-/part-time, sector, dates, apply link, full text. No contacts, no phones. Unofficial Arbeidsplassen API. |
 | [Careers Page](https://apify.com/highbrow_fame/careers-page-jobs-api) | Give career page or ATS board URLs; get open jobs with title, location, department, remote flag, description and apply URL. Greenhouse, Lever, Ashby, Workable and more. Unofficial Careers Page API. |
 
@@ -112,10 +108,10 @@ Search property listings to buy or rent on national property portals: price, are
 | [Otodom](https://apify.com/highbrow_fame/otodom-properties) | Otodom property listings in Poland, for sale or to rent: price, price per m², area, rooms, floor, district, seller type, and optionally coordinates and building details. Unofficial Otodom API. |
 | [Realtor.com](https://apify.com/highbrow_fame/realtor-properties) | Realtor.com homes in the US: for sale, sold or for rent — price, beds, baths, sq ft, lot, year built, HOA, list and sold dates, address, MLS id, brokerage. No agent names. Unofficial Realtor.com API. US real estate data, sold homes data, home prices API. |
 | [Rightmove](https://apify.com/highbrow_fame/rightmove-properties) | Rightmove property listings, UK, for sale or to rent: price, bedrooms, type, tenure, size, address with coordinates, key features, price changes and the agent. No phones. Unofficial Rightmove API. UK real estate, UK house prices, UK property scraper. |
-| [ImmoScout24 Austria](https://apify.com/highbrow_fame/immoscout24-at-properties) | Austrian property listings from immobilienscout24.at, to buy or rent: price, size, rooms, postcode and town, agency, features, optional details and energy data. Private owners stay anonymous. Unofficial ImmoScout24 Austria API. Austrian real estate scraper: Austria apartments, Austria real estate. |
+| [ImmoScout24 Austria](https://apify.com/highbrow_fame/immoscout24-at-properties) | ImmoScout24 Austria property API: price, price per m², area, rooms, postcode, agency for $1.50 per 1,000 properties. immobilienscout24.at to buy or rent; energy data. Private owners anonymous. Unofficial ImmoScout24 Austria API. Austrian real estate scraper: Austria apartments, Austria real estate. |
 | [Magicbricks](https://apify.com/highbrow_fame/magicbricks-properties) | Indian property listings from Magicbricks, to buy or rent: price in INR, BHK, area, floor, furnishing, locality, society, amenities and who posted it. Any city. Owners stay anonymous. No phones. Unofficial Magicbricks API. |
 | [Property Finder](https://apify.com/highbrow_fame/propertyfinder-properties) | Listings from Property Finder in the UAE, Saudi Arabia, Qatar, Bahrain and Egypt: price, size, bedrooms, location, coordinates, amenities, completion, agency. For sale and to rent. No phones. Unofficial Property Finder API. |
-| [NoBroker](https://apify.com/highbrow_fame/nobroker-properties) | Owner-posted homes from NoBroker (India) to rent, for sale and PG: rent or price, deposit, BHK, area, furnishing, tenant preference, floor, amenities, locality. No phones, no owner names. Unofficial NoBroker API. |
+| [NoBroker](https://apify.com/highbrow_fame/nobroker-properties) | NoBroker property API: rent or price, deposit, BHK, area, furnishing, floor and locality for $1.50 per 1,000 properties. Owner-posted homes in India to rent, for sale and PG; tenant preference, amenities. No phones, no owner names. Unofficial NoBroker API. |
 | [Pisos.com](https://apify.com/highbrow_fame/pisos-properties) | Spanish property listings from pisos.com, for sale or to rent: price, price drops, bedrooms, bathrooms, m², floor, zone, postcode, seller type and agency, and optionally the full details. No phones. Unofficial Pisos.com API. |
 | [Gratka & Morizon](https://apify.com/highbrow_fame/gratka-morizon-properties) | Polish property listings from Gratka.pl and Morizon.pl, for sale or to rent: price, price per m², area, rooms, floor, market, city and district, seller type, full description. No phones. Unofficial Gratka and Morizon API. |
 | [Sreality](https://apify.com/highbrow_fame/sreality-properties) | Czech property listings from Sreality.cz — sale, rent, auctions: price, area, layout (2+kk), town, district, region, agency, photos, and optionally description, dates and building details. No phones. Unofficial Sreality API. |
@@ -169,7 +165,7 @@ Search classified ads and second-hand listings on national marketplaces: title, 
 | [Gumtree](https://apify.com/highbrow_fame/gumtree-uk-listings) | UK listings from gumtree.com: stuff for sale, cars and vans, property to rent and for sale, pets. Price, area, category, car and property details. No phones; private sellers stay anonymous. Unofficial Gumtree API. |
 | [Craigslist Marketplace](https://apify.com/highbrow_fame/craigslist-listings) | craigslist listings from any city and section — for sale, housing, cars, jobs, gigs, services: title, price, place, date, category, images, and optionally description and attributes. No phones. Unofficial Craigslist API. Craigslist apartments, craigslist cars. |
 | [Blocket](https://apify.com/highbrow_fame/blocket-listings) | Swedish classifieds from Blocket — the marketplace, cars, motorbikes, boats, caravans and machines: price, place, seller type, vehicle data, descriptions on request. No phones. Unofficial Blocket API. |
-| [OfferUp](https://apify.com/highbrow_fame/offerup-listings) | OfferUp listings around any US city or ZIP: price, condition, category, town and state, post date, firm price, photos, car make, model and mileage. Links or keywords. No phones, no seller names. Unofficial OfferUp API. OfferUp scraper, classifieds API, secondhand marketplace data. |
+| [OfferUp](https://apify.com/highbrow_fame/offerup-listings) | OfferUp listings API: price, condition, category, town, state, post date, photos and car make, model, mileage for $1.50 per 1,000 listings. Any US city or ZIP, links or keywords. No phones, no seller names. Unofficial OfferUp API. OfferUp scraper, classifieds API, secondhand marketplace data. |
 | [Kijiji](https://apify.com/highbrow_fame/kijiji-listings) | Kijiji.ca listings from any category — buy & sell, cars, rentals, homes, jobs, pets: price, place, seller type, car and property details, optional full description. No phones. Unofficial Kijiji API. |
 | [Subito.it](https://apify.com/highbrow_fame/subito-listings) | Italian listings from Subito.it: flats and houses, cars and motorbikes, marketplace items. Price, town, full ad text, rooms, m², make, km, seller type. Private sellers stay anonymous. No phones. Unofficial Subito API. |
 | [FINN.no](https://apify.com/highbrow_fame/finn-listings) | Norwegian listings from FINN.no — Torget, cars, boats, homes for sale and rent, commercial property and jobs: price, place, seller type and company, details on request. No phones. Unofficial FINN.no API. |
@@ -262,11 +258,13 @@ Product data from online stores and supermarkets: names, prices, promotions, sto
 
 | Tool | What it returns |
 |---|---|
-| [Coles Australia](https://apify.com/highbrow_fame/coles-au-products) | Coles grocery prices and specials by store for Coles Australia supermarket products: price, was-price, unit price, multi-buy, availability; barcode and nutrition on request. Unofficial Coles API. |
-| [Woolworths Australia](https://apify.com/highbrow_fame/woolworths-au-products) | Woolworths grocery prices and specials for Woolworths Australia supermarket products: price, was-price, unit price, stock, barcode, ingredients, allergens, nutrition. Unofficial Woolworths API. |
+| [Coles Australia](https://apify.com/highbrow_fame/coles-au-products) | Coles grocery prices API: price, was-price, unit price, specials and availability by store for $1 per 1,000 products. Coles Australia supermarket products, multi-buy; barcode and nutrition on request. Unofficial Coles API. |
+| [Woolworths Australia](https://apify.com/highbrow_fame/woolworths-au-products) | Woolworths grocery prices API: price, was-price, unit price, specials and stock for $0.70 per 1,000 products. Woolworths Australia supermarket products, barcode, ingredients, allergens, nutrition. Unofficial Woolworths API. |
 | [ALDI Australia](https://apify.com/highbrow_fame/aldi-au-products) | ALDI Australia grocery prices and Special Buys: product search and category links. Price, unit price, pack size, brand, category, on-sale dates, Super Savers flags. Unofficial ALDI Australia API. |
+| [Shopify Store](https://apify.com/highbrow_fame/shopify-store-products-api) | Full product catalogue of any Shopify store from its public products.json: title, vendor, type, tags, variants with price, SKU and stock, images, collections. Unofficial Shopify API. |
+| [Product Data Extractor API](https://apify.com/highbrow_fame/product-page-extractor-api) | Name, brand, price, currency, stock, rating, images, SKU/GTIN and variants from a product page's schema.org JSON-LD, microdata or Open Graph tags. One JSON record per URL. Product Data Extractor API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/coles-au-products,highbrow_fame/woolworths-au-products,highbrow_fame/aldi-au-products`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/coles-au-products,highbrow_fame/woolworths-au-products,highbrow_fame/aldi-au-products,highbrow_fame/shopify-store-products-api,highbrow_fame/product-page-extractor-api`
 
 Registry name: `io.github.projectworks007/ecommerce-products`
 
@@ -291,8 +289,8 @@ Market and company data: quotes, price history and fundamentals from Yahoo Finan
 
 | Tool | What it returns |
 |---|---|
-| [Yahoo Finance API &](https://apify.com/highbrow_fame/yahoo-finance-quotes) | Yahoo Finance quotes for stocks, ETFs, crypto, currencies and indexes: price, change, volume, P/E, market cap, dividends. Price history and fundamentals on request. Unofficial Yahoo Finance API. Historical stock prices, financial data API and crypto prices API. |
-| [SEC EDGAR API & Filings](https://apify.com/highbrow_fame/sec-edgar-filings) | SEC EDGAR filings by ticker, CIK or full-text search: form, dates, accession number, document links, 8-K items, and optional XBRL key financials for 10-K/10-Q. Official SEC APIs. |
+| [Yahoo Finance API &](https://apify.com/highbrow_fame/yahoo-finance-quotes) | Yahoo Finance quotes API: price, change, volume, P/E, market cap and dividends for stocks, ETFs and crypto for $1 per 1,000 symbols. Currencies, indexes. Price history and fundamentals on request. Unofficial Yahoo Finance API. Historical stock prices, financial data API and crypto prices API. |
+| [SEC EDGAR API & Filings](https://apify.com/highbrow_fame/sec-edgar-filings) | SEC EDGAR filings by ticker, CIK or full-text search: form, dates, accession number, document links, 8-K items, and optional XBRL key financials for 10-K/10-Q. Official SEC APIs. SEC filings API and SEC EDGAR scraper. |
 
 Server URL: `https://mcp.apify.com/?tools=highbrow_fame/yahoo-finance-quotes,highbrow_fame/sec-edgar-filings`
 
@@ -324,10 +322,11 @@ Give your AI agent the web: fetch any public URL as clean Markdown, crawl a whol
 | [Markdown Crawler API](https://apify.com/highbrow_fame/markdown-site-crawler) | Crawls a site (links or sitemap, depth and page limits, robots.txt respected) into one Markdown document per page with title, URL, headings and links, for RAG. Unofficial Website to Markdown API. |
 | [URL to Markdown API](https://apify.com/highbrow_fame/url-to-markdown-api) | Fetches any URL and returns clean Markdown (readability-extracted main content), title, metadata and links; optional headless browser for JS pages. Unofficial URL to Markdown API. |
 | [URL Status Checker API](https://apify.com/highbrow_fame/url-status-checker-api) | Check thousands of URLs at once: HTTP status, redirect chain, final URL, response time, content type, SSL expiry and a dead-link flag. Unofficial URL Status Checker API. |
-| [OCR API](https://apify.com/highbrow_fame/ocr-api) | Tesseract OCR of images and scanned PDF pages by URL: text, confidence, paragraphs and words with bounding boxes, optional hOCR/TSV, many languages. Unofficial OCR API. |
+| [OCR API](https://apify.com/highbrow_fame/ocr-api) | OCR API: text, confidence, paragraphs and word boxes from images and scanned PDFs for $2 per 1,000 images. Tesseract OCR by URL, optional hOCR/TSV, many languages. Unofficial OCR API. |
 | [DOCX, PPTX, XLSX & EPUB to Text API](https://apify.com/highbrow_fame/office-document-to-text-api) | Convert Word, PowerPoint, Excel, OpenDocument and EPUB files at public links to Markdown and text, with metadata, sheets as JSON rows and slides with notes. Office Document to Text API. |
+| [SEO Audit API](https://apify.com/highbrow_fame/seo-audit-api) | On-page SEO audit of any URL over plain HTTP: title, meta, canonical, robots, hreflang, headings, images alt, links, JSON-LD, redirects, a 0-100 score with issues. SEO Audit API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/web-fetch-api,highbrow_fame/website-screenshot-api,highbrow_fame/pdf-to-markdown-api,highbrow_fame/markdown-site-crawler,highbrow_fame/url-to-markdown-api,highbrow_fame/url-status-checker-api,highbrow_fame/ocr-api,highbrow_fame/office-document-to-text-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/web-fetch-api,highbrow_fame/website-screenshot-api,highbrow_fame/pdf-to-markdown-api,highbrow_fame/markdown-site-crawler,highbrow_fame/url-to-markdown-api,highbrow_fame/url-status-checker-api,highbrow_fame/ocr-api,highbrow_fame/office-document-to-text-api,highbrow_fame/seo-audit-api`
 
 Registry name: `io.github.projectworks007/ai-agent-web-tools`
 

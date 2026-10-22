@@ -3,7 +3,7 @@
   "name": "io.github.projectworks007/ai-agent-web-tools",
   "title": "Web Tools for AI Agents",
   "description": "Web tools for AI agents: URL to clean Markdown, site crawl, screenshots, PDF/Office to text, OCR.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "url": "https://github.com/projectworks007/apify-data-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=highbrow_fame/web-fetch-api,highbrow_fame/website-screenshot-api,highbrow_fame/pdf-to-markdown-api,highbrow_fame/markdown-site-crawler,highbrow_fame/url-to-markdown-api,highbrow_fame/url-status-checker-api,highbrow_fame/ocr-api,highbrow_fame/office-document-to-text-api"
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/web-fetch-api,highbrow_fame/website-screenshot-api,highbrow_fame/pdf-to-markdown-api,highbrow_fame/markdown-site-crawler,highbrow_fame/url-to-markdown-api,highbrow_fame/url-status-checker-api,highbrow_fame/ocr-api,highbrow_fame/office-document-to-text-api,highbrow_fame/seo-audit-api"
     }
   ]
 }

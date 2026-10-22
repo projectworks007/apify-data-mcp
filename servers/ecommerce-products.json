@@ -3,7 +3,7 @@
   "name": "io.github.projectworks007/ecommerce-products",
   "title": "E-commerce Product Data",
   "description": "Product catalogues, prices and stock from online stores and supermarkets.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/projectworks007/apify-data-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=highbrow_fame/coles-au-products,highbrow_fame/woolworths-au-products,highbrow_fame/aldi-au-products"
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/coles-au-products,highbrow_fame/woolworths-au-products,highbrow_fame/aldi-au-products,highbrow_fame/shopify-store-products-api,highbrow_fame/product-page-extractor-api"
     }
   ]
 }
