@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Coles vs Woolworths vs Aldi: weekly grocery price index (22 October 2026)</title>
+<meta name="description" content="Which Australian supermarket is cheapest this week? 31 staples priced at Coles, Woolworths and Aldi, with specials share and how to track prices yourself.">
+<link rel="canonical" href="https://projectworks007.github.io/apify-data-mcp/reports/au-grocery-index.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b5fff'/%3E%3Crect x='6' y='16' width='5' height='10' fill='white'/%3E%3Crect x='14' y='9' width='5' height='17' fill='white'/%3E%3Crect x='22' y='13' width='5' height='13' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+<meta property="og:site_name" content="Data reports by highbrow_fame">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Coles vs Woolworths vs Aldi: weekly grocery price index (22 October 2026)">
+<meta property="og:description" content="Which Australian supermarket is cheapest this week? 31 staples priced at Coles, Woolworths and Aldi, with specials share and how to track prices yourself.">
+<meta property="og:url" content="https://projectworks007.github.io/apify-data-mcp/reports/au-grocery-index.html">
+<meta property="og:image" content="https://projectworks007.github.io/apify-data-mcp/reports/img/2026-10-22/grocery-basket-by-category.png"><meta name="twitter:image" content="https://projectworks007.github.io/apify-data-mcp/reports/img/2026-10-22/grocery-basket-by-category.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Coles vs Woolworths vs Aldi: weekly grocery price index (22 October 2026)">
+<meta name="twitter:description" content="Which Australian supermarket is cheapest this week? 31 staples priced at Coles, Woolworths and Aldi, with specials share and how to track prices yourself.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Coles vs Woolworths vs Aldi: weekly grocery price index (22 October 2026)", "description": "Which Australian supermarket is cheapest this week? 31 staples priced at Coles, Woolworths and Aldi, with specials share and how to track prices yourself.", "datePublished": "2026-10-22", "dateModified": "2026-10-22", "inLanguage": "en", "mainEntityOfPage": "https://projectworks007.github.io/apify-data-mcp/reports/au-grocery-index.html", "author": {"@type": "Person", "name": "highbrow_fame", "url": "https://apify.com/highbrow_fame"}, "publisher": {"@type": "Person", "name": "highbrow_fame", "url": "https://apify.com/highbrow_fame"}, "keywords": "data, australia, groceries, webscraping", "image": "https://projectworks007.github.io/apify-data-mcp/reports/img/2026-10-22/grocery-basket-by-category.png"}, {"@type": "Dataset", "name": "Coles vs Woolworths vs Aldi: weekly grocery price index (22 October 2026)", "description": "Which Australian supermarket is cheapest this week? 31 staples priced at Coles, Woolworths and Aldi, with specials share and how to track prices yourself.", "creator": {"@type": "Person", "name": "highbrow_fame", "url": "https://apify.com/highbrow_fame"}, "datePublished": "2026-10-22", "dateModified": "2026-10-22", "temporalCoverage": "2026-10-22", "spatialCoverage": "Australia", "keywords": ["data", "australia", "groceries", "webscraping"], "variableMeasured": ["basket total in AUD", "index versus Aldi", "unit price per kg or litre", "share of products on special"], "url": "https://projectworks007.github.io/apify-data-mcp/reports/au-grocery-index.html", "isBasedOn": ["https://apify.com/highbrow_fame/coles-au-products", "https://apify.com/highbrow_fame/woolworths-au-products", "https://apify.com/highbrow_fame/aldi-au-products"]}]}</script>
+</head>
+<body>
+<header class="site"><a class="brand" href="index.html">Data reports</a>
+<nav><a href="index.html">All reports</a><a href="https://apify.com/highbrow_fame">Apify actors</a><a href="https://github.com/projectworks007/apify-data-mcp">GitHub</a></nav></header>
+<main>
+<p class="crumbs"><a href="index.html">Data reports</a> / Coles vs Woolworths vs Aldi price index</p>
+<h1>Coles vs Woolworths vs Aldi: weekly grocery price index (22 October 2026)</h1>
+<p class="meta">Edition <time datetime="2026-10-22">22 October 2026</time> &middot; updated weekly &middot; data from Coles Australia Scraper, Woolworths Australia Scraper, Aldi Australia Scraper</p>
+
+<div class="btns"><a class="btn" href="#get-the-data">Get this data yourself, daily</a></div>
+<blockquote class="note">
+<p>Disclosure: I built the Apify Actors used to collect this data. This post was written with AI assistance.</p>
+</blockquote>
+<p><strong>Aldi is the cheapest of the three for this week's basket of 31 staples ($105.40), Coles the dearest ($128.57, 22% more).</strong> With Aldi at 100, Coles is at 122 and Woolworths at 117.5. Between the two big chains, Coles is 3.8% dearer than Woolworths on this basket.</p>
+<p>Supermarket price comparisons are usually one-off snapshots. This one is rebuilt every week from the shelf prices the three chains show online, for the same 31 items every time, so the trend is visible. Prices are for the cheapest matching product per item (usually a home brand), compared per kilogram or litre, so pack sizes do not distort the result.</p>
+<h2>This week's basket</h2>
+<p><img alt="Grocery basket total at Coles, Woolworths and Aldi" src="img/2026-10-22/grocery-basket-total.png" width="1200" height="253" decoding="async"></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th></th>
+<th>Coles</th>
+<th>Woolworths</th>
+<th>Aldi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Basket total (31 items)</td>
+<td><strong>$128.57</strong></td>
+<td><strong>$123.81</strong></td>
+<td><strong>$105.40</strong></td>
+</tr>
+<tr>
+<td>Index (Aldi = 100)</td>
+<td>122</td>
+<td>117.5</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Basket at regular prices (without specials)</td>
+<td>$129.86</td>
+<td>$135.20</td>
+<td>$105.40</td>
+</tr>
+<tr>
+<td>Items where the cheapest match is on special</td>
+<td>5 of 31</td>
+<td>3 of 31</td>
+<td>10 of 31</td>
+</tr>
+<tr>
+<td>Share of all matching products on special</td>
+<td>23.3%</td>
+<td>15.3%</td>
+<td>29.6%</td>
+</tr>
+<tr>
+<td>Items where this chain has the lowest price (ties count for each)</td>
+<td>11</td>
+<td>7</td>
+<td>26</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>On special: Coles and Woolworths flag a product as on special when it has a discount or multi-buy deal. Aldi shows no "was" price, so its basket is the same with or without specials; Aldi products on its Lower Prices, Super Savers and Limited Time Only shelves are flagged as promotions here.</em></p>
+<p><img alt="Basket cost by category" src="img/2026-10-22/grocery-basket-by-category.png" width="1200" height="587" loading="lazy" decoding="async"></p>
+<p><em>Week-over-week changes appear from the second edition on: this report stores every edition, and the next one will show which items moved.</em></p>
+<h2>The basket, item by item</h2>
+<p>Price per kilogram or litre of the cheapest matching product (an asterisk means that product is on special today). The basket buys the quantity shown.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+<th>Coles</th>
+<th>Woolworths</th>
+<th>Aldi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full cream milk</td>
+<td>2 L</td>
+<td>$1.70</td>
+<td>$1.65</td>
+<td>$1.65*</td>
+</tr>
+<tr>
+<td>Eggs, 12 pack</td>
+<td>0.7 kg</td>
+<td>$8.50</td>
+<td>$7.50</td>
+<td>$7.10*</td>
+</tr>
+<tr>
+<td>Butter</td>
+<td>0.25 kg</td>
+<td>$18.00</td>
+<td>$16.80</td>
+<td>$14.00</td>
+</tr>
+<tr>
+<td>Tasty / cheddar cheese block</td>
+<td>0.5 kg</td>
+<td>$9.30</td>
+<td>$10.50</td>
+<td>$8.99</td>
+</tr>
+<tr>
+<td>Natural yoghurt</td>
+<td>1 kg</td>
+<td>$7.50</td>
+<td>$4.20</td>
+<td>$3.90</td>
+</tr>
+<tr>
+<td>White sandwich bread</td>
+<td>0.7 kg</td>
+<td>$6.60</td>
+<td>$7.40</td>
+<td>$3.70</td>
+</tr>
+<tr>
+<td>Long grain white rice</td>
+<td>1 kg</td>
+<td>$1.80</td>
+<td>$1.80</td>
+<td>$1.80</td>
+</tr>
+<tr>
+<td>Spaghetti</td>
+<td>0.5 kg</td>
+<td>$1.90*</td>
+<td>$1.80</td>
+<td>$1.80</td>
+</tr>
+<tr>
+<td>Plain flour</td>
+<td>1 kg</td>
+<td>$1.20</td>
+<td>$1.20</td>
+<td>$1.20</td>
+</tr>
+<tr>
+<td>White sugar</td>
+<td>1 kg</td>
+<td>$1.30</td>
+<td>$1.30</td>
+<td>$1.30</td>
+</tr>
+<tr>
+<td>Rolled oats</td>
+<td>1 kg</td>
+<td>$2.30</td>
+<td>$2.10</td>
+<td>$2.00</td>
+</tr>
+<tr>
+<td>Corn flakes</td>
+<td>0.75 kg</td>
+<td>$5.60</td>
+<td>$8.40</td>
+<td>$5.60</td>
+</tr>
+<tr>
+<td>Canned diced tomatoes</td>
+<td>0.8 kg</td>
+<td>$2.38</td>
+<td>$2.38</td>
+<td>$2.98</td>
+</tr>
+<tr>
+<td>Baked beans</td>
+<td>0.84 kg</td>
+<td>$3.10</td>
+<td>$3.80</td>
+<td>$3.10</td>
+</tr>
+<tr>
+<td>Canned tuna</td>
+<td>0.38 kg</td>
+<td>$10.53</td>
+<td>$9.19</td>
+<td>$9.14</td>
+</tr>
+<tr>
+<td>Peanut butter</td>
+<td>0.375 kg</td>
+<td>$13.10*</td>
+<td>$13.30*</td>
+<td>$6.00*</td>
+</tr>
+<tr>
+<td>Extra virgin olive oil</td>
+<td>0.5 L</td>
+<td>$14.00</td>
+<td>$13.00*</td>
+<td>$8.80*</td>
+</tr>
+<tr>
+<td>Frozen peas</td>
+<td>1 kg</td>
+<td>$4.40</td>
+<td>$2.50</td>
+<td>$2.49</td>
+</tr>
+<tr>
+<td>Vanilla ice cream</td>
+<td>2 L</td>
+<td>$3.00</td>
+<td>$3.00</td>
+<td>$2.50*</td>
+</tr>
+<tr>
+<td>Royal Gala apples</td>
+<td>1 kg</td>
+<td>$7.90</td>
+<td>$7.90</td>
+<td>$6.99</td>
+</tr>
+<tr>
+<td>Washed potatoes</td>
+<td>2 kg</td>
+<td>$3.85</td>
+<td>$2.50</td>
+<td>$2.12</td>
+</tr>
+<tr>
+<td>Brown onions</td>
+<td>1 kg</td>
+<td>$2.65</td>
+<td>$2.75</td>
+<td>$2.99</td>
+</tr>
+<tr>
+<td>Carrots</td>
+<td>1 kg</td>
+<td>$1.73</td>
+<td>$2.50</td>
+<td>$2.09</td>
+</tr>
+<tr>
+<td>Tomatoes</td>
+<td>0.5 kg</td>
+<td>$3.90*</td>
+<td>$5.90</td>
+<td>$4.36</td>
+</tr>
+<tr>
+<td>Chicken breast fillets</td>
+<td>1 kg</td>
+<td>$8.50*</td>
+<td>$9.50</td>
+<td>$8.99*</td>
+</tr>
+<tr>
+<td>Beef mince</td>
+<td>0.5 kg</td>
+<td>$15.40*</td>
+<td>$15.40</td>
+<td>$12.98*</td>
+</tr>
+<tr>
+<td>Rindless bacon</td>
+<td>0.25 kg</td>
+<td>$17.60</td>
+<td>$17.60*</td>
+<td>$13.98*</td>
+</tr>
+<tr>
+<td>Orange juice</td>
+<td>2 L</td>
+<td>$2.75</td>
+<td>$2.10</td>
+<td>$2.00*</td>
+</tr>
+<tr>
+<td>Frozen mixed vegetables</td>
+<td>1 kg</td>
+<td>$2.80</td>
+<td>$2.80</td>
+<td>$2.79</td>
+</tr>
+<tr>
+<td>Frozen potato chips</td>
+<td>1 kg</td>
+<td>$3.15</td>
+<td>$3.15</td>
+<td>$2.99*</td>
+</tr>
+<tr>
+<td>Dishwashing liquid</td>
+<td>1 L</td>
+<td>$1.40</td>
+<td>$1.40</td>
+<td>$1.40</td>
+</tr>
+</tbody>
+</table></div>
+<h2>How this was measured</h2>
+<ul>
+<li><strong>Source:</strong> the <a href="https://apify.com/highbrow_fame/coles-au-products">Coles</a>, <a href="https://apify.com/highbrow_fame/woolworths-au-products">Woolworths</a> and <a href="https://apify.com/highbrow_fame/aldi-au-products">ALDI</a> scrapers on Apify, run on 2026-10-22 with a fixed list of 31 search terms, the first 20 to 30 results per search at each chain.</li>
+<li><strong>Like for like:</strong> a product counts for an item only if its name matches that item (for example "full cream" milk, not lactose-free, flavoured or A2) and it has a unit price. Only items with a match at all three chains enter the totals.</li>
+<li><strong>Cheapest match:</strong> for each item the lowest unit price among the matching products is used. That favours home brands, which is what a price-conscious shopper buys.</li>
+<li><strong>Online shelf prices:</strong> the prices are those each chain's website shows without choosing a store, in Australian dollars. Coles prices vary a little from store to store. Prices include any special that is active that day.</li>
+<li><strong>Not an official index:</strong> this is a small, fixed basket of staples, not the whole shop, and not a substitute for ABS or ACCC figures. Aldi's range is narrower, which is why some items have fewer matches there.</li>
+<li><strong>Aggregate prices only:</strong> product names and prices are shown; no personal data is involved.</li>
+</ul>
+<section class="cta" id="get-the-data"><h2>How to get this data yourself, every day</h2>
+<p>Everything above was collected by these Apify Actors from a fixed input, plus some arithmetic. You can run the same collection on your own Apify account in a couple of clicks:</p>
+<ul>
+<li><a href="https://apify.com/highbrow_fame/coles-au-products">Coles Australia Scraper</a>: $1.00 per 1,000 results on the free plan, you pay only for results delivered.</li>
+<li><a href="https://apify.com/highbrow_fame/woolworths-au-products">Woolworths Australia Scraper</a>: $0.70 per 1,000 results on the free plan, you pay only for results delivered.</li>
+<li><a href="https://apify.com/highbrow_fame/aldi-au-products">Aldi Australia Scraper</a>: $1.00 per 1,000 results on the free plan, you pay only for results delivered.</li>
+</ul>
+<p><strong>Collecting the data for this edition costs about $1.49 on Apify's free plan</strong> (you pay per result delivered, nothing for a search that returns nothing), so a weekly refresh is about $6 a month.</p>
+<p><strong>Daily monitor in three steps:</strong></p>
+<ol>
+<li>Open the Actor, paste an input like the one below, and switch on <strong>Only new</strong> (<code>onlyNew</code>). The first run returns everything; every later run returns only what no earlier run of the same watch list delivered, and skipped items are not charged.</li>
+<li>Save the input as a task and put it on a schedule (for example the cron expression <code>0 7 * * *</code>, every day at 07:00 UTC).</li>
+<li>Send the result where you work: e-mail, Slack or Google Sheets, from the task's <em>Integrations</em> tab.</li>
+</ol>
+<pre><code class="language-json">{
+  &quot;searchTerms&quot;: [
+    &quot;milk&quot;,
+    &quot;eggs&quot;,
+    &quot;bread&quot;
+  ],
+  &quot;maxProductsPerInput&quot;: 50,
+  &quot;onlyNew&quot;: true,
+  &quot;monitorKey&quot;: &quot;coles-staples&quot;
+}
+</code></pre>
+<p>The same fields work in the Woolworths scraper. With <code>onlyNew</code> on, a product whose price changed since the last run comes back again with the old and new price in <code>changes</code>, so the monitor doubles as a price-drop alert. The ALDI scraper has no only-new switch: schedule it and compare the runs.</p>
+<p><strong>Want your own basket, with your brands, your store and your postcode?</strong> Run the <a href="https://apify.com/highbrow_fame/coles-au-products">Coles</a>, <a href="https://apify.com/highbrow_fame/woolworths-au-products">Woolworths</a> or <a href="https://apify.com/highbrow_fame/aldi-au-products">ALDI</a> scraper on Apify: type the products you buy, press Start, and get prices, unit prices and specials as a spreadsheet. The input forms are prefilled.</p>
+<p><strong>Next edition:</strong> this report is rebuilt weekly with the same method, so changes between editions are real changes. Bookmark the <a href="au-grocery-index.html">latest edition</a> or the <a href="index.html">reports hub</a>, or run the monitor above if you would rather have new items delivered automatically.</p></section>
+<h2>All editions</h2>
+<ul class="eds"><li><a href="au-grocery-index-2026-10-22.html">22 October 2026</a> (latest)</li></ul>
+<p><a href="index.html">&larr; All data reports</a></p>
+</main>
+<footer class="site">
+<p>Data from Apify actors by <a href="https://apify.com/highbrow_fame">highbrow_fame</a>. Published figures are aggregates only; no personal data, listing texts or ad texts.</p>
+<p>Reports are written with AI assistance. Method and caveats are on every report page. Source: <a href="https://github.com/projectworks007/apify-data-mcp">GitHub</a>.</p>
+</footer>
+</body>
+</html>

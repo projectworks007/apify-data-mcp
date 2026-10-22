@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vienna rent prices per sqm by district: October 2026 (live ImmoScout24 data)</title>
+<meta name="description" content="Median asking rent per m² for all 23 Vienna districts, October 2026, from 1,015 live ImmoScout24.at listings, plus how to get the data daily.">
+<link rel="canonical" href="https://dev.to/projectdev/vienna-rent-prices-per-m2-by-district-october-2026-live-immoscout24-data-3k55">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b5fff'/%3E%3Crect x='6' y='16' width='5' height='10' fill='white'/%3E%3Crect x='14' y='9' width='5' height='17' fill='white'/%3E%3Crect x='22' y='13' width='5' height='13' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+<meta property="og:site_name" content="Data reports by highbrow_fame">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vienna rent prices per sqm by district: October 2026 (live ImmoScout24 data)">
+<meta property="og:description" content="Median asking rent per m² for all 23 Vienna districts, October 2026, from 1,015 live ImmoScout24.at listings, plus how to get the data daily.">
+<meta property="og:url" content="https://dev.to/projectdev/vienna-rent-prices-per-m2-by-district-october-2026-live-immoscout24-data-3k55">
+<meta property="og:image" content="https://projectworks007.github.io/apify-data-mcp/reports/img/2026-10-22/vienna-rent-per-sqm-by-district.png"><meta name="twitter:image" content="https://projectworks007.github.io/apify-data-mcp/reports/img/2026-10-22/vienna-rent-per-sqm-by-district.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Vienna rent prices per sqm by district: October 2026 (live ImmoScout24 data)">
+<meta name="twitter:description" content="Median asking rent per m² for all 23 Vienna districts, October 2026, from 1,015 live ImmoScout24.at listings, plus how to get the data daily.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Vienna rent prices per sqm by district: October 2026 (live ImmoScout24 data)", "description": "Median asking rent per m² for all 23 Vienna districts, October 2026, from 1,015 live ImmoScout24.at listings, plus how to get the data daily.", "datePublished": "2026-10-22", "dateModified": "2026-10-22", "inLanguage": "en", "mainEntityOfPage": "https://dev.to/projectdev/vienna-rent-prices-per-m2-by-district-october-2026-live-immoscout24-data-3k55", "author": {"@type": "Person", "name": "highbrow_fame", "url": "https://apify.com/highbrow_fame"}, "publisher": {"@type": "Person", "name": "highbrow_fame", "url": "https://apify.com/highbrow_fame"}, "keywords": "data, realestate, austria, webscraping", "image": "https://projectworks007.github.io/apify-data-mcp/reports/img/2026-10-22/vienna-rent-per-sqm-by-district.png"}, {"@type": "Dataset", "name": "Vienna rent prices per sqm by district: October 2026 (live ImmoScout24 data)", "description": "Median asking rent per m² for all 23 Vienna districts, October 2026, from 1,015 live ImmoScout24.at listings, plus how to get the data daily.", "creator": {"@type": "Person", "name": "highbrow_fame", "url": "https://apify.com/highbrow_fame"}, "datePublished": "2026-10-22", "dateModified": "2026-10-22", "temporalCoverage": "2026-10-22", "spatialCoverage": "Vienna, Austria", "keywords": ["data", "realestate", "austria", "webscraping"], "variableMeasured": ["median asking rent per m2", "interquartile range of rent per m2", "median monthly rent", "median flat size", "rental flats on the portal"], "url": "https://dev.to/projectdev/vienna-rent-prices-per-m2-by-district-october-2026-live-immoscout24-data-3k55", "isBasedOn": ["https://apify.com/highbrow_fame/immoscout24-at-properties"]}]}</script>
+</head>
+<body>
+<header class="site"><a class="brand" href="index.html">Data reports</a>
+<nav><a href="index.html">All reports</a><a href="https://apify.com/highbrow_fame">Apify actors</a><a href="https://github.com/projectworks007/apify-data-mcp">GitHub</a></nav></header>
+<main>
+<p class="crumbs"><a href="index.html">Data reports</a> / Vienna rent per m² by district</p>
+<h1>Vienna rent prices per sqm by district: October 2026 (live ImmoScout24 data)</h1>
+<p class="meta">Edition <time datetime="2026-10-22">22 October 2026</time> &middot; updated monthly &middot; data from ImmoScout24 Austria Scraper</p>
+
+<div class="btns"><a class="btn" href="#get-the-data">Get this data yourself, daily</a></div>
+<blockquote class="note">
+<p>Disclosure: I built the Apify Actors used to collect this data. This post was written with AI assistance.</p>
+</blockquote>
+<p><strong>Vienna's median asking rent is €22.72 per m² in October 2026, about €1,590 a month for a typical flat.</strong> The most expensive district is Innere Stadt (1010) at €26.74 per m², followed by Donaustadt (€26.67); the cheapest is Simmering (1110) at €18.77.</p>
+<p>If you are comparing Vienna districts before a move, negotiating a lease or building a market model, the number you want is rent per square metre by district, and the listing pages do not show it. This report computes it from live ImmoScout24.at rental listings, for all 23 districts, and I will publish a new edition regularly so you can see the change.</p>
+<h2>Rent per m² by district</h2>
+<p><img alt="Vienna median asking rent per m² by district, October 2026" src="img/2026-10-22/vienna-rent-per-sqm-by-district.png" width="1200" height="1000" decoding="async"></p>
+<p><em>Orange: the three most expensive districts. Green: the three cheapest. The grey figure is the change against the previous edition (this is the first edition, so there is none yet, shown as a dash).</em></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Postcode</th>
+<th>District</th>
+<th>Median €/m²</th>
+<th>Middle half (25%-75%)</th>
+<th>Median rent €/month</th>
+<th>Median size m²</th>
+<th>Rental flats on the portal</th>
+<th>Change in median €/m²</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1010</td>
+<td>Innere Stadt</td>
+<td>26.74</td>
+<td>22.89 - 30.67</td>
+<td>3,448</td>
+<td>147</td>
+<td>211</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1220</td>
+<td>Donaustadt</td>
+<td>26.67</td>
+<td>22.05 - 34.53</td>
+<td>1,532</td>
+<td>59</td>
+<td>628</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1190</td>
+<td>Döbling</td>
+<td>25.13</td>
+<td>22.74 - 30.89</td>
+<td>2,548</td>
+<td>95.9</td>
+<td>217</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1040</td>
+<td>Wieden</td>
+<td>24.58</td>
+<td>22.77 - 32.59</td>
+<td>3,860</td>
+<td>148.3</td>
+<td>87</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1020</td>
+<td>Leopoldstadt</td>
+<td>23.85</td>
+<td>21.46 - 29.15</td>
+<td>1,834</td>
+<td>75.9</td>
+<td>124</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1030</td>
+<td>Landstraße</td>
+<td>23.08</td>
+<td>20.00 - 24.64</td>
+<td>1,699</td>
+<td>81.8</td>
+<td>476</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1180</td>
+<td>Währing</td>
+<td>22.84</td>
+<td>21.27 - 25.58</td>
+<td>2,850</td>
+<td>131.9</td>
+<td>117</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1140</td>
+<td>Penzing</td>
+<td>22.75</td>
+<td>18.35 - 26.11</td>
+<td>1,490</td>
+<td>70</td>
+<td>117</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1050</td>
+<td>Margareten</td>
+<td>22.54</td>
+<td>19.02 - 25.54</td>
+<td>1,600</td>
+<td>66.4</td>
+<td>74</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1100</td>
+<td>Favoriten</td>
+<td>22.34</td>
+<td>20.31 - 23.66</td>
+<td>1,125</td>
+<td>50.8</td>
+<td>395</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1070</td>
+<td>Neubau</td>
+<td>22.31</td>
+<td>20.05 - 24.33</td>
+<td>2,129</td>
+<td>97.6</td>
+<td>72</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1130</td>
+<td>Hietzing</td>
+<td>22.31</td>
+<td>19.48 - 26.52</td>
+<td>1,542</td>
+<td>74</td>
+<td>116</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1120</td>
+<td>Meidling</td>
+<td>21.52</td>
+<td>18.63 - 23.37</td>
+<td>1,249</td>
+<td>58.8</td>
+<td>119</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1080</td>
+<td>Josefstadt</td>
+<td>21.16</td>
+<td>19.92 - 24.11</td>
+<td>2,309</td>
+<td>102.1</td>
+<td>47</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1200</td>
+<td>Brigittenau</td>
+<td>21.15</td>
+<td>17.75 - 27.64</td>
+<td>1,545</td>
+<td>68.8</td>
+<td>137</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1170</td>
+<td>Hernals</td>
+<td>21.09</td>
+<td>18.52 - 23.65</td>
+<td>1,598</td>
+<td>69.1</td>
+<td>59</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1160</td>
+<td>Ottakring</td>
+<td>20.87</td>
+<td>18.49 - 22.98</td>
+<td>1,149</td>
+<td>54.2</td>
+<td>78</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1060</td>
+<td>Mariahilf</td>
+<td>20.25</td>
+<td>17.84 - 25.23</td>
+<td>2,148</td>
+<td>94.5</td>
+<td>71</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1090</td>
+<td>Alsergrund</td>
+<td>20.15</td>
+<td>17.91 - 24.47</td>
+<td>1,972</td>
+<td>81</td>
+<td>75</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1210</td>
+<td>Floridsdorf</td>
+<td>19.84</td>
+<td>18.09 - 22.06</td>
+<td>1,049</td>
+<td>53.1</td>
+<td>340</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1150</td>
+<td>Rudolfsheim-Fünfhaus</td>
+<td>19.63</td>
+<td>18.09 - 25.51</td>
+<td>1,435</td>
+<td>65</td>
+<td>89</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1230</td>
+<td>Liesing</td>
+<td>19.28</td>
+<td>17.81 - 21.05</td>
+<td>1,199</td>
+<td>63.6</td>
+<td>119</td>
+<td>–</td>
+</tr>
+<tr>
+<td>1110</td>
+<td>Simmering</td>
+<td>18.77</td>
+<td>16.99 - 20.40</td>
+<td>1,141</td>
+<td>63.5</td>
+<td>112</td>
+<td>–</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Rent per m² by flat size: under 40 m² cost the most</h2>
+<p><img alt="Median asking rent per m² by flat size" src="img/2026-10-22/vienna-rent-per-sqm-by-size.png" width="1200" height="291" loading="lazy" decoding="async"></p>
+<ul>
+<li>under 40 m²: €28.05 per m² (median rent €900 a month, 52 listings)</li>
+<li>40-60 m²: €22.72 per m² (median rent €1,099 a month, 281 listings)</li>
+<li>60-90 m²: €21.53 per m² (median rent €1,598 a month, 301 listings)</li>
+<li>90 m² and up: €22.80 per m² (median rent €3,148 a month, 381 listings)</li>
+</ul>
+<p>The under 40 m² band is the most expensive per square metre (€28.05) and the 60-90 m² band the cheapest (€21.53). A small flat is a cheaper flat per month, not per square metre, so compare districts using flats of the same size.</p>
+<h2>How this was measured</h2>
+<ul>
+<li><strong>Source:</strong> the ImmoScout24 Austria Scraper on Apify, run on 2026-10-22 with a fixed input: all 23 Vienna postcodes, rent, flats, sorted newest first, the newest 50 listings per district (1015 listings in total after removing duplicates, implausible rows and listings beyond the agency cap). The portal itself listed 3,880 rental flats in Vienna that day (column "Rental flats on the portal").</li>
+<li><strong>Asking rents, not contracts:</strong> these are the rents advertised by landlords and agents, as ImmoScout24 shows them (monthly rent including operating costs). Signed contracts, old tenancies and regulated rents are lower.</li>
+<li><strong>City median:</strong> each listing is weighted by how many rental flats its district has on the portal, so small districts do not count as much as large ones.</li>
+<li><strong>No single advertiser decides a district:</strong> one agency or developer counts for at most 5 listings per district, because a developer who posts a whole new-build block on one day would otherwise set the median of its district (listings used per district: 30 to 50).</li>
+<li><strong>Aggregates only:</strong> no landlord names, streets or listing texts are used or published here.</li>
+<li><strong>Caveat 1:</strong> peripheral districts with a lot of new-build rental supply can rank higher than their address suggests; the data used here does not separate new-builds from older flats.</li>
+<li><strong>Caveat 2:</strong> the newest 50 listings are a sample of a district's market, not all of it. Differences of a euro between neighbouring districts are within noise; the gaps of five euros and more are not.</li>
+</ul>
+<section class="cta" id="get-the-data"><h2>How to get this data yourself, every day</h2>
+<p>Everything above was collected by an Apify Actor from a fixed input, plus some arithmetic. You can run the same collection on your own Apify account in a couple of clicks:</p>
+<ul>
+<li><a href="https://apify.com/highbrow_fame/immoscout24-at-properties">ImmoScout24 Austria Scraper</a>: $1.50 per 1,000 results on the free plan, you pay only for results delivered.</li>
+</ul>
+<p><strong>Collecting the data for this edition costs about $1.73 on Apify's free plan</strong> (you pay per result delivered, nothing for a search that returns nothing), so a monthly refresh costs about the same.</p>
+<p><strong>Daily monitor in three steps:</strong></p>
+<ol>
+<li>Open the Actor, paste an input like the one below, and switch on <strong>Only new</strong> (<code>onlyNew</code>). The first run returns everything; every later run returns only what no earlier run of the same watch list delivered, and skipped items are not charged.</li>
+<li>Save the input as a task and put it on a schedule (for example the cron expression <code>0 7 * * *</code>, every day at 07:00 UTC).</li>
+<li>Send the result where you work: e-mail, Slack or Google Sheets, from the task's <em>Integrations</em> tab.</li>
+</ol>
+<pre><code class="language-json">{
+  &quot;locations&quot;: [
+    &quot;Wien&quot;
+  ],
+  &quot;transaction&quot;: &quot;rent&quot;,
+  &quot;propertyType&quot;: &quot;flat&quot;,
+  &quot;sortBy&quot;: &quot;newest&quot;,
+  &quot;maxListingsPerSearch&quot;: 100,
+  &quot;onlyNew&quot;: true,
+  &quot;monitorKey&quot;: &quot;vienna-rent-flats&quot;
+}
+</code></pre>
+<p><strong>Want the numbers for your own street, price range or flat size?</strong> Open the <a href="https://apify.com/highbrow_fame/immoscout24-at-properties">ImmoScout24 Austria Scraper</a> on Apify, set the district and filters, and run it: the input form is prefilled, one click starts a run, and the dataset comes back as CSV, Excel or JSON.</p>
+<p><strong>Next edition:</strong> this report is rebuilt monthly with the same method, so changes between editions are real changes. Bookmark the <a href="vienna-rent.html">latest edition</a> or the <a href="index.html">reports hub</a>, or run the monitor above if you would rather have new items delivered automatically.</p>
+<p>More copy-paste examples (Python, n8n workflow, LangChain tool): <a href="https://github.com/projectworks007/apify-data-mcp/tree/main/examples/immoscout24-at-properties">ImmoScout24 Austria integration examples on GitHub</a></p></section>
+<h2>All editions</h2>
+<ul class="eds"><li><strong>22 October 2026</strong> (this page) (latest)</li></ul>
+<p><a href="index.html">&larr; All data reports</a></p>
+</main>
+<footer class="site">
+<p>Data from Apify actors by <a href="https://apify.com/highbrow_fame">highbrow_fame</a>. Published figures are aggregates only; no personal data, listing texts or ad texts.</p>
+<p>Reports are written with AI assistance. Method and caveats are on every report page. Source: <a href="https://github.com/projectworks007/apify-data-mcp">GitHub</a>.</p>
+</footer>
+</body>
+</html>

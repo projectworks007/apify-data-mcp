@@ -4,6 +4,10 @@ Ready-made remote MCP servers that give Claude, ChatGPT, Cursor, VS Code and oth
 
 Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP server (`mcp.apify.com`). Connect with your Apify account (the client opens a sign-in page, or send `Authorization: Bearer <APIFY_TOKEN>`). Runs are billed to your Apify account per result, at each Actor's pay-per-event price; Apify's free plan includes a monthly usage credit.
 
+## Data reports
+
+Repeatable data reports built from the same live data: [Vienna rent per m² by district](https://projectworks007.github.io/apify-data-mcp/reports/vienna-rent.html) (monthly), [Coles vs Woolworths vs Aldi grocery prices](https://projectworks007.github.io/apify-data-mcp/reports/au-grocery-index.html) (weekly) and [tech jobs in Germany](https://projectworks007.github.io/apify-data-mcp/reports/germany-tech-jobs.html) (weekly). See all of them on the [reports hub](https://projectworks007.github.io/apify-data-mcp/reports/).
+
 ## Servers
 
 | Server | What it gives your agent | Tools |
