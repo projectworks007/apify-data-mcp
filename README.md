@@ -25,8 +25,8 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | [Hotel Prices Data](#hotel-prices) | Every booking site's price for chosen hotels and dates on Google Hotels. | 1 |
 | [Web Tools for AI Agents](#ai-agent-web-tools) | Web tools for AI agents: URL to clean Markdown, site crawl, screenshots, PDF/Office to text, OCR. | 9 |
 | [Company Data](#company-data) | Company data for AI agents: enrich a domain, UK Companies House records, Y Combinator companies. | 1 |
-| [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 8 |
-| [Shopify Store Audits](#shopify-store-audits) | Audit any list of Shopify stores: AI shopping readiness, EU customs identifiers (SKU/GTIN) and ScriptTags that stop on 1 March 2027. | 2 |
+| [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 10 |
+| [Shopify Store Audits](#shopify-store-audits) | Audit Shopify stores: AI readiness, EU customs SKU/GTIN coverage, ScriptTags ending 1 Mar 2027. | 2 |
 
 ## Connect
 
@@ -362,8 +362,10 @@ Utility tools for agents: detect a website's tech stack, check domains (WHOIS, D
 | [RSS Feed API & Atom Feed Reader](https://apify.com/highbrow_fame/rss-feed-reader) | Read any RSS, Atom, RDF or JSON feed — or just give a website and its feed is found — into one list: title, link, date, author, categories, summary, content and image. RSS feed API and RSS to JSON API. |
 | [OpenStreetMap API & Places](https://apify.com/highbrow_fame/openstreetmap-places) | Points of interest from OpenStreetMap by place or map box: restaurants, shops, hotels, pharmacies, 62 categories or any OSM tag, with address, coordinates, opening hours and website. OpenStreetMap places API and POI data API. |
 | [GitHub Trending](https://apify.com/highbrow_fame/github-trending-repos) | GitHub Trending repositories by programming language, date range and spoken language: rank, stars gained today/this week/this month, total stars, forks, and optionally topics, license and dates. Unofficial GitHub Trending API. |
+| [Weather API](https://apify.com/highbrow_fame/weather-api) | Current conditions, hourly and 16-day forecast, air quality and historical weather back to 1940 for any city or coordinates. No key, one record per location. Unofficial Open-Meteo API. |
+| [GitHub Repo API](https://apify.com/highbrow_fame/github-repo-api) | Repo details, stars, forks, topics, license, languages, latest releases, README, contributor count and recent commits from GitHub's public API, by name, link or search. Unofficial GitHub API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl,highbrow_fame/website-tech-stack,highbrow_fame/sitemap-url-extractor,highbrow_fame/domain-authority-rank,highbrow_fame/rss-feed-reader,highbrow_fame/openstreetmap-places,highbrow_fame/github-trending-repos`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl,highbrow_fame/website-tech-stack,highbrow_fame/sitemap-url-extractor,highbrow_fame/domain-authority-rank,highbrow_fame/rss-feed-reader,highbrow_fame/openstreetmap-places,highbrow_fame/github-trending-repos,highbrow_fame/weather-api,highbrow_fame/github-repo-api`
 
 Registry name: `io.github.projectworks007/web-and-dev-tools`
 
