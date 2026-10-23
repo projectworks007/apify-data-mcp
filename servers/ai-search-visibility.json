@@ -3,7 +3,7 @@
   "name": "io.github.projectworks007/ai-search-visibility",
   "title": "AI Search Brand Visibility",
   "description": "See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/projectworks007/apify-data-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=highbrow_fame/ai-search-visibility-tracker"
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/ai-search-visibility-tracker,highbrow_fame/ai-overview-citation-checker,highbrow_fame/ai-brand-share-of-voice,highbrow_fame/ai-page-citation-checker"
     }
   ]
 }

@@ -15,7 +15,7 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | [Car & Vehicle Listings Data](#vehicle-listings) | Used and new car listings with prices and specs from national car marketplaces. | 3 |
 | [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 11 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
-| [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 1 |
+| [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 4 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 2 |
 | [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 4 |
 | [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 7 |
@@ -26,6 +26,7 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | [Web Tools for AI Agents](#ai-agent-web-tools) | Web tools for AI agents: URL to clean Markdown, site crawl, screenshots, PDF/Office to text, OCR. | 9 |
 | [Company Data](#company-data) | Company data for AI agents: enrich a domain, UK Companies House records, Y Combinator companies. | 1 |
 | [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 8 |
+| [Shopify Store Audits](#shopify-store-audits) | Audit any list of Shopify stores: AI shopping readiness, EU customs identifiers (SKU/GTIN) and ScriptTags that stop on 1 March 2027. | 2 |
 
 ## Connect
 
@@ -165,7 +166,7 @@ Search classified ads and second-hand listings on national marketplaces: title, 
 | [Gumtree](https://apify.com/highbrow_fame/gumtree-uk-listings) | UK listings from gumtree.com: stuff for sale, cars and vans, property to rent and for sale, pets. Price, area, category, car and property details. No phones; private sellers stay anonymous. Unofficial Gumtree API. |
 | [Craigslist Marketplace](https://apify.com/highbrow_fame/craigslist-listings) | craigslist listings from any city and section — for sale, housing, cars, jobs, gigs, services: title, price, place, date, category, images, and optionally description and attributes. No phones. Unofficial Craigslist API. Craigslist apartments, craigslist cars. |
 | [Blocket](https://apify.com/highbrow_fame/blocket-listings) | Swedish classifieds from Blocket — the marketplace, cars, motorbikes, boats, caravans and machines: price, place, seller type, vehicle data, descriptions on request. No phones. Unofficial Blocket API. |
-| [OfferUp](https://apify.com/highbrow_fame/offerup-listings) | OfferUp listings API: price, condition, category, town, state, post date, photos and car make, model, mileage for $1.50 per 1,000 listings. Any US city or ZIP, links or keywords. No phones, no seller names. Unofficial OfferUp API. OfferUp scraper, classifieds API, secondhand marketplace data. |
+| [OfferUp](https://apify.com/highbrow_fame/offerup-listings) | OfferUp listings around any US city or ZIP: price, condition, category, town and state, post date, firm price, photos, car make, model and mileage. Links or keywords. No phones, no seller names. Unofficial OfferUp API. OfferUp scraper, classifieds API, secondhand marketplace data. |
 | [Kijiji](https://apify.com/highbrow_fame/kijiji-listings) | Kijiji.ca listings from any category — buy & sell, cars, rentals, homes, jobs, pets: price, place, seller type, car and property details, optional full description. No phones. Unofficial Kijiji API. |
 | [Subito.it](https://apify.com/highbrow_fame/subito-listings) | Italian listings from Subito.it: flats and houses, cars and motorbikes, marketplace items. Price, town, full ad text, rooms, m², make, km, seller type. Private sellers stay anonymous. No phones. Unofficial Subito API. |
 | [FINN.no](https://apify.com/highbrow_fame/finn-listings) | Norwegian listings from FINN.no — Torget, cars, boats, homes for sale and rent, commercial property and jobs: price, place, seller type and company, details on request. No phones. Unofficial FINN.no API. |
@@ -197,8 +198,11 @@ See how ChatGPT, Perplexity, Gemini and Google AI Overviews cite your brand: cit
 | Tool | What it returns |
 |---|---|
 | [ai-search-visibility-tracker](https://apify.com/highbrow_fame/ai-search-visibility-tracker) |  |
+| [Google AI Overview Checker](https://apify.com/highbrow_fame/ai-overview-citation-checker) | AI Overview citation checker: which sites Google AI Overviews cite for your keywords ($0.03 per keyword). Shows if your domain is cited, at what position, and who else is. English Google. |
+| [Brand Share of Voice in AI Search](https://apify.com/highbrow_fame/ai-brand-share-of-voice) | AI share of voice: how often ChatGPT, Perplexity and Gemini name your brand vs competitors ($0.08 per prompt). Ranked by mention rate, citation share and position, plus top-cited sources. |
+| [AI Citation Checker](https://apify.com/highbrow_fame/ai-page-citation-checker) | Page citation checker: is this URL cited by ChatGPT, Perplexity or Gemini ($0.12 per URL). It writes buyer questions from each page, asks the engines, and shows who is cited instead. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/ai-search-visibility-tracker`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/ai-search-visibility-tracker,highbrow_fame/ai-overview-citation-checker,highbrow_fame/ai-brand-share-of-voice,highbrow_fame/ai-page-citation-checker`
 
 Registry name: `io.github.projectworks007/ai-search-visibility`
 
@@ -362,6 +366,20 @@ Utility tools for agents: detect a website's tech stack, check domains (WHOIS, D
 Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl,highbrow_fame/website-tech-stack,highbrow_fame/sitemap-url-extractor,highbrow_fame/domain-authority-rank,highbrow_fame/rss-feed-reader,highbrow_fame/openstreetmap-places,highbrow_fame/github-trending-repos`
 
 Registry name: `io.github.projectworks007/web-and-dev-tools`
+
+<a id="shopify-store-audits"></a>
+## Shopify Store Audits
+
+Check any list of Shopify stores from public data: product feed completeness, AI crawler access, EU customs identifier coverage (SKUs, GTIN) and the ScriptTags Shopify stops running on 1 March 2027.
+
+| Tool | What it returns |
+|---|---|
+| [Shopify ScriptTag Checker](https://apify.com/highbrow_fame/shopify-script-tag-checker) | Will your Shopify store break on 1 March 2027? Lists the ScriptTags Shopify stops injecting, the app vendors behind them and legacy customer accounts ($0.01 per store) |
+| [Shopify AI Readiness Audit](https://apify.com/highbrow_fame/shopify-ai-readiness-audit) | Shopify AI readiness audit: bulk products.json audit and AI crawler access check for any list of Shopify stores ($0.01 per store, 500 stores = $5) |
+
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/shopify-script-tag-checker,highbrow_fame/shopify-ai-readiness-audit`
+
+Registry name: `io.github.projectworks007/shopify-store-audits`
 
 ## Notes
 

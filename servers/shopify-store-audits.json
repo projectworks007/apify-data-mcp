@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.projectworks007/shopify-store-audits",
+  "title": "Shopify Store Audits",
+  "description": "Audit any list of Shopify stores: AI shopping readiness, EU customs identifiers (SKU/GTIN) and ScriptTags that stop on 1 March 2027.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/projectworks007/apify-data-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/projectworks007/apify-data-mcp#shopify-store-audits",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/shopify-script-tag-checker,highbrow_fame/shopify-ai-readiness-audit"
+    }
+  ]
+}
