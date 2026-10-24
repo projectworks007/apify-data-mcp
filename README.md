@@ -18,7 +18,7 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 4 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 3 |
 | [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 4 |
-| [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 8 |
+| [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 9 |
 | [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 5 |
 | [Events Data](#events-data) | Events with dates, venues, prices and organisers from Eventbrite and Meetup. | 2 |
 | [Finance & Filings Data](#finance-data) | Stock quotes, price history and fundamentals, plus SEC EDGAR company filings. | 2 |
@@ -250,8 +250,9 @@ Research and monitoring data: Google Trends interest and trending searches, Goog
 | [Google News API](https://apify.com/highbrow_fame/google-news-api) | Google News headlines as JSON by keyword, topic or publication, any country and language, with title, source, publish date and decoded article URL. Unofficial Google News API. |
 | [Article Extractor API](https://apify.com/highbrow_fame/article-extractor-api) | Extracts the article from any news or blog URL: title, author, published date, full text, Markdown, lead image and language. Works on paywall-free pages. Unofficial Article Extractor API. |
 | [News Search API](https://apify.com/highbrow_fame/news-search-api) | Keyword news search over Google News (thousands of sources) with date range, language, country, dedup, source, publish time and optional full-text extraction. Unofficial News Search API. |
+| [arXiv API](https://apify.com/highbrow_fame/arxiv-api) | Search arXiv by keyword, author, category or date, or fetch papers by id: title, authors, abstract, categories, DOI, versions, PDF/HTML links and optional full text. Unofficial arXiv API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable,highbrow_fame/substack-posts,highbrow_fame/hacker-news-stories,highbrow_fame/apple-podcasts-shows-episodes,highbrow_fame/google-trends-trending-now,highbrow_fame/google-news-api,highbrow_fame/article-extractor-api,highbrow_fame/news-search-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable,highbrow_fame/substack-posts,highbrow_fame/hacker-news-stories,highbrow_fame/apple-podcasts-shows-episodes,highbrow_fame/google-trends-trending-now,highbrow_fame/google-news-api,highbrow_fame/article-extractor-api,highbrow_fame/news-search-api,highbrow_fame/arxiv-api`
 
 Registry name: `io.github.projectworks007/news-and-trends`
 
