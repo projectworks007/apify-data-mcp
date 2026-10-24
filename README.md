@@ -9,11 +9,11 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | Server | What it gives your agent | Tools |
 |---|---|---|
 | [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 15 |
-| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 12 |
+| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 11 |
 | [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 15 |
 | [Real Estate Listings Data (part 2)](#real-estate-listings-2) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 5 |
 | [Car & Vehicle Listings Data](#vehicle-listings) | Used and new car listings with prices and specs from national car marketplaces. | 3 |
-| [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 11 |
+| [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 10 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 4 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 2 |
@@ -83,7 +83,6 @@ Search live job ads by keyword and place on national job boards. Title, company,
 | [karriere.at](https://apify.com/highbrow_fame/karriere-at-jobs) | Job ads from karriere.at, Austria's largest job board: title, company, places, employment type, salary with minimum and period, posting date and the full ad text. No contact persons, no phones. Unofficial karriere.at API. |
 | [stellenanzeigen.de](https://apify.com/highbrow_fame/stellenanzeigen-jobs) | stellenanzeigen.de jobs API: title, company, places, salary, contract type and full ad text for $1.20 per 1,000 jobs. Job ads from a big German job board: hours, home office, benefits, dates. No contact persons, no phones. Unofficial Stellenanzeigen.de API. |
 | [BestJobs](https://apify.com/highbrow_fame/bestjobs-ro-jobs) | Romanian job ads from BestJobs (bestjobs.eu): title, company, towns, salary in EUR, employment type, level, remote/hybrid, languages, benefits and the full ad. Links or keywords + towns. Unofficial BestJobs API. Europe job scraper, job ads scraper, Romania job board. |
-| [Profession.hu](https://apify.com/highbrow_fame/profession-hu-jobs) | Profession.hu jobs API: title, company, place, home office, salary as numbers, category and full ad text for $1.50 per 1,000 jobs. Hungarian job ads by link, keyword or place, contract type, posting date. No phones. Unofficial Profession.hu API. |
 | [PNet](https://apify.com/highbrow_fame/pnet-jobs) | PNet jobs API: South African job title, company, location, parsed salary, contract type and full ad for $0.90 per 1,000 jobs. pnet.co.za, EE/AA, posted date. No recruiter names or phones. Unofficial PNet API. |
 | [Elempleo](https://apify.com/highbrow_fame/elempleo-jobs) | Job offers from elempleo.com (Colombia): title, company, city, salary band in COP, contract, work modality, experience, education, full description. Search links or keywords. No phones. Unofficial elempleo API. |
 | [Job Bank Canada](https://apify.com/highbrow_fame/job-bank-canada-jobs) | Jobs from Job Bank, the Government of Canada job board, in English or French: title, employer, city, salary parsed, posted date, source and, if you want, the full ad. No phones or e-mails. Unofficial Job Bank Canada API. |
@@ -91,7 +90,7 @@ Search live job ads by keyword and place on national job boards. Title, company,
 | [Arbeidsplassen](https://apify.com/highbrow_fame/arbeidsplassen-nav-jobs) | Job ads from Arbeidsplassen (NAV), Norway's public job board: title, employer, place, occupation, employment type, full-/part-time, sector, dates, apply link, full text. No contacts, no phones. Unofficial Arbeidsplassen API. |
 | [Careers Page](https://apify.com/highbrow_fame/careers-page-jobs-api) | Give career page or ATS board URLs; get open jobs with title, location, department, remote flag, description and apply URL. Greenhouse, Lever, Ashby, Workable and more. Unofficial Careers Page API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/jobs-ch-jobs,highbrow_fame/jobs-cz-jobs,highbrow_fame/karriere-at-jobs,highbrow_fame/stellenanzeigen-jobs,highbrow_fame/bestjobs-ro-jobs,highbrow_fame/profession-hu-jobs,highbrow_fame/pnet-jobs,highbrow_fame/elempleo-jobs,highbrow_fame/job-bank-canada-jobs,highbrow_fame/mojposao-jobs,highbrow_fame/arbeidsplassen-nav-jobs,highbrow_fame/careers-page-jobs-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/jobs-ch-jobs,highbrow_fame/jobs-cz-jobs,highbrow_fame/karriere-at-jobs,highbrow_fame/stellenanzeigen-jobs,highbrow_fame/bestjobs-ro-jobs,highbrow_fame/pnet-jobs,highbrow_fame/elempleo-jobs,highbrow_fame/job-bank-canada-jobs,highbrow_fame/mojposao-jobs,highbrow_fame/arbeidsplassen-nav-jobs,highbrow_fame/careers-page-jobs-api`
 
 Registry name: `io.github.projectworks007/job-boards-2`
 
@@ -170,10 +169,9 @@ Search classified ads and second-hand listings on national marketplaces: title, 
 | [Kijiji](https://apify.com/highbrow_fame/kijiji-listings) | Kijiji.ca listings from any category — buy & sell, cars, rentals, homes, jobs, pets: price, place, seller type, car and property details, optional full description. No phones. Unofficial Kijiji API. |
 | [Subito.it](https://apify.com/highbrow_fame/subito-listings) | Italian listings from Subito.it: flats and houses, cars and motorbikes, marketplace items. Price, town, full ad text, rooms, m², make, km, seller type. Private sellers stay anonymous. No phones. Unofficial Subito API. |
 | [FINN.no](https://apify.com/highbrow_fame/finn-listings) | Norwegian listings from FINN.no — Torget, cars, boats, homes for sale and rent, commercial property and jobs: price, place, seller type and company, details on request. No phones. Unofficial FINN.no API. |
-| [Jófogás](https://apify.com/highbrow_fame/jofogas-listings) | Hungarian listings from jofogas.hu: marketplace ads, cars and motorbikes, flats and houses. Price, place, category, make, mileage, size, rooms, seller type. Private sellers stay anonymous. Unofficial Jófogás API. |
 | [Marktplaats & 2dehands](https://apify.com/highbrow_fame/marktplaats-2dehands-listings) | Listings from Marktplaats (NL), 2dehands and 2ememain (BE): price, place, condition, category, car data, date. Search links or keywords. Private sellers stay anonymous. Unofficial Marktplaats API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings,highbrow_fame/gumtree-uk-listings,highbrow_fame/craigslist-listings,highbrow_fame/blocket-listings,highbrow_fame/offerup-listings,highbrow_fame/kijiji-listings,highbrow_fame/subito-listings,highbrow_fame/finn-listings,highbrow_fame/jofogas-listings,highbrow_fame/marktplaats-2dehands-listings`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings,highbrow_fame/gumtree-uk-listings,highbrow_fame/craigslist-listings,highbrow_fame/blocket-listings,highbrow_fame/offerup-listings,highbrow_fame/kijiji-listings,highbrow_fame/subito-listings,highbrow_fame/finn-listings,highbrow_fame/marktplaats-2dehands-listings`
 
 Registry name: `io.github.projectworks007/marketplace-listings`
 
