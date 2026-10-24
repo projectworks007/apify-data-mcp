@@ -16,15 +16,15 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 10 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 4 |
-| [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 2 |
+| [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 3 |
 | [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 4 |
-| [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 7 |
+| [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 8 |
 | [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 5 |
 | [Events Data](#events-data) | Events with dates, venues, prices and organisers from Eventbrite and Meetup. | 2 |
 | [Finance & Filings Data](#finance-data) | Stock quotes, price history and fundamentals, plus SEC EDGAR company filings. | 2 |
 | [Hotel Prices Data](#hotel-prices) | Every booking site's price for chosen hotels and dates on Google Hotels. | 1 |
 | [Web Tools for AI Agents](#ai-agent-web-tools) | Web tools for AI agents: URL to clean Markdown, site crawl, screenshots, PDF/Office to text, OCR. | 9 |
-| [Company Data](#company-data) | Company data for AI agents: enrich a domain, UK Companies House records, Y Combinator companies. | 1 |
+| [Company Data](#company-data) | Company data for AI agents: enrich a domain, UK Companies House records, Y Combinator companies. | 3 |
 | [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 10 |
 | [Shopify Store Audits](#shopify-store-audits) | Audit Shopify stores: AI readiness, EU customs SKU/GTIN coverage, ScriptTags ending 1 Mar 2027. | 2 |
 
@@ -213,8 +213,9 @@ Transcripts from YouTube videos, playlists and channels: timestamps, plain text,
 |---|---|
 | [youtube-transcript-fast](https://apify.com/highbrow_fame/youtube-transcript-fast) |  |
 | [YouTube Channel API](https://apify.com/highbrow_fame/youtube-channel-api) | YouTube channel info (subscribers, video count, description, avatar, links) plus its videos and shorts with views, dates and durations. No key, no login. Unofficial YouTube Channel API. |
+| [YouTube Video Details API](https://apify.com/highbrow_fame/youtube-video-details-api) | Title, channel, views, likes, duration, publish date, description, tags, category, chapters, caption languages and thumbnails for any YouTube video link or id. No API key. Unofficial YouTube API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/youtube-transcript-fast,highbrow_fame/youtube-channel-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/youtube-transcript-fast,highbrow_fame/youtube-channel-api,highbrow_fame/youtube-video-details-api`
 
 Registry name: `io.github.projectworks007/youtube-transcripts`
 
@@ -245,11 +246,12 @@ Research and monitoring data: Google Trends interest and trending searches, Goog
 | [Substack API &](https://apify.com/highbrow_fame/substack-posts) | Substack posts from any publication: title, date, authors, likes, comments, restacks, word count, paid or free, tags and optionally the full text. Many publications per run. Unofficial Substack API. |
 | [Hacker News API &](https://apify.com/highbrow_fame/hacker-news-stories) | Hacker News stories from the front page, new, best, Ask HN, Show HN and jobs, or from a search over all of HN: title, link, points, comments, date, and the comment threads. Unofficial Hacker News API. |
 | [Apple Podcasts API &](https://apify.com/highbrow_fame/apple-podcasts-shows-episodes) | Apple Podcasts shows by link, search or top chart (any country and genre) with rating, publisher, genres and feed, plus their episodes with audio links. No login. Unofficial Apple Podcasts API. |
+| [Google Trends Trending Now](https://apify.com/highbrow_fame/google-trends-trending-now) | Every search trending on Google Trends right now, for any country: search volume, increase, start and end time, category and related searches — not just the 10 the RSS feed shows. |
 | [Google News API](https://apify.com/highbrow_fame/google-news-api) | Google News headlines as JSON by keyword, topic or publication, any country and language, with title, source, publish date and decoded article URL. Unofficial Google News API. |
 | [Article Extractor API](https://apify.com/highbrow_fame/article-extractor-api) | Extracts the article from any news or blog URL: title, author, published date, full text, Markdown, lead image and language. Works on paywall-free pages. Unofficial Article Extractor API. |
 | [News Search API](https://apify.com/highbrow_fame/news-search-api) | Keyword news search over Google News (thousands of sources) with date range, language, country, dedup, source, publish time and optional full-text extraction. Unofficial News Search API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable,highbrow_fame/substack-posts,highbrow_fame/hacker-news-stories,highbrow_fame/apple-podcasts-shows-episodes,highbrow_fame/google-news-api,highbrow_fame/article-extractor-api,highbrow_fame/news-search-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable,highbrow_fame/substack-posts,highbrow_fame/hacker-news-stories,highbrow_fame/apple-podcasts-shows-episodes,highbrow_fame/google-trends-trending-now,highbrow_fame/google-news-api,highbrow_fame/article-extractor-api,highbrow_fame/news-search-api`
 
 Registry name: `io.github.projectworks007/news-and-trends`
 
@@ -340,8 +342,10 @@ Look up companies for research, sales and AI agents: enrich a company domain (na
 | Tool | What it returns |
 |---|---|
 | [Company Enrichment API](https://apify.com/highbrow_fame/company-enrichment-api) | Company name, legal name, logo, founding year, HQ, socials, generic mailboxes, phone and tech hints from a domain's own site and schema.org markup. No people data. Unofficial Company Enrichment API. |
+| [Companies House API](https://apify.com/highbrow_fame/companies-house-api) | Search UK companies and read the public register: number, status, type, SIC codes, dates, registered office, accounts dates, latest filings, officer and charge counts. Unofficial Companies House API. |
+| [Y Combinator Companies API](https://apify.com/highbrow_fame/y-combinator-companies-api) | All YC companies with batch, status, industry, team size, location, website, one-liner and tags from the public YC Startup Directory; search by keyword, batch or industry. Unofficial Y Combinator API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/company-enrichment-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/company-enrichment-api,highbrow_fame/companies-house-api,highbrow_fame/y-combinator-companies-api`
 
 Registry name: `io.github.projectworks007/company-data`
 
