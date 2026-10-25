@@ -9,11 +9,11 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | Server | What it gives your agent | Tools |
 |---|---|---|
 | [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 15 |
-| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 11 |
+| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 13 |
 | [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 15 |
 | [Real Estate Listings Data (part 2)](#real-estate-listings-2) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 5 |
 | [Car & Vehicle Listings Data](#vehicle-listings) | Used and new car listings with prices and specs from national car marketplaces. | 3 |
-| [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 10 |
+| [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 12 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 4 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 3 |
@@ -25,7 +25,7 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | [Hotel Prices Data](#hotel-prices) | Every booking site's price for chosen hotels and dates on Google Hotels. | 1 |
 | [Web Tools for AI Agents](#ai-agent-web-tools) | Web tools for AI agents: URL to clean Markdown, site crawl, screenshots, PDF/Office to text, OCR. | 9 |
 | [Company Data](#company-data) | Company data for AI agents: enrich a domain, UK Companies House records, Y Combinator companies. | 3 |
-| [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 10 |
+| [Web & Developer Data Tools](#web-and-dev-tools) | Website tech stacks, domain WHOIS/DNS/SSL, sitemaps, PDF text, GitHub trending and more. | 11 |
 | [Shopify Store Audits](#shopify-store-audits) | Audit Shopify stores: AI readiness, EU customs SKU/GTIN coverage, ScriptTags ending 1 Mar 2027. | 2 |
 
 ## Connect
@@ -88,9 +88,11 @@ Search live job ads by keyword and place on national job boards. Title, company,
 | [Job Bank Canada](https://apify.com/highbrow_fame/job-bank-canada-jobs) | Jobs from Job Bank, the Government of Canada job board, in English or French: title, employer, city, salary parsed, posted date, source and, if you want, the full ad. No phones or e-mails. Unofficial Job Bank Canada API. |
 | [MojPosao](https://apify.com/highbrow_fame/mojposao-jobs) | MojPosao jobs API: Croatian job title, company, places, salary in EUR, employment type, remote and full ad for $1.20 per 1,000 jobs. mojposao.hr, education, languages. Links or keywords + places. Unofficial MojPosao API. |
 | [Arbeidsplassen](https://apify.com/highbrow_fame/arbeidsplassen-nav-jobs) | Job ads from Arbeidsplassen (NAV), Norway's public job board: title, employer, place, occupation, employment type, full-/part-time, sector, dates, apply link, full text. No contacts, no phones. Unofficial Arbeidsplassen API. |
+| [Platsbanken](https://apify.com/highbrow_fame/platsbanken-jobs) | Job ads from Platsbanken (Arbetsförmedlingen), Sweden's public job board: title, employer, place, occupation, terms, salary type, dates, apply link and full text. No contact persons, no phones. |
+| [Just Join IT](https://apify.com/highbrow_fame/justjoin-it-jobs) | IT jobs from justjoin.it, Poland's IT job board: title, company, city, work mode, level, salary ranges per contract (B2B / permanent), required skills with levels, date and the full ad. |
 | [Careers Page](https://apify.com/highbrow_fame/careers-page-jobs-api) | Give career page or ATS board URLs; get open jobs with title, location, department, remote flag, description and apply URL. Greenhouse, Lever, Ashby, Workable and more. Unofficial Careers Page API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/jobs-ch-jobs,highbrow_fame/jobs-cz-jobs,highbrow_fame/karriere-at-jobs,highbrow_fame/stellenanzeigen-jobs,highbrow_fame/bestjobs-ro-jobs,highbrow_fame/pnet-jobs,highbrow_fame/elempleo-jobs,highbrow_fame/job-bank-canada-jobs,highbrow_fame/mojposao-jobs,highbrow_fame/arbeidsplassen-nav-jobs,highbrow_fame/careers-page-jobs-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/jobs-ch-jobs,highbrow_fame/jobs-cz-jobs,highbrow_fame/karriere-at-jobs,highbrow_fame/stellenanzeigen-jobs,highbrow_fame/bestjobs-ro-jobs,highbrow_fame/pnet-jobs,highbrow_fame/elempleo-jobs,highbrow_fame/job-bank-canada-jobs,highbrow_fame/mojposao-jobs,highbrow_fame/arbeidsplassen-nav-jobs,highbrow_fame/platsbanken-jobs,highbrow_fame/justjoin-it-jobs,highbrow_fame/careers-page-jobs-api`
 
 Registry name: `io.github.projectworks007/job-boards-2`
 
@@ -165,13 +167,15 @@ Search classified ads and second-hand listings on national marketplaces: title, 
 | [Gumtree](https://apify.com/highbrow_fame/gumtree-uk-listings) | UK listings from gumtree.com: stuff for sale, cars and vans, property to rent and for sale, pets. Price, area, category, car and property details. No phones; private sellers stay anonymous. Unofficial Gumtree API. |
 | [Craigslist Marketplace](https://apify.com/highbrow_fame/craigslist-listings) | craigslist listings from any city and section — for sale, housing, cars, jobs, gigs, services: title, price, place, date, category, images, and optionally description and attributes. No phones. Unofficial Craigslist API. Craigslist apartments, craigslist cars. |
 | [Blocket](https://apify.com/highbrow_fame/blocket-listings) | Swedish classifieds from Blocket — the marketplace, cars, motorbikes, boats, caravans and machines: price, place, seller type, vehicle data, descriptions on request. No phones. Unofficial Blocket API. |
-| [OfferUp](https://apify.com/highbrow_fame/offerup-listings) | OfferUp listings around any US city or ZIP: price, condition, category, town and state, post date, firm price, photos, car make, model and mileage. Links or keywords. No phones, no seller names. Unofficial OfferUp API. OfferUp scraper, classifieds API, secondhand marketplace data. |
+| [OfferUp](https://apify.com/highbrow_fame/offerup-listings) | OfferUp scraper with new-listing alerts: $1.50 per 1,000 listings, details included. Only new OfferUp listings near any US city or ZIP, daily to Slack, Discord, e-mail. Price, condition, post date, photos, car make, model, mileage. No phones, no seller names. Unofficial OfferUp API, classifieds API. |
 | [Kijiji](https://apify.com/highbrow_fame/kijiji-listings) | Kijiji.ca listings from any category — buy & sell, cars, rentals, homes, jobs, pets: price, place, seller type, car and property details, optional full description. No phones. Unofficial Kijiji API. |
 | [Subito.it](https://apify.com/highbrow_fame/subito-listings) | Italian listings from Subito.it: flats and houses, cars and motorbikes, marketplace items. Price, town, full ad text, rooms, m², make, km, seller type. Private sellers stay anonymous. No phones. Unofficial Subito API. |
 | [FINN.no](https://apify.com/highbrow_fame/finn-listings) | Norwegian listings from FINN.no — Torget, cars, boats, homes for sale and rent, commercial property and jobs: price, place, seller type and company, details on request. No phones. Unofficial FINN.no API. |
 | [Marktplaats & 2dehands](https://apify.com/highbrow_fame/marktplaats-2dehands-listings) | Listings from Marktplaats (NL), 2dehands and 2ememain (BE): price, place, condition, category, car data, date. Search links or keywords. Private sellers stay anonymous. Unofficial Marktplaats API. |
+| [Willhaben](https://apify.com/highbrow_fame/willhaben-listings) | Austrian listings from willhaben.at: flats and houses, cars and motorbikes, marketplace ads. Price, place, size, rooms, make, mileage, seller type. Private sellers stay anonymous. |
+| [DBA](https://apify.com/highbrow_fame/dba-listings) | Danish classifieds from DBA (dba.dk) — the marketplace, cars, motorbikes, boats and caravans: price, town, seller type and company, condition and descriptions on request. No phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings,highbrow_fame/gumtree-uk-listings,highbrow_fame/craigslist-listings,highbrow_fame/blocket-listings,highbrow_fame/offerup-listings,highbrow_fame/kijiji-listings,highbrow_fame/subito-listings,highbrow_fame/finn-listings,highbrow_fame/marktplaats-2dehands-listings`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings,highbrow_fame/gumtree-uk-listings,highbrow_fame/craigslist-listings,highbrow_fame/blocket-listings,highbrow_fame/offerup-listings,highbrow_fame/kijiji-listings,highbrow_fame/subito-listings,highbrow_fame/finn-listings,highbrow_fame/marktplaats-2dehands-listings,highbrow_fame/willhaben-listings,highbrow_fame/dba-listings`
 
 Registry name: `io.github.projectworks007/marketplace-listings`
 
@@ -365,10 +369,11 @@ Utility tools for agents: detect a website's tech stack, check domains (WHOIS, D
 | [RSS Feed API & Atom Feed Reader](https://apify.com/highbrow_fame/rss-feed-reader) | Read any RSS, Atom, RDF or JSON feed — or just give a website and its feed is found — into one list: title, link, date, author, categories, summary, content and image. RSS feed API and RSS to JSON API. |
 | [OpenStreetMap API & Places](https://apify.com/highbrow_fame/openstreetmap-places) | Points of interest from OpenStreetMap by place or map box: restaurants, shops, hotels, pharmacies, 62 categories or any OSM tag, with address, coordinates, opening hours and website. OpenStreetMap places API and POI data API. |
 | [GitHub Trending](https://apify.com/highbrow_fame/github-trending-repos) | GitHub Trending repositories by programming language, date range and spoken language: rank, stars gained today/this week/this month, total stars, forks, and optionally topics, license and dates. Unofficial GitHub Trending API. |
+| [Hugging Face](https://apify.com/highbrow_fame/hugging-face-hub) | Hugging Face Hub models, datasets and Spaces: downloads, likes, trending score, task, library, license, tags, gated flag, dates and a card summary. By search, author, task or repo link. |
 | [Weather API](https://apify.com/highbrow_fame/weather-api) | Current conditions, hourly and 16-day forecast, air quality and historical weather back to 1940 for any city or coordinates. No key, one record per location. Unofficial Open-Meteo API. |
 | [GitHub Repo API](https://apify.com/highbrow_fame/github-repo-api) | Repo details, stars, forks, topics, license, languages, latest releases, README, contributor count and recent commits from GitHub's public API, by name, link or search. Unofficial GitHub API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl,highbrow_fame/website-tech-stack,highbrow_fame/sitemap-url-extractor,highbrow_fame/domain-authority-rank,highbrow_fame/rss-feed-reader,highbrow_fame/openstreetmap-places,highbrow_fame/github-trending-repos,highbrow_fame/weather-api,highbrow_fame/github-repo-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/pdf-text-extractor,highbrow_fame/domain-whois-dns-ssl,highbrow_fame/website-tech-stack,highbrow_fame/sitemap-url-extractor,highbrow_fame/domain-authority-rank,highbrow_fame/rss-feed-reader,highbrow_fame/openstreetmap-places,highbrow_fame/github-trending-repos,highbrow_fame/hugging-face-hub,highbrow_fame/weather-api,highbrow_fame/github-repo-api`
 
 Registry name: `io.github.projectworks007/web-and-dev-tools`
 
