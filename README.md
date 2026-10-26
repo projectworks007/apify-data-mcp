@@ -9,16 +9,16 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | Server | What it gives your agent | Tools |
 |---|---|---|
 | [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 15 |
-| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 13 |
+| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 14 |
 | [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 15 |
-| [Real Estate Listings Data (part 2)](#real-estate-listings-2) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 5 |
+| [Real Estate Listings Data (part 2)](#real-estate-listings-2) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 7 |
 | [Car & Vehicle Listings Data](#vehicle-listings) | Used and new car listings with prices and specs from national car marketplaces. | 3 |
-| [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 12 |
+| [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 13 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 4 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 3 |
 | [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 4 |
-| [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 9 |
+| [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 10 |
 | [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 5 |
 | [Events Data](#events-data) | Events with dates, venues, prices and organisers from Eventbrite and Meetup. | 2 |
 | [Finance & Filings Data](#finance-data) | Stock quotes, price history and fundamentals, plus SEC EDGAR company filings. | 2 |
@@ -90,9 +90,10 @@ Search live job ads by keyword and place on national job boards. Title, company,
 | [Arbeidsplassen](https://apify.com/highbrow_fame/arbeidsplassen-nav-jobs) | Job ads from Arbeidsplassen (NAV), Norway's public job board: title, employer, place, occupation, employment type, full-/part-time, sector, dates, apply link, full text. No contacts, no phones. Unofficial Arbeidsplassen API. |
 | [Platsbanken](https://apify.com/highbrow_fame/platsbanken-jobs) | Job ads from Platsbanken (Arbetsförmedlingen), Sweden's public job board: title, employer, place, occupation, terms, salary type, dates, apply link and full text. No contact persons, no phones. |
 | [Just Join IT](https://apify.com/highbrow_fame/justjoin-it-jobs) | IT jobs from justjoin.it, Poland's IT job board: title, company, city, work mode, level, salary ranges per contract (B2B / permanent), required skills with levels, date and the full ad. |
+| [JobServe](https://apify.com/highbrow_fame/jobserve-jobs) | UK IT, engineering and contract jobs from JobServe: title, agency or employer, location, day rate or salary with min/max/period and IR35, job type, dates, and the full ad if you want. No phones. |
 | [Careers Page](https://apify.com/highbrow_fame/careers-page-jobs-api) | Give career page or ATS board URLs; get open jobs with title, location, department, remote flag, description and apply URL. Greenhouse, Lever, Ashby, Workable and more. Unofficial Careers Page API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/jobs-ch-jobs,highbrow_fame/jobs-cz-jobs,highbrow_fame/karriere-at-jobs,highbrow_fame/stellenanzeigen-jobs,highbrow_fame/bestjobs-ro-jobs,highbrow_fame/pnet-jobs,highbrow_fame/elempleo-jobs,highbrow_fame/job-bank-canada-jobs,highbrow_fame/mojposao-jobs,highbrow_fame/arbeidsplassen-nav-jobs,highbrow_fame/platsbanken-jobs,highbrow_fame/justjoin-it-jobs,highbrow_fame/careers-page-jobs-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/jobs-ch-jobs,highbrow_fame/jobs-cz-jobs,highbrow_fame/karriere-at-jobs,highbrow_fame/stellenanzeigen-jobs,highbrow_fame/bestjobs-ro-jobs,highbrow_fame/pnet-jobs,highbrow_fame/elempleo-jobs,highbrow_fame/job-bank-canada-jobs,highbrow_fame/mojposao-jobs,highbrow_fame/arbeidsplassen-nav-jobs,highbrow_fame/platsbanken-jobs,highbrow_fame/justjoin-it-jobs,highbrow_fame/jobserve-jobs,highbrow_fame/careers-page-jobs-api`
 
 Registry name: `io.github.projectworks007/job-boards-2`
 
@@ -135,8 +136,10 @@ Search property listings to buy or rent on national property portals: price, are
 | [Bien'ici](https://apify.com/highbrow_fame/bienici-properties) | French property listings from Bien'ici, for sale or to rent: price, price per m², surface, rooms, bedrooms, floor, town, postcode, energy class (DPE/GES), agency and full description. No phones. Unofficial Bien'ici API. |
 | [Oikotie](https://apify.com/highbrow_fame/oikotie-properties) | Finnish homes for sale and rent from Oikotie: debt-free and selling price, rent, charges, area, rooms, floor, year, energy class, postcode, agency, description. No phones. Unofficial Oikotie API. |
 | [Etuovi](https://apify.com/highbrow_fame/etuovi-properties) | Finnish properties for sale from Etuovi: debt-free and selling price, area, rooms, floor, year, condition, energy class, maintenance charge, postcode, description. No phones. Unofficial Etuovi API. |
+| [Property24](https://apify.com/highbrow_fame/property24-properties) | South African property listings from Property24, for sale or to rent: price, bedrooms, bathrooms, size, type, suburb and city, the agency, and optionally the listed date and full text. No phones. |
+| [Storia](https://apify.com/highbrow_fame/storia-properties) | Romanian property listings from Storia, for sale or to rent: price (EUR or RON), price per m², area, rooms, floor, city, district, seller type, and optionally coordinates and building data. No phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/emlakjet-properties,highbrow_fame/imot-bg-properties,highbrow_fame/bienici-properties,highbrow_fame/oikotie-properties,highbrow_fame/etuovi-properties`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/emlakjet-properties,highbrow_fame/imot-bg-properties,highbrow_fame/bienici-properties,highbrow_fame/oikotie-properties,highbrow_fame/etuovi-properties,highbrow_fame/property24-properties,highbrow_fame/storia-properties`
 
 Registry name: `io.github.projectworks007/real-estate-listings-2`
 
@@ -174,8 +177,9 @@ Search classified ads and second-hand listings on national marketplaces: title, 
 | [Marktplaats & 2dehands](https://apify.com/highbrow_fame/marktplaats-2dehands-listings) | Listings from Marktplaats (NL), 2dehands and 2ememain (BE): price, place, condition, category, car data, date. Search links or keywords. Private sellers stay anonymous. Unofficial Marktplaats API. |
 | [Willhaben](https://apify.com/highbrow_fame/willhaben-listings) | Austrian listings from willhaben.at: flats and houses, cars and motorbikes, marketplace ads. Price, place, size, rooms, make, mileage, seller type. Private sellers stay anonymous. |
 | [DBA](https://apify.com/highbrow_fame/dba-listings) | Danish classifieds from DBA (dba.dk) — the marketplace, cars, motorbikes, boats and caravans: price, town, seller type and company, condition and descriptions on request. No phones. |
+| [Tori.fi](https://apify.com/highbrow_fame/tori-listings) | Finnish classifieds from Tori (tori.fi), Finland's largest marketplace: price, place, seller type and company, condition, shipping, and descriptions on request. No phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings,highbrow_fame/gumtree-uk-listings,highbrow_fame/craigslist-listings,highbrow_fame/blocket-listings,highbrow_fame/offerup-listings,highbrow_fame/kijiji-listings,highbrow_fame/subito-listings,highbrow_fame/finn-listings,highbrow_fame/marktplaats-2dehands-listings,highbrow_fame/willhaben-listings,highbrow_fame/dba-listings`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/kleinanzeigen-listings,highbrow_fame/vinted-listings,highbrow_fame/gumtree-uk-listings,highbrow_fame/craigslist-listings,highbrow_fame/blocket-listings,highbrow_fame/offerup-listings,highbrow_fame/kijiji-listings,highbrow_fame/subito-listings,highbrow_fame/finn-listings,highbrow_fame/marktplaats-2dehands-listings,highbrow_fame/willhaben-listings,highbrow_fame/dba-listings,highbrow_fame/tori-listings`
 
 Registry name: `io.github.projectworks007/marketplace-listings`
 
@@ -200,9 +204,9 @@ See how ChatGPT, Perplexity, Gemini and Google AI Overviews cite your brand: cit
 | Tool | What it returns |
 |---|---|
 | [ai-search-visibility-tracker](https://apify.com/highbrow_fame/ai-search-visibility-tracker) |  |
-| [Google AI Overview Checker](https://apify.com/highbrow_fame/ai-overview-citation-checker) | AI Overview citation checker: which sites Google AI Overviews cite for your keywords ($0.03 per keyword). Shows if your domain is cited, at what position, and who else is. English Google. |
-| [Brand Share of Voice in AI Search](https://apify.com/highbrow_fame/ai-brand-share-of-voice) | AI share of voice: how often ChatGPT, Perplexity and Gemini name your brand vs competitors ($0.08 per prompt). Ranked by mention rate, citation share and position, plus top-cited sources. |
-| [AI Citation Checker](https://apify.com/highbrow_fame/ai-page-citation-checker) | Page citation checker: is this URL cited by ChatGPT, Perplexity or Gemini ($0.12 per URL). It writes buyer questions from each page, asks the engines, and shows who is cited instead. |
+| [Google AI Overview Citation Checker: Is My Site Cited?](https://apify.com/highbrow_fame/ai-overview-citation-checker) | Google AI Overview tracker and checker: is your brand or domain cited in AI Overviews for your keywords, at what position in the source list, and which competitors are cited next to you? One row per keyword, any country (English Google). $0.03 per keyword, free sample, no API key. |
+| [AI Share of Voice Tracker: ChatGPT & Perplexity Brand Mentions](https://apify.com/highbrow_fame/ai-brand-share-of-voice) | Brand share of voice in AI search for any category: which brands do ChatGPT, Perplexity and Gemini name, how often, and where is yours vs competitors? Brands ranked by mention rate, citation share and position, plus top-cited sources. Category benchmark, $0.08 per prompt, free sample, no API key. |
+| [AI Citation Checker: Is My Page Cited by ChatGPT & Perplexity?](https://apify.com/highbrow_fame/ai-page-citation-checker) | Page citation checker: is your page cited by ChatGPT, Perplexity or Gemini? Paste URLs, get buyer questions written from each page, whether your page and your site are cited and at which position, plus the competitor sites cited instead. $0.12 per URL, free sample, no API key. |
 
 Server URL: `https://mcp.apify.com/?tools=highbrow_fame/ai-search-visibility-tracker,highbrow_fame/ai-overview-citation-checker,highbrow_fame/ai-brand-share-of-voice,highbrow_fame/ai-page-citation-checker`
 
@@ -251,12 +255,13 @@ Research and monitoring data: Google Trends interest and trending searches, Goog
 | [Hacker News API &](https://apify.com/highbrow_fame/hacker-news-stories) | Hacker News stories from the front page, new, best, Ask HN, Show HN and jobs, or from a search over all of HN: title, link, points, comments, date, and the comment threads. Unofficial Hacker News API. |
 | [Apple Podcasts API &](https://apify.com/highbrow_fame/apple-podcasts-shows-episodes) | Apple Podcasts shows by link, search or top chart (any country and genre) with rating, publisher, genres and feed, plus their episodes with audio links. No login. Unofficial Apple Podcasts API. |
 | [Google Trends Trending Now](https://apify.com/highbrow_fame/google-trends-trending-now) | Every search trending on Google Trends right now, for any country: search volume, increase, start and end time, category and related searches — not just the 10 the RSS feed shows. |
+| [Google News](https://apify.com/highbrow_fame/google-news-articles) | Google News articles for any search, topic, country and date range: title, source, publish time and the real publisher link, not the Google redirect. Many queries per run. |
 | [Google News API](https://apify.com/highbrow_fame/google-news-api) | Google News headlines as JSON by keyword, topic or publication, any country and language, with title, source, publish date and decoded article URL. Unofficial Google News API. |
 | [Article Extractor API](https://apify.com/highbrow_fame/article-extractor-api) | Extracts the article from any news or blog URL: title, author, published date, full text, Markdown, lead image and language. Works on paywall-free pages. Unofficial Article Extractor API. |
 | [News Search API](https://apify.com/highbrow_fame/news-search-api) | Keyword news search over Google News (thousands of sources) with date range, language, country, dedup, source, publish time and optional full-text extraction. Unofficial News Search API. |
 | [arXiv API](https://apify.com/highbrow_fame/arxiv-api) | Search arXiv by keyword, author, category or date, or fetch papers by id: title, authors, abstract, categories, DOI, versions, PDF/HTML links and optional full text. Unofficial arXiv API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable,highbrow_fame/substack-posts,highbrow_fame/hacker-news-stories,highbrow_fame/apple-podcasts-shows-episodes,highbrow_fame/google-trends-trending-now,highbrow_fame/google-news-api,highbrow_fame/article-extractor-api,highbrow_fame/news-search-api,highbrow_fame/arxiv-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable,highbrow_fame/substack-posts,highbrow_fame/hacker-news-stories,highbrow_fame/apple-podcasts-shows-episodes,highbrow_fame/google-trends-trending-now,highbrow_fame/google-news-articles,highbrow_fame/google-news-api,highbrow_fame/article-extractor-api,highbrow_fame/news-search-api,highbrow_fame/arxiv-api`
 
 Registry name: `io.github.projectworks007/news-and-trends`
 
