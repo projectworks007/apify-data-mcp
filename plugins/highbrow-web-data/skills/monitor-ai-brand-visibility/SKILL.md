@@ -1,6 +1,6 @@
 ---
 name: monitor-ai-brand-visibility
-description: Check how AI assistants and AI search (ChatGPT, Perplexity, Gemini, Google AI Overviews) mention and cite a brand or website. Use for AI search visibility, generative engine optimization (GEO), "does ChatGPT recommend us", share of voice against competitors, or which sources AI answers cite for a topic.
+description: Check how AI assistants and AI search (ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews) mention and cite a brand or website. Use for AI search visibility, generative engine optimization (GEO), "does ChatGPT recommend us", share of voice against competitors, or which sources AI answers cite for a topic.
 ---
 
 # Monitor how AI assistants mention a brand
@@ -19,7 +19,7 @@ Uses the Apify tool `highbrow_fame/ai-search-visibility-tracker` from the `highb
 - `queries` (array of text): the questions customers would ask an AI, such as "best CRM for small business". Prefer the user's own questions over the generated set; ask for 5 to 10.
 - `brandDomains` (array of bare hostnames, no https:// and no www): domains the user owns, checked for citations.
 - `competitorDomains` (array): optional, for head-to-head citation share.
-- `engines` (array): any of `perplexity-agent` (default, all 24 languages), `google-aio` (Google AI Overview, English only), `gemini`, `openai` (ChatGPT). These run on the tool's own keys and need nothing from the user. ChatGPT has a small included allowance (3 calls per run on a free Apify plan, 60 on a paid plan). The `anthropic` and `perplexity` engines need the user's own API key; do not ask for keys in the chat, use the included engines.
+- `engines` (array): any of `perplexity-agent` (default, all 24 languages), `google-aio` (Google AI Overview, English only), `gemini`, `openai` (ChatGPT), `anthropic` (Claude). These run on the tool's own keys and need nothing from the user. ChatGPT and Claude each have an included allowance: 3 calls per run on a free Apify plan; on a paid plan 60 for ChatGPT and 200 for Claude. The legacy `perplexity` engine needs the user's own API key; do not ask for keys in the chat, use the included engines.
 - `language` (en, de, fr, ...): language of the questions and of the sources AI will cite. Match the user's market. `serpCountry` (two letters, default us) sets the country for Google AI Overview.
 - `samplesPerQuery` (default 1): AI answers vary from run to run. 3 samples give a stability score but triple the cost.
 - `previousRunDatasetId`: the dataset id of an earlier run, to report gains and losses in citations. Only use an id from an earlier result in this conversation.

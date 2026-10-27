@@ -1,7 +1,7 @@
 {
   "name": "highbrow-web-data",
   "displayName": "Web Data Tools by highbrow_fame",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Live web data for Claude: business leads with graded e-mails from Google Maps, AI-search brand visibility, YouTube transcripts, and new job, property and marketplace listings. Runs on your own Apify account.",
   "author": {
     "name": "highbrow_fame",

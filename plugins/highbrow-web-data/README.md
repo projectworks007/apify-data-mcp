@@ -3,7 +3,7 @@
 Live web data inside Claude. This plugin gives Claude four skills and ten data tools:
 
 - **Business leads from Google Maps** with e-mail addresses, each graded for deliverability (MX, SPF, DMARC, catch-all).
-- **AI-search brand visibility**: how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite a brand.
+- **AI-search brand visibility**: how ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews mention and cite a brand.
 - **YouTube transcripts** for videos, playlists and channels, with timestamps, SRT or WebVTT.
 - **New job, property and marketplace listings**: StepStone and Naukri jobs, realtor.com, Rightmove and ImmoScout24 Austria properties, OfferUp and Craigslist ads, with an "only new since last run" feed mode and an optional alert webhook.
 
