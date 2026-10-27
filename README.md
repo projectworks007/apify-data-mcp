@@ -9,15 +9,16 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | Server | What it gives your agent | Tools |
 |---|---|---|
 | [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 15 |
-| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 14 |
+| [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 15 |
+| [Job Boards Data (part 3)](#job-boards-3) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 1 |
 | [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 15 |
-| [Real Estate Listings Data (part 2)](#real-estate-listings-2) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 7 |
-| [Car & Vehicle Listings Data](#vehicle-listings) | Used and new car listings with prices and specs from national car marketplaces. | 3 |
+| [Real Estate Listings Data (part 2)](#real-estate-listings-2) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 8 |
+| [Car & Vehicle Listings Data](#vehicle-listings) | Used and new car listings with prices and specs from national car marketplaces. | 4 |
 | [Marketplace Listings Data](#marketplace-listings) | Classified ads from Kleinanzeigen (Germany) and second-hand items from Vinted's 27 country sites. | 13 |
 | [Google Maps Business Leads](#google-maps-leads) | Business e-mails and leads from Google Maps, with every address graded (MX, SPF, DMARC). | 1 |
 | [AI Search Brand Visibility](#ai-search-visibility) | See how ChatGPT, Perplexity, Gemini and Google AI Overviews mention and cite your brand. | 4 |
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 3 |
-| [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 4 |
+| [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 5 |
 | [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 10 |
 | [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 5 |
 | [Events Data](#events-data) | Events with dates, venues, prices and organisers from Eventbrite and Meetup. | 2 |
@@ -91,11 +92,25 @@ Search live job ads by keyword and place on national job boards. Title, company,
 | [Platsbanken](https://apify.com/highbrow_fame/platsbanken-jobs) | Job ads from Platsbanken (Arbetsförmedlingen), Sweden's public job board: title, employer, place, occupation, terms, salary type, dates, apply link and full text. No contact persons, no phones. |
 | [Just Join IT](https://apify.com/highbrow_fame/justjoin-it-jobs) | IT jobs from justjoin.it, Poland's IT job board: title, company, city, work mode, level, salary ranges per contract (B2B / permanent), required skills with levels, date and the full ad. |
 | [JobServe](https://apify.com/highbrow_fame/jobserve-jobs) | UK IT, engineering and contract jobs from JobServe: title, agency or employer, location, day rate or salary with min/max/period and IR35, job type, dates, and the full ad if you want. No phones. |
-| [Careers Page](https://apify.com/highbrow_fame/careers-page-jobs-api) | Give career page or ATS board URLs; get open jobs with title, location, department, remote flag, description and apply URL. Greenhouse, Lever, Ashby, Workable and more. Unofficial Careers Page API. |
+| [SEEK Jobs](https://apify.com/highbrow_fame/seek-jobs-scraper) | SEEK jobs from Australia and New Zealand: title, company, location, salary, work type, classification, date and the full job ad. Many searches per run, with SEEK's own filters. |
+| [Dice.com](https://apify.com/highbrow_fame/dice-jobs) | US tech jobs from Dice.com: title, company, direct hire or recruiter, location, remote/hybrid, employment type, salary and its numbers, posted date, skills and the full ad. No phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/jobs-ch-jobs,highbrow_fame/jobs-cz-jobs,highbrow_fame/karriere-at-jobs,highbrow_fame/stellenanzeigen-jobs,highbrow_fame/bestjobs-ro-jobs,highbrow_fame/pnet-jobs,highbrow_fame/elempleo-jobs,highbrow_fame/job-bank-canada-jobs,highbrow_fame/mojposao-jobs,highbrow_fame/arbeidsplassen-nav-jobs,highbrow_fame/platsbanken-jobs,highbrow_fame/justjoin-it-jobs,highbrow_fame/jobserve-jobs,highbrow_fame/careers-page-jobs-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/jobs-ch-jobs,highbrow_fame/jobs-cz-jobs,highbrow_fame/karriere-at-jobs,highbrow_fame/stellenanzeigen-jobs,highbrow_fame/bestjobs-ro-jobs,highbrow_fame/pnet-jobs,highbrow_fame/elempleo-jobs,highbrow_fame/job-bank-canada-jobs,highbrow_fame/mojposao-jobs,highbrow_fame/arbeidsplassen-nav-jobs,highbrow_fame/platsbanken-jobs,highbrow_fame/justjoin-it-jobs,highbrow_fame/jobserve-jobs,highbrow_fame/seek-jobs-scraper,highbrow_fame/dice-jobs`
 
 Registry name: `io.github.projectworks007/job-boards-2`
+
+<a id="job-boards-3"></a>
+## Job Boards Data (part 3)
+
+Search live job ads by keyword and place on national job boards. Title, company, location, salary where published, dates, full ad text. No recruiter names or phone numbers.
+
+| Tool | What it returns |
+|---|---|
+| [Careers Page](https://apify.com/highbrow_fame/careers-page-jobs-api) | Give career page or ATS board URLs; get open jobs with title, location, department, remote flag, description and apply URL. Greenhouse, Lever, Ashby, Workable and more. Unofficial Careers Page API. |
+
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/careers-page-jobs-api`
+
+Registry name: `io.github.projectworks007/job-boards-3`
 
 <a id="real-estate-listings"></a>
 ## Real Estate Listings Data
@@ -138,8 +153,9 @@ Search property listings to buy or rent on national property portals: price, are
 | [Etuovi](https://apify.com/highbrow_fame/etuovi-properties) | Finnish properties for sale from Etuovi: debt-free and selling price, area, rooms, floor, year, condition, energy class, maintenance charge, postcode, description. No phones. Unofficial Etuovi API. |
 | [Property24](https://apify.com/highbrow_fame/property24-properties) | South African property listings from Property24, for sale or to rent: price, bedrooms, bathrooms, size, type, suburb and city, the agency, and optionally the listed date and full text. No phones. |
 | [Storia](https://apify.com/highbrow_fame/storia-properties) | Romanian property listings from Storia, for sale or to rent: price (EUR or RON), price per m², area, rooms, floor, city, district, seller type, and optionally coordinates and building data. No phones. |
+| [OnTheMarket](https://apify.com/highbrow_fame/onthemarket-properties) | UK property listings from OnTheMarket, for sale or to rent: price, bedrooms, type, tenure, address with coordinates, key features, added or reduced, and the agent. Details on request. No phones. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/emlakjet-properties,highbrow_fame/imot-bg-properties,highbrow_fame/bienici-properties,highbrow_fame/oikotie-properties,highbrow_fame/etuovi-properties,highbrow_fame/property24-properties,highbrow_fame/storia-properties`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/emlakjet-properties,highbrow_fame/imot-bg-properties,highbrow_fame/bienici-properties,highbrow_fame/oikotie-properties,highbrow_fame/etuovi-properties,highbrow_fame/property24-properties,highbrow_fame/storia-properties,highbrow_fame/onthemarket-properties`
 
 Registry name: `io.github.projectworks007/real-estate-listings-2`
 
@@ -153,8 +169,9 @@ Search car and vehicle listings on national car marketplaces: make, model, price
 | [Coches.net](https://apify.com/highbrow_fame/cochesnet-listings) | Used and km 0 cars from coches.net, Spain's big car marketplace: price and coches.net's price rating, year, km, fuel, gearbox, power, body, province and dealer. No phone numbers. Unofficial Coches.net API. |
 | [AutoTrader.ca](https://apify.com/highbrow_fame/autotrader-ca-listings) | AutoTrader.ca car listings from any search link or a make, model and place: price, mileage, model year, trim, fuel, gearbox, place and dealer; body, colour and drivetrain on request. No phone numbers. Unofficial AutoTrader.ca API. |
 | [Otomoto](https://apify.com/highbrow_fame/otomoto-listings) | Polish vehicle listings from otomoto — cars, motorbikes, vans, trucks: price, make, model, year, mileage, fuel, gearbox, power, body type, town, seller type and dealer. No phones. Unofficial Otomoto API. |
+| [AutoScout24](https://apify.com/highbrow_fame/autoscout24-listings) | AutoScout24 car listings from any search: price and price rating, mileage, first registration, power, fuel, gearbox, condition, place and dealer. No phone numbers or contact names. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/cochesnet-listings,highbrow_fame/autotrader-ca-listings,highbrow_fame/otomoto-listings`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/cochesnet-listings,highbrow_fame/autotrader-ca-listings,highbrow_fame/otomoto-listings,highbrow_fame/autoscout24-listings`
 
 Registry name: `io.github.projectworks007/vehicle-listings`
 
@@ -237,9 +254,10 @@ Look up apps, games and browser extensions and their user reviews on the App Sto
 | [Google Play API &](https://apify.com/highbrow_fame/google-play-apps-reviews) | Google Play apps and reviews from links, searches or developers: installs, rating, histogram, price, ads, versions, and reviews with developer replies, no reviewer names. Unofficial Google Play API. Android app reviews scraper, Android apps data, mobile app reviews. |
 | [Chrome Web Store](https://apify.com/highbrow_fame/chrome-web-store-extensions) | Chrome Web Store extensions and themes from searches, categories or ids: users, rating, rating count, version, last update, size, languages, permissions, publisher and privacy disclosures. Unofficial Chrome Web Store API. |
 | [Steam](https://apify.com/highbrow_fame/steam-games-reviews) | Steam games by id, link or search: price and discount, release date, developers, genres, Metacritic, review totals — plus the written reviews with playtime, no reviewer names. Unofficial Steam API. |
+| [App Store](https://apify.com/highbrow_fame/app-store-apps-reviews) | App Store apps from links, ids, searches or developers — ratings, price, versions, genres, screenshots — plus customer reviews from any country, without reviewer names. |
 | [App Store API](https://apify.com/highbrow_fame/app-store-api) | App Store app details (price, rating, version, screenshots), keyword search, top charts by country and customer reviews, from Apple's public endpoints. No key. Unofficial App Store API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-play-apps-reviews,highbrow_fame/chrome-web-store-extensions,highbrow_fame/steam-games-reviews,highbrow_fame/app-store-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-play-apps-reviews,highbrow_fame/chrome-web-store-extensions,highbrow_fame/steam-games-reviews,highbrow_fame/app-store-apps-reviews,highbrow_fame/app-store-api`
 
 Registry name: `io.github.projectworks007/app-store-data`
 

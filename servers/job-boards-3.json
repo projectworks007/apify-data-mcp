@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.projectworks007/job-boards-3",
+  "title": "Job Boards Data (part 3)",
+  "description": "Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/projectworks007/apify-data-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/projectworks007/apify-data-mcp#job-boards-3",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/careers-page-jobs-api"
+    }
+  ]
+}

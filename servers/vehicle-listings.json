@@ -3,7 +3,7 @@
   "name": "io.github.projectworks007/vehicle-listings",
   "title": "Car & Vehicle Listings Data",
   "description": "Used and new car listings with prices and specs from national car marketplaces.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "url": "https://github.com/projectworks007/apify-data-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=highbrow_fame/cochesnet-listings,highbrow_fame/autotrader-ca-listings,highbrow_fame/otomoto-listings"
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/cochesnet-listings,highbrow_fame/autotrader-ca-listings,highbrow_fame/otomoto-listings,highbrow_fame/autoscout24-listings"
     }
   ]
 }
