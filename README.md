@@ -10,7 +10,7 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 |---|---|---|
 | [Job Boards Data](#job-boards) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 15 |
 | [Job Boards Data (part 2)](#job-boards-2) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 15 |
-| [Job Boards Data (part 3)](#job-boards-3) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 1 |
+| [Job Boards Data (part 3)](#job-boards-3) | Live job ads from StepStone, XING, Welcome to the Jungle, Naukri, JobStreet and more. | 2 |
 | [Real Estate Listings Data](#real-estate-listings) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 15 |
 | [Real Estate Listings Data (part 2)](#real-estate-listings-2) | Property listings for sale and rent from immowelt, Fotocasa, Immoweb, Otodom, Redfin, realtor.com. | 8 |
 | [Car & Vehicle Listings Data](#vehicle-listings) | Used and new car listings with prices and specs from national car marketplaces. | 4 |
@@ -106,9 +106,10 @@ Search live job ads by keyword and place on national job boards. Title, company,
 
 | Tool | What it returns |
 |---|---|
+| [Google Jobs API](https://apify.com/highbrow_fame/google-jobs-api) | Google Jobs listings as JSON for any job title, city and country: company, location, posted date, salary, job type, full description, highlights and every apply link. Unofficial Google Jobs API. |
 | [Careers Page](https://apify.com/highbrow_fame/careers-page-jobs-api) | Give career page or ATS board URLs; get open jobs with title, location, department, remote flag, description and apply URL. Greenhouse, Lever, Ashby, Workable and more. Unofficial Careers Page API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/careers-page-jobs-api`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-jobs-api,highbrow_fame/careers-page-jobs-api`
 
 Registry name: `io.github.projectworks007/job-boards-3`
 
