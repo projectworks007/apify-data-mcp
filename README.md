@@ -20,7 +20,7 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 3 |
 | [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 5 |
 | [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 10 |
-| [Australia & New Zealand Grocery Prices](#au-nz-grocery-prices) | Live prices, specials and unit prices from Coles, Woolworths, ALDI Australia and Woolworths New Zealand. | 5 |
+| [Australia & New Zealand Grocery Prices](#au-nz-grocery-prices) | Live prices, specials and unit prices from Coles, Woolworths, ALDI Australia and Woolworths NZ. | 5 |
 | [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 2 |
 | [Events Data](#events-data) | Events with dates, venues, prices and organisers from Eventbrite and Meetup. | 2 |
 | [Finance & Filings Data](#finance-data) | Stock quotes, price history and fundamentals, plus SEC EDGAR company filings. | 2 |
