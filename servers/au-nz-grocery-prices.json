@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.projectworks007/au-nz-grocery-prices",
+  "title": "Australia & New Zealand Grocery Prices",
+  "description": "Live prices, specials and unit prices from Coles, Woolworths, ALDI Australia and Woolworths New Zealand.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/projectworks007/apify-data-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/projectworks007/apify-data-mcp#au-nz-grocery-prices",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=highbrow_fame/coles-au-products,highbrow_fame/woolworths-au-products,highbrow_fame/aldi-au-products,highbrow_fame/woolworths-nz-products,highbrow_fame/woolworths-nz-products"
+    }
+  ]
+}

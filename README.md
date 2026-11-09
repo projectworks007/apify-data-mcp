@@ -20,7 +20,8 @@ Each tool is an [Apify](https://apify.com) Actor, served by Apify's hosted MCP s
 | [YouTube Transcripts](#youtube-transcripts) | Transcripts of YouTube videos, playlists and channels with timestamps; SRT or WebVTT too. | 3 |
 | [App & Game Store Data](#app-store-data) | Apps, games and extensions with ratings and user reviews from app stores, Steam and Chrome. | 5 |
 | [News & Trends Data](#news-and-trends) | Google Trends, Google News, Hacker News, Substack posts and podcasts for research and monitoring. | 10 |
-| [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 7 |
+| [Australia & New Zealand Grocery Prices](#au-nz-grocery-prices) | Live prices, specials and unit prices from Coles, Woolworths, ALDI Australia and Woolworths New Zealand. | 5 |
+| [E-commerce Product Data](#ecommerce-products) | Product catalogues, prices and stock from online stores and supermarkets. | 2 |
 | [Events Data](#events-data) | Events with dates, venues, prices and organisers from Eventbrite and Meetup. | 2 |
 | [Finance & Filings Data](#finance-data) | Stock quotes, price history and fundamentals, plus SEC EDGAR company filings. | 2 |
 | [Hotel Prices Data](#hotel-prices) | Every booking site's price for chosen hotels and dates on Google Hotels. | 1 |
@@ -284,10 +285,10 @@ Server URL: `https://mcp.apify.com/?tools=highbrow_fame/google-trends-reliable,h
 
 Registry name: `io.github.projectworks007/news-and-trends`
 
-<a id="ecommerce-products"></a>
-## E-commerce Product Data
+<a id="au-nz-grocery-prices"></a>
+## Australia & New Zealand Grocery Prices
 
-Product data from online stores and supermarkets: names, prices, promotions, stock, categories and product details.
+Supermarket product data for Australia and New Zealand: search Coles, Woolworths, ALDI Australia and Woolworths NZ by keyword, category, specials page or product link. Each product has price, was-price, unit price, special and multi-buy offers, pack size, brand, category, link, and barcode, ingredients and nutrition where the store publishes them. Built for price comparison, budgeting and shopping assistants.
 
 | Tool | What it returns |
 |---|---|
@@ -295,11 +296,23 @@ Product data from online stores and supermarkets: names, prices, promotions, sto
 | [Woolworths Australia](https://apify.com/highbrow_fame/woolworths-au-products) | Woolworths grocery prices API: price, was-price, unit price, specials and stock for $0.70 per 1,000 products. Woolworths Australia supermarket products, barcode, ingredients, allergens, nutrition. Unofficial Woolworths API. |
 | [ALDI Australia](https://apify.com/highbrow_fame/aldi-au-products) | ALDI Australia grocery prices and Special Buys: product search and category links. Price, unit price, pack size, brand, category, on-sale dates, Super Savers flags. Unofficial ALDI Australia API. |
 | [Woolworths New Zealand](https://apify.com/highbrow_fame/woolworths-nz-products) | Woolworths New Zealand grocery prices API: price, was-price, unit price, specials, barcode and stock. Woolworths NZ supermarket products as JSON. Unofficial Woolworths NZ API. |
-| [Shopify Store](https://apify.com/highbrow_fame/shopify-store-products-api) | Full product catalogue of any Shopify store from its public products.json: title, vendor, type, tags, variants with price, SKU and stock, images, collections. Unofficial Shopify API. |
-| [Product Data Extractor API](https://apify.com/highbrow_fame/product-page-extractor-api) | Name, brand, price, currency, stock, rating, images, SKU/GTIN and variants from a product page's schema.org JSON-LD, microdata or Open Graph tags. One JSON record per URL. Product Data Extractor API. |
 | [Woolworths New Zealand](https://apify.com/highbrow_fame/woolworths-nz-products) | Woolworths New Zealand grocery prices API: price, was-price, unit price, specials, barcode and stock. Woolworths NZ supermarket products as JSON. Unofficial Woolworths NZ API. |
 
-Server URL: `https://mcp.apify.com/?tools=highbrow_fame/coles-au-products,highbrow_fame/woolworths-au-products,highbrow_fame/aldi-au-products,highbrow_fame/woolworths-nz-products,highbrow_fame/shopify-store-products-api,highbrow_fame/product-page-extractor-api,highbrow_fame/woolworths-nz-products`
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/coles-au-products,highbrow_fame/woolworths-au-products,highbrow_fame/aldi-au-products,highbrow_fame/woolworths-nz-products,highbrow_fame/woolworths-nz-products`
+
+Registry name: `io.github.projectworks007/au-nz-grocery-prices`
+
+<a id="ecommerce-products"></a>
+## E-commerce Product Data
+
+Product data from online stores and supermarkets: names, prices, promotions, stock, categories and product details.
+
+| Tool | What it returns |
+|---|---|
+| [Shopify Store](https://apify.com/highbrow_fame/shopify-store-products-api) | Full product catalogue of any Shopify store from its public products.json: title, vendor, type, tags, variants with price, SKU and stock, images, collections. Unofficial Shopify API. |
+| [Product Data Extractor API](https://apify.com/highbrow_fame/product-page-extractor-api) | Name, brand, price, currency, stock, rating, images, SKU/GTIN and variants from a product page's schema.org JSON-LD, microdata or Open Graph tags. One JSON record per URL. Product Data Extractor API. |
+
+Server URL: `https://mcp.apify.com/?tools=highbrow_fame/shopify-store-products-api,highbrow_fame/product-page-extractor-api`
 
 Registry name: `io.github.projectworks007/ecommerce-products`
 
